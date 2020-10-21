@@ -51,6 +51,4 @@ The above step will generate `app.exe`.
 
 ## Additional Documentation
 
-- [Performance/Accuracy Stats](https://confluence.xilinx.com/display/XSW/DPUv1+on+MLPerf)
-- [Aaron's Page: Application Options](https://confluence.xilinx.com/display/~aaronn/Vitis+MLPerf+benchmarking+app)
 - [MLPerf Paper](https://arxiv.org/pdf/1911.02549.pdf)
