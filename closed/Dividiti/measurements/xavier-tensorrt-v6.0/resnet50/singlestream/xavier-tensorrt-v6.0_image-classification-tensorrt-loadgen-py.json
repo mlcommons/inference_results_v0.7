@@ -1,0 +1,7 @@
+{
+  "retraining": "no",
+  "input_data_types": "int8",
+  "weight_data_types": "int8",
+  "starting_weights_filename": "https://zenodo.org/record/3716059/files/resnet-SingleStream-gpu-b1-int8-linear.plan",
+  "weight_transformations": "ONNX -> TensorRT"
+}

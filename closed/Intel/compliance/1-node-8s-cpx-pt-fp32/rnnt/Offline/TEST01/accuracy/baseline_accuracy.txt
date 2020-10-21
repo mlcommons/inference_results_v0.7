@@ -1,0 +1,94 @@
+Dataset loaded with 4.36 hours. Filtered 1.02 hours. Number of samples: 2513
+### set rank 0 to cores [2:13]; omp num threads = 12
+lazy_init rank 0
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 1 to cores [14:27]; omp num threads = 14
+lazy_init rank 1
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 2 to cores [28:41]; omp num threads = 14
+lazy_init rank 2
+### set rank 3 to cores [42:55]; omp num threads = 14
+lazy_init rank 3
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 4 to cores [56:69]; omp num threads = 14
+lazy_init rank 4
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 5 to cores [70:83]; omp num threads = 14
+lazy_init rank 5
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 6 to cores [84:97]; omp num threads = 14
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+lazy_init rank 6
+### set rank 7 to cores [98:111]; omp num threads = 14
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+lazy_init rank 7
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 8 to cores [112:125]; omp num threads = 14
+lazy_init rank 8
+### set rank 9 to cores [126:139]; omp num threads = 14
+lazy_init rank 9
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 10 to cores [140:153]; omp num threads = 14
+lazy_init rank 10
+### set rank 11 to cores [154:167]; omp num threads = 14
+lazy_init rank 11
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 12 to cores [168:181]; omp num threads = 14
+lazy_init rank 12
+### set rank 13 to cores [182:195]; omp num threads = 14
+lazy_init rank 13
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 14 to cores [196:209]; omp num threads = 14
+lazy_init rank 14
+### set rank 15 to cores [210:223]; omp num threads = 14
+lazy_init rank 15
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+Running Loadgen test... 
+ 
+No warnings encountered during test. 
+ 
+No errors encountered during test. 
+Running accuracy script: python3 accuracy_eval.py --log_dir output --dataset_dir /nfs/pdx/home/mingxiao/mlperf-chris/0917/inference/speech_recognition/rnnt/mlperf-rnnt-librispeech/local_data --manifest /nfs/pdx/home/mingxiao/mlperf-chris/0917/inference/speech_recognition/rnnt/mlperf-rnnt-librispeech/local_data/
+dev-clean-wav.json 
+Dataset loaded with 4.36 hours. Filtered 1.02 hours. Number of samples: 2513 
+Word Error Rate: 7.449998872578862%, accuracy=92.55000112742113% 
+Done! 
+### rank 8 finished 
+### rank 1 finished 
+### rank 3 finished 
+### rank 14 finished 
+### rank 12 finished 
+### rank 7 finished 
+### rank 11 finished 
+### rank 9 finished 
+### rank 15 finished 
+### rank 2 finished 
+### rank 10 finished 
+### rank 13 finished 
+### rank 5 finished 
+### rank 0 finished 
+### rank 4 finished 
+### rank 6 finished 
+Finished destroying SUT. 
+Exiting response thread 
+Finish processing 2513 samples 

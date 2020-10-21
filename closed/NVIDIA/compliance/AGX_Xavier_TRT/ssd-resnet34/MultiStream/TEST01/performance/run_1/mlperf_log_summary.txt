@@ -1,0 +1,68 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : LWIS_Server
+Scenario : Multi Stream
+Mode     : Performance
+Samples per query : 2
+Result is : VALID
+  Performance constraints satisfied : Yes
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Intervals between each IssueQuery:  "qps" : 15, "ms" : 66.6667
+50.00 percentile : 1
+90.00 percentile : 1
+95.00 percentile : 1
+97.00 percentile : 1
+99.00 percentile : 1
+99.90 percentile : 1
+
+Per-query latency:  "target_ns" : 66666666, "target_ms" : 66.6667
+50.00 percentile latency (ns)   : 55888161
+90.00 percentile latency (ns)   : 56152866
+95.00 percentile latency (ns)   : 56237836
+97.00 percentile latency (ns)   : 56290254
+99.00 percentile latency (ns)   : 56393922
+99.90 percentile latency (ns)   : 56583933
+
+Per-sample latency:
+Min latency (ns)                : 55309261
+Max latency (ns)                : 57619936
+Mean latency (ns)               : 55903741
+50.00 percentile latency (ns)   : 55888161
+90.00 percentile latency (ns)   : 56152866
+95.00 percentile latency (ns)   : 56237836
+97.00 percentile latency (ns)   : 56290254
+99.00 percentile latency (ns)   : 56393922
+99.90 percentile latency (ns)   : 56583933
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 2
+target_qps : 15
+target_latency (ns): 66666666
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 270336
+max_query_count : 0
+qsl_rng_seed : 12786827339337101903
+sample_index_rng_seed : 12640797754436136668
+schedule_rng_seed : 3135815929913719677
+accuracy_log_rng_seed : 720381539243781796
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 256
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 64
+
+No warnings encountered during test.
+
+No errors encountered during test.

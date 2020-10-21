@@ -1,0 +1,7 @@
+{
+	"starting_weights_filename": "http://bit.ly/2PsHFfE",
+	"weight_transformations": "No",
+	"input_data_types": "INT8",
+	"retraining": "No",
+	"weight_data_types": "INT8"
+ }

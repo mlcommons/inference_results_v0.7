@@ -1,0 +1,5 @@
+Verifying performance.
+WARNING: 1028 ERROR reported in test results
+reference score = 2467.91
+test score = 2466.6
+TEST PASS

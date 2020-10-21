@@ -1,0 +1,50 @@
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/resnet50/Offline/accuracy, accuracy is 75.918
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/resnet50/Offline is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/resnet50/Server/accuracy, accuracy is 75.918
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/resnet50/Server is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/dlrm-99/Offline/accuracy, accuracy is 80.185
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/dlrm-99/Offline is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/dlrm-99/Server/accuracy, accuracy is 80.185
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/dlrm-99/Server is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/dlrm-99.9/Offline/accuracy, accuracy is 80.185
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/dlrm-99.9/Offline is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/dlrm-99.9/Server/accuracy, accuracy is 80.185
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/dlrm-99.9/Server is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/rnnt/Offline/accuracy, accuracy is 92.55902049651627
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/rnnt/Offline is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/rnnt/Server/accuracy, accuracy is 92.56353018106384
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/rnnt/Server is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/bert-99.9/Offline/accuracy, accuracy is 90.86644298342642
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/bert-99.9/Offline is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/bert-99.9/Server/accuracy, accuracy is 90.87910080699396
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/bert-99.9/Server is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/3d-unet-99/Offline/accuracy, accuracy is 0.85367
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/3d-unet-99/Offline is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/ssd-resnet34/Offline/accuracy, accuracy is 20.111
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/ssd-resnet34/Offline is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/ssd-resnet34/Server/accuracy, accuracy is 20.111
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/ssd-resnet34/Server is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/3d-unet-99.9/Offline/accuracy, accuracy is 0.85367
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/3d-unet-99.9/Offline is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/bert-99/Offline/accuracy, accuracy is 90.43326524910879
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/bert-99/Offline is OK
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/bert-99/Server/accuracy, accuracy is 90.39859909332506
+INFO:main:closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/bert-99/Server is OK
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/resnet50/Offline 95866.4
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/resnet50/Server 63016.08
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/dlrm-99/Offline 537274.0
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/dlrm-99/Server 275055.77
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/dlrm-99.9/Offline 537274.0
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/dlrm-99.9/Server 275055.77
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/rnnt/Offline 22465.5
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/rnnt/Server 13801.82
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/bert-99.9/Offline 3187.0
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/bert-99.9/Server 1418.73
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/3d-unet-99/Offline 115.453
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/ssd-resnet34/Offline 2189.21
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/ssd-resnet34/Server 1898.29
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/3d-unet-99.9/Offline 115.453
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/bert-99/Offline 6993.75
+INFO:main:Results closed/GIGABYTE/results/GIGABYTE_G292-Z43_16xT4/bert-99/Server 6002.82
+INFO:main:Results=16, NoResults=0
+INFO:main:SUMMARY: submission looks OK

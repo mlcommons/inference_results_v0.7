@@ -1,0 +1,5 @@
+Organization,Availability,Division,SystemType,Platform,Model,MlperfModel,Scenario,Result,Accuracy,number_of_nodes,host_processor_model_name,host_processors_per_node,host_processor_core_count,accelerator_model_name,accelerators_per_node,Location,framework,operating_system,notes
+InAccel,available,open,datacenter,1xU250,resnet,resnet,Offline,3025.94,62.266,1,Intel(R) Xeon(R) Gold 6234,2,16,Xilinx Alveo U250,1,open/InAccel/results/1xU250/resnet/Offline,InAccel Keras 2.3.1.2,Ubuntu 18.04.4 LTS,
+InAccel,available,open,datacenter,1xU250,resnet,resnet,SingleStream,7.004864,62.266,1,Intel(R) Xeon(R) Gold 6234,2,16,Xilinx Alveo U250,1,open/InAccel/results/1xU250/resnet/SingleStream,InAccel Keras 2.3.1.2,Ubuntu 18.04.4 LTS,
+InAccel,available,open,datacenter,1xU250,resnet,resnet,MultiStream,58.0,62.266,1,Intel(R) Xeon(R) Gold 6234,2,16,Xilinx Alveo U250,1,open/InAccel/results/1xU250/resnet/MultiStream,InAccel Keras 2.3.1.2,Ubuntu 18.04.4 LTS,
+InAccel,available,open,datacenter,2xU250,resnet,resnet,Offline,6008.19,62.266,1,Intel(R) Xeon(R) Gold 6234,2,16,Xilinx Alveo U250,2,open/InAccel/results/2xU250/resnet/Offline,InAccel Keras 2.3.1.2,Ubuntu 18.04.4 LTS,

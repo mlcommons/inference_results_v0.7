@@ -1,0 +1,3 @@
+Dataset loaded with 4.36 hours. Filtered 1.02 hours. Number of samples: 2513
+Word Error Rate: 7.4477440303050795%, accuracy=92.55225596969493%
+hash=5bda37bc623ab22223b567ab52100ce51eca3de273a1c125dad54f6f24db8151

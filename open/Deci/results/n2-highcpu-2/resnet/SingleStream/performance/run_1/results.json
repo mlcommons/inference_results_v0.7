@@ -1,0 +1,22 @@
+{
+    "TestScenario.SingleStream": {
+        "count": 9186,
+        "good_items": 0,
+        "mean": 0.006512588135641193,
+        "percentiles": {
+            "50.0": 0.006489488999999999,
+            "80.0": 0.006641929,
+            "90.0": 0.0067690635,
+            "95.0": 0.0068759617499999995,
+            "99.0": 0.007039089249999999,
+            "99.9": 0.007332976300000002
+        },
+        "qps": 152.73201317017256,
+        "took": 60.144561767578125,
+        "total_items": 9186
+    },
+    "cmdline": "Namespace(accuracy=False, backend='openvino', cache=0, count=None, data_format='NCHW', dataset='imagenet_deci', dataset_list='/home/sefi/inference-r07/vision/classification_and_detection/data/imagenet2012//val_map.txt', dataset_path='/home/sefi/inference-r07/vision/classification_and_detection/data/imagenet2012/', find_peak_performance=False, inputs=None, max_batchsize=1, max_latency=None, mlperf_conf='../mlperf.conf', model='models/deci-model-cascadelake-batch-1.zip', model_name='deci-model', output='/tmp/deci-submission/open/deci/results/openvino-cpu/resnet/SingleStream/performance/run_1', outputs=None, profile='deci_model1-openvino', qps=250, samples_per_query=None, scenario='SingleStream', threads=1, time=None, user_conf='../user.conf')",
+    "runtime": "openvino",
+    "time": 1601370813,
+    "version": 0
+}

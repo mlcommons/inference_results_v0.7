@@ -1,0 +1,8 @@
+INFO:main:open/deci/results/openvino-cpu/resnet/SingleStream/accuracy, accuracy is 76.032
+INFO:main:open/deci/results/openvino-cpu/resnet/SingleStream is OK
+INFO:main:open/deci/results/openvino-cpu/resnet/Offline/accuracy, accuracy is 76.032
+INFO:main:open/deci/results/openvino-cpu/resnet/Offline is OK
+INFO:main:Results open/deci/results/openvino-cpu/resnet/SingleStream 6.869594
+INFO:main:Results open/deci/results/openvino-cpu/resnet/Offline 204.672
+INFO:main:Results=2, NoResults=0
+INFO:main:SUMMARY: submission looks OK

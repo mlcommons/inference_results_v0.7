@@ -1,0 +1,128 @@
+{
+    "A100-PCIex2": {
+        "coalesced_tensor": true,
+        "config_ver": {
+            "high_accuracy": {
+                "gpu_offline_expected_qps": 3080,
+                "precision": "fp16"
+            },
+            "triton": {
+                "use_triton": true,
+                "gpu_offline_expected_qps": 5400
+            },
+            "high_accuracy_triton": {
+                "use_triton": true,
+                "gpu_offline_expected_qps": 2770,
+                "precision": "fp16"
+            }
+        },
+        "enable_interleaved": true,
+        "gpu_batch_size": 256,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 2,
+        "gpu_offline_expected_qps": 6000,
+        "input_dtype": "int32",
+        "input_format": "linear",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/squad_tokenized/input_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/segment_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/input_mask.npy",
+        "use_graphs": false
+    },
+	
+    "A100-PCIex4": {
+        "coalesced_tensor": true,
+        "config_ver": {
+            "high_accuracy": {
+                "gpu_offline_expected_qps": 5700,
+                "precision": "fp16"
+            },
+            "triton": {
+                "use_triton": true,
+                "gpu_offline_expected_qps": 5400
+            },
+            "high_accuracy_triton": {
+                "use_triton": true,
+                "gpu_offline_expected_qps": 5700,
+                "precision": "fp16"
+            }
+        },
+        "enable_interleaved": true,
+        "gpu_batch_size": 256,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 2,
+        "gpu_offline_expected_qps": 10680,
+        "input_dtype": "int32",
+        "input_format": "linear",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/squad_tokenized/input_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/segment_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/input_mask.npy",
+        "use_graphs": false
+    },
+	
+    "T4x16": {
+        "coalesced_tensor": true,
+        "config_ver": {
+            "high_accuracy": {
+                "gpu_batch_size": 256,
+                "gpu_inference_streams": 1,
+                "gpu_offline_expected_qps": 3360,
+                "precision": "fp16"
+            },
+            "triton": {
+                "use_triton": true,
+                "gpu_offline_expected_qps": 3150
+            },
+            "high_accuracy_triton": {
+                "use_triton": true,
+                "gpu_offline_expected_qps": 1512,
+                "precision": "fp16"
+            }
+        },
+        "enable_interleaved": true,
+        "gpu_batch_size": 256,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 2,
+        "gpu_offline_expected_qps": 7000,
+        "input_dtype": "int32",
+        "input_format": "linear",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/squad_tokenized/input_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/segment_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/input_mask.npy",
+        "use_graphs": false
+    },
+	
+    "T4x21": {
+        "coalesced_tensor": true,
+        "config_ver": {
+            "high_accuracy": {
+                "gpu_batch_size": 256,
+                "gpu_inference_streams": 1,
+                "gpu_offline_expected_qps": 4360,
+                "precision": "fp16"
+            },
+            "triton": {
+                "use_triton": true,
+                "gpu_offline_expected_qps": 7920
+            },
+            "high_accuracy_triton": {
+                "use_triton": true,
+                "gpu_offline_expected_qps": 3960,
+                "precision": "fp16"
+            }
+        },
+        "enable_interleaved": true,
+        "gpu_batch_size": 256,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 9300,
+        "input_dtype": "int32",
+        "input_format": "linear",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/squad_tokenized/input_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/segment_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/input_mask.npy",
+        "use_graphs": false
+    },
+	
+    "benchmark": "bert",
+    "scenario": "Offline"
+}

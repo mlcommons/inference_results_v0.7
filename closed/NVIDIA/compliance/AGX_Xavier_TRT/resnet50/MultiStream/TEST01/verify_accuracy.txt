@@ -1,0 +1,12 @@
+Verifying accuracy. This might take a while...
+Reading accuracy mode results...
+Reading performance mode results...
+num_acc_log_entries = 51552
+num_acc_log_duplicate_keys = 1552
+num_acc_log_data_mismatch = 25
+num_perf_log_entries = 921005
+num_perf_log_qsl_idx_match = 921005
+num_perf_log_data_mismatch = 15761
+num_missing_qsl_idxs = 0
+TEST FAIL
+

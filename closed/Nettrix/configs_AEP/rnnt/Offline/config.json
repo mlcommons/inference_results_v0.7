@@ -1,0 +1,40 @@
+{
+    "T4x16": {
+        "audio_batch_size": 128,
+        "audio_buffer_num_lines": 4096,
+        "dali_batches_issue_ahead": 4,
+        "dali_pipeline_depth": 4,
+        "gpu_batch_size": 2048,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 22800,
+        "input_dtype": "fp16",
+        "input_format": "linear",
+        "map_path": "data_maps/rnnt_dev_clean_512/val_map.txt",
+        "min_query_count": 24576,
+        "num_warmups": 20480,
+        "precision": "fp16",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/rnnt_dev_clean_512/fp16",
+        "use_graphs": true
+    },
+    "A100-PCIex4": {
+        "audio_batch_size": 512,
+        "audio_buffer_num_lines": 4096,
+        "dali_batches_issue_ahead": 4,
+        "dali_pipeline_depth": 4,
+        "gpu_batch_size": 2048,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 34800,
+        "input_dtype": "fp16",
+        "input_format": "linear",
+        "map_path": "data_maps/rnnt_dev_clean_512/val_map.txt",
+        "min_query_count": 24576,
+        "num_warmups": 512,
+        "precision": "fp16",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/rnnt_dev_clean_512/fp16",
+        "use_graphs": true
+    },
+    "benchmark": "rnnt",
+    "scenario": "Offline"
+}

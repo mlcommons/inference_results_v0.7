@@ -1,0 +1,53 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : DLRM SERVER
+Scenario : Server
+Mode     : Performance
+Scheduled samples per second : 369085.68
+Result is : VALID
+  Performance constraints satisfied : Yes
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Completed samples per second    : 369055.07
+
+Min latency (ns)                : 165179
+Max latency (ns)                : 54525088
+Mean latency (ns)               : 2506485
+50.00 percentile latency (ns)   : 1925996
+90.00 percentile latency (ns)   : 4438631
+95.00 percentile latency (ns)   : 5134719
+97.00 percentile latency (ns)   : 5828222
+99.00 percentile latency (ns)   : 8434938
+99.90 percentile latency (ns)   : 47265273
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 369000
+target_latency (ns): 30000000
+max_async_queries : 0
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 270336
+max_query_count : 0
+qsl_rng_seed : 12786827339337101903
+sample_index_rng_seed : 12640797754436136668
+schedule_rng_seed : 3135815929913719677
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 204800
+
+5 warnings encountered. See detailed log.
+
+No errors encountered during test.

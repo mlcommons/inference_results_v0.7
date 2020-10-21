@@ -1,0 +1,11 @@
+INFO:main:---
+INFO:main:Results closed/Mobilint/results/mobilint_edge/resnet/Offline 106.847
+INFO:main:Results closed/Mobilint/results/mobilint_edge/resnet/SingleStream 37.458146
+INFO:main:Results closed/Mobilint/results/mobilint_edge/ssd-small/Offline 409.714
+INFO:main:Results closed/Mobilint/results/mobilint_edge/ssd-small/SingleStream 10.635159
+INFO:main:Results open/Mobilint/results/mobilint_edgefive/resnet/Offline 534.893
+INFO:main:Results open/Mobilint/results/mobilint_edgefive/ssd-small/Offline 1900.29
+INFO:main:---
+INFO:main:---
+INFO:main:Results=6, NoResults=0
+INFO:main:SUMMARY: submission looks OK

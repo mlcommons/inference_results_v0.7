@@ -1,0 +1,103 @@
+{
+    "A100-PCIex1": {
+        "coalesced_tensor": true,
+        "gpu_batch_size": 1,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_single_stream_expected_latency_ns": 1700000,
+        "input_dtype": "int32",
+        "input_format": "linear",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/squad_tokenized/input_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/segment_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/input_mask.npy",
+        "use_graphs": true
+    },
+    "A100-SXM4x1": {
+        "coalesced_tensor": true,
+        "gpu_batch_size": 1,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_single_stream_expected_latency_ns": 1700000,
+        "input_dtype": "int32",
+        "input_format": "linear",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/squad_tokenized/input_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/segment_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/input_mask.npy",
+        "use_graphs": true
+    },
+    "A100-SXM4x1-MIG_1x1g.5gb": {
+        "coalesced_tensor": true,
+        "gpu_batch_size": 1,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_single_stream_expected_latency_ns": 1700000,
+        "input_dtype": "int32",
+        "input_format": "linear",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/squad_tokenized/input_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/segment_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/input_mask.npy",
+        "use_graphs": true,
+        "workspace_size": 2147483648
+    },
+    "AGX_Xavier": {
+        "coalesced_tensor": true,
+        "gpu_batch_size": 1,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_single_stream_expected_latency_ns": 31000000,
+        "input_dtype": "int32",
+        "input_format": "linear",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/squad_tokenized/input_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/segment_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/input_mask.npy",
+        "use_graphs": false
+    },
+    "T4x1": {
+        "coalesced_tensor": true,
+        "gpu_batch_size": 1,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_single_stream_expected_latency_ns": 6400000,
+        "input_dtype": "int32",
+        "input_format": "linear",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/squad_tokenized/input_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/segment_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/input_mask.npy",
+        "use_graphs": true
+    },
+    "TitanRTXx1": {
+        "coalesced_tensor": true,
+        "gpu_batch_size": 1,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_single_stream_expected_latency_ns": 4600000,
+        "input_dtype": "int32",
+        "input_format": "linear",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/squad_tokenized/input_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/segment_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/input_mask.npy",
+        "use_graphs": true
+    },
+    "TitanRTXx4": {
+        "coalesced_tensor": true,
+        "devices": 0,
+        "gpu_batch_size": 1,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_single_stream_expected_latency_ns": 4600000,
+        "input_dtype": "int32",
+        "input_format": "linear",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/squad_tokenized/input_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/segment_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/input_mask.npy",
+        "use_graphs": true
+    },
+    "Xavier_NX": {
+        "coalesced_tensor": true,
+        "gpu_batch_size": 1,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_single_stream_expected_latency_ns": 50000000,
+        "input_dtype": "int32",
+        "input_format": "linear",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/squad_tokenized/input_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/segment_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/input_mask.npy",
+        "use_graphs": false,
+        "workspace_size": 1073741824
+    },
+    "benchmark": "bert",
+    "scenario": "SingleStream"
+}

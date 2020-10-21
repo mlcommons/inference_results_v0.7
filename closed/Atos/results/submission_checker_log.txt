@@ -1,0 +1,14 @@
+INFO:main:closed/Atos/results/T4x2_TRT/ssd-resnet34/SingleStream/accuracy, accuracy is 20.111
+INFO:main:closed/Atos/results/T4x2_TRT/ssd-resnet34/SingleStream is OK
+INFO:main:closed/Atos/results/T4x2_TRT/ssd-resnet34/Offline/accuracy, accuracy is 20.111
+INFO:main:closed/Atos/results/T4x2_TRT/ssd-resnet34/Offline is OK
+INFO:main:closed/Atos/results/T4x2_TRT/resnet50/SingleStream/accuracy, accuracy is 75.918
+INFO:main:closed/Atos/results/T4x2_TRT/resnet50/SingleStream is OK
+INFO:main:closed/Atos/results/T4x2_TRT/resnet50/Offline/accuracy, accuracy is 75.918
+INFO:main:closed/Atos/results/T4x2_TRT/resnet50/Offline is OK
+INFO:main:Results closed/Atos/results/T4x2_TRT/ssd-resnet34/SingleStream 6.842228
+INFO:main:Results closed/Atos/results/T4x2_TRT/ssd-resnet34/Offline 265.713
+INFO:main:Results closed/Atos/results/T4x2_TRT/resnet50/SingleStream 1.258096
+INFO:main:Results closed/Atos/results/T4x2_TRT/resnet50/Offline 11762.3
+INFO:main:Results=4, NoResults=0
+INFO:main:SUMMARY: submission looks OK

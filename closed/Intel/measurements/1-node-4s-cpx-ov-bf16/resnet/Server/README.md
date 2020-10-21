@@ -1,0 +1,1 @@
+Please refer to Intel\measurements\1-node-8s-cpx-ov\resnet50\Server

@@ -1,0 +1,50 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : BERT SERVER
+Scenario : Offline
+Mode     : Performance
+Samples per second: 5655.97
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Min latency (ns)                : 485111289
+Max latency (ns)                : 70014536960
+Mean latency (ns)               : 42467215653
+50.00 percentile latency (ns)   : 45118912170
+90.00 percentile latency (ns)   : 66723226577
+95.00 percentile latency (ns)   : 68644715366
+97.00 percentile latency (ns)   : 69305805033
+99.00 percentile latency (ns)   : 69843143301
+99.90 percentile latency (ns)   : 70009441546
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 396000
+target_qps : 6000
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1
+max_query_count : 0
+qsl_rng_seed : 313588358309856706
+sample_index_rng_seed : 471397156132239067
+schedule_rng_seed : 413914573387865862
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 10833
+
+No warnings encountered during test.
+
+No errors encountered during test.

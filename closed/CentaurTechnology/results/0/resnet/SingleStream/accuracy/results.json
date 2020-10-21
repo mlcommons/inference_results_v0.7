@@ -1,0 +1,23 @@
+{
+    "TestScenario.SingleStream": {
+        "accuracy": 0.0,
+        "count": 50000,
+        "good_items": 0,
+        "mean": 0.000998895559310913,
+        "percentiles": {
+            "50.0": 0.0009963512420654297,
+            "80.0": 0.0010004043579101562,
+            "90.0": 0.0010082721710205078,
+            "95.0": 0.0010209083557128906,
+            "99.0": 0.001039266586303711,
+            "99.9": 0.0010657312870025644
+        },
+        "qps": 46797.69219525965,
+        "took": 1.0684287548065186,
+        "total_items": 50000
+    },
+    "cmdline": "Namespace(accuracy=True, backend='tflite-ncore-resnet', cache=1, count=None, data_format=None, dataset='imagenet_ncore', dataset_list=None, dataset_path='/datasets/mlperf-v0.5/dataset-imagenet-ilsvrc2012-val', find_peak_performance=False, inputs=['input_tensor:0'], max_batchsize=1, max_latency=None, mlperf_conf='ncoresw/mlperf/mlperf.conf', model='/datasets/mlperf-v0.5/models/resnet50_v1.tflite', model_name='resnet50', output='/workspace/mlperf_submission_official/closed/CentaurTechnology/results/0/resnet/SingleStream/accuracy', outputs=['ArgMax:0'], profile='resnet50-tf-ncore', qps=None, samples_per_query=None, scenario='SingleStream', threads=2, time=None, user_conf='ncoresw/mlperf/vision/classification_and_detection/user.conf')",
+    "runtime": "tflite-ncore",
+    "time": 1599684560,
+    "version": "0.1"
+}

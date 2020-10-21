@@ -1,0 +1,34 @@
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/resnet50/Offline/accuracy, accuracy is 75.918
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/resnet50/Offline is OK
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/resnet50/Server/accuracy, accuracy is 75.918
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/resnet50/Server is OK
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/ssd-resnet34/Offline/accuracy, accuracy is 20.111
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/ssd-resnet34/Offline is OK
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/ssd-resnet34/Server/accuracy, accuracy is 20.111
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/ssd-resnet34/Server is OK
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/bert-99/Offline/accuracy, accuracy is 90.43326524910879
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/bert-99/Offline is OK
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/bert-99/Server/accuracy, accuracy is 90.41088160337416
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/bert-99/Server is OK
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/bert-99.9/Offline/accuracy, accuracy is 90.86345516918031
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/bert-99.9/Offline is OK
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/bert-99.9/Server/accuracy, accuracy is 90.87601624418225
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/bert-99.9/Server is OK
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/rnnt/Server/accuracy, accuracy is 92.55000112742113
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/rnnt/Server is OK
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/rnnt/Offline/accuracy, accuracy is 92.55225596969493
+INFO:main:closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/rnnt/Offline is OK
+ERROR:main:invalid division in input dir compliance_log
+ERROR:main:invalid division in input dir full_results
+INFO:main:Results closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/resnet50/Offline 62938.0
+INFO:main:Results closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/resnet50/Server 54022.34
+INFO:main:Results closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/ssd-resnet34/Offline 1680.46
+INFO:main:Results closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/ssd-resnet34/Server 1609.05
+INFO:main:Results closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/bert-99/Offline 5643.28
+INFO:main:Results closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/bert-99/Server 5199.74
+INFO:main:Results closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/bert-99.9/Offline 2812.51
+INFO:main:Results closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/bert-99.9/Server 2477.77
+INFO:main:Results closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/rnnt/Server 14861.29
+INFO:main:Results closed/QCT/results/QCT_D43KQ_A100-PCIex2_TRT/rnnt/Offline 17232.5
+INFO:main:Results=10, NoResults=0
+INFO:main:SUMMARY: submission looks OK

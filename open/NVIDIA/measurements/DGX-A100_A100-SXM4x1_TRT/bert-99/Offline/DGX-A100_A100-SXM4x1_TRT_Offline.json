@@ -1,0 +1,7 @@
+{
+    "input_data_types": "int8",
+    "retraining": "N",
+    "starting_weights_filename": "bert/bert_large_v1_1.onnx",
+    "weight_data_types": "int8,fp16",
+    "weight_transformations": "quantization, affine fusion"
+}

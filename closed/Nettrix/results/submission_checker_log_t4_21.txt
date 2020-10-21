@@ -1,0 +1,44 @@
+INFO:main:closed/Nettrix/results/T4x21_TRT/dlrm-99/Offline/accuracy, accuracy is 80.185
+INFO:main:closed/Nettrix/results/T4x21_TRT/dlrm-99/Offline is OK
+INFO:main:closed/Nettrix/results/T4x21_TRT/dlrm-99/Server/accuracy, accuracy is 80.185
+INFO:main:closed/Nettrix/results/T4x21_TRT/dlrm-99/Server is OK
+INFO:main:closed/Nettrix/results/T4x21_TRT/rnnt/Offline/accuracy, accuracy is 92.56127533879005
+INFO:main:closed/Nettrix/results/T4x21_TRT/rnnt/Offline is OK
+INFO:main:closed/Nettrix/results/T4x21_TRT/rnnt/Server/accuracy, accuracy is 92.55902049651627
+INFO:main:closed/Nettrix/results/T4x21_TRT/rnnt/Server is OK
+INFO:main:closed/Nettrix/results/T4x21_TRT/bert-99/Offline/accuracy, accuracy is 90.43326524910879
+INFO:main:closed/Nettrix/results/T4x21_TRT/bert-99/Offline is OK
+INFO:main:closed/Nettrix/results/T4x21_TRT/bert-99/Server/accuracy, accuracy is 90.39859909332506
+INFO:main:closed/Nettrix/results/T4x21_TRT/bert-99/Server is OK
+INFO:main:closed/Nettrix/results/T4x21_TRT/dlrm-99.9/Offline/accuracy, accuracy is 80.185
+INFO:main:closed/Nettrix/results/T4x21_TRT/dlrm-99.9/Offline is OK
+INFO:main:closed/Nettrix/results/T4x21_TRT/dlrm-99.9/Server/accuracy, accuracy is 80.185
+INFO:main:closed/Nettrix/results/T4x21_TRT/dlrm-99.9/Server is OK
+INFO:main:closed/Nettrix/results/T4x21_TRT/resnet50/Offline/accuracy, accuracy is 75.918
+INFO:main:closed/Nettrix/results/T4x21_TRT/resnet50/Offline is OK
+INFO:main:closed/Nettrix/results/T4x21_TRT/resnet50/Server/accuracy, accuracy is 75.918
+INFO:main:closed/Nettrix/results/T4x21_TRT/resnet50/Server is OK
+INFO:main:closed/Nettrix/results/T4x21_TRT/bert-99.9/Offline/accuracy, accuracy is 90.87896194883707
+INFO:main:closed/Nettrix/results/T4x21_TRT/bert-99.9/Offline is OK
+INFO:main:closed/Nettrix/results/T4x21_TRT/bert-99.9/Server/accuracy, accuracy is 90.88417486150034
+INFO:main:closed/Nettrix/results/T4x21_TRT/bert-99.9/Server is OK
+INFO:main:closed/Nettrix/results/T4x21_TRT/ssd-resnet34/Offline/accuracy, accuracy is 20.111
+INFO:main:closed/Nettrix/results/T4x21_TRT/ssd-resnet34/Offline is OK
+INFO:main:closed/Nettrix/results/T4x21_TRT/ssd-resnet34/Server/accuracy, accuracy is 20.111
+INFO:main:closed/Nettrix/results/T4x21_TRT/ssd-resnet34/Server is OK
+INFO:main:Results closed/Nettrix/results/T4x21_TRT/dlrm-99/Offline 681558.0
+INFO:main:Results closed/Nettrix/results/T4x21_TRT/dlrm-99/Server 623280.17
+INFO:main:Results closed/Nettrix/results/T4x21_TRT/rnnt/Offline 30781.7
+INFO:main:Results closed/Nettrix/results/T4x21_TRT/rnnt/Server 22708.97
+INFO:main:Results closed/Nettrix/results/T4x21_TRT/bert-99/Offline 9404.86
+INFO:main:Results closed/Nettrix/results/T4x21_TRT/bert-99/Server 8429.15
+INFO:main:Results closed/Nettrix/results/T4x21_TRT/dlrm-99.9/Offline 681558.0
+INFO:main:Results closed/Nettrix/results/T4x21_TRT/dlrm-99.9/Server 623280.17
+INFO:main:Results closed/Nettrix/results/T4x21_TRT/resnet50/Offline 129406.0
+INFO:main:Results closed/Nettrix/results/T4x21_TRT/resnet50/Server 121004.12
+INFO:main:Results closed/Nettrix/results/T4x21_TRT/bert-99.9/Offline 4201.29
+INFO:main:Results closed/Nettrix/results/T4x21_TRT/bert-99.9/Server 3996.41
+INFO:main:Results closed/Nettrix/results/T4x21_TRT/ssd-resnet34/Offline 2950.68
+INFO:main:Results closed/Nettrix/results/T4x21_TRT/ssd-resnet34/Server 2717.56
+INFO:main:Results=14, NoResults=0
+INFO:main:SUMMARY: submission looks OK

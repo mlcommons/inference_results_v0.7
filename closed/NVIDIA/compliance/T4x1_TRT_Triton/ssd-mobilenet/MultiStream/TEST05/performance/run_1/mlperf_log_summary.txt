@@ -1,0 +1,68 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : Triton_Server
+Scenario : Multi Stream
+Mode     : Performance
+Samples per query : 360
+Result is : VALID
+  Performance constraints satisfied : Yes
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Intervals between each IssueQuery:  "qps" : 20, "ms" : 50
+50.00 percentile : 1
+90.00 percentile : 1
+95.00 percentile : 1
+97.00 percentile : 1
+99.00 percentile : 1
+99.90 percentile : 1
+
+Per-query latency:  "target_ns" : 50000000, "target_ms" : 50
+50.00 percentile latency (ns)   : 45873970
+90.00 percentile latency (ns)   : 47758005
+95.00 percentile latency (ns)   : 48017406
+97.00 percentile latency (ns)   : 48085372
+99.00 percentile latency (ns)   : 48184639
+99.90 percentile latency (ns)   : 48390293
+
+Per-sample latency:
+Min latency (ns)                : 11480537
+Max latency (ns)                : 75683134
+Mean latency (ns)               : 30315505
+50.00 percentile latency (ns)   : 28174270
+90.00 percentile latency (ns)   : 46038343
+95.00 percentile latency (ns)   : 47174698
+97.00 percentile latency (ns)   : 47565465
+99.00 percentile latency (ns)   : 47985088
+99.90 percentile latency (ns)   : 48190789
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 360
+target_qps : 20
+target_latency (ns): 50000000
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 270336
+max_query_count : 0
+qsl_rng_seed : 313588358309856706
+sample_index_rng_seed : 471397156132239067
+schedule_rng_seed : 413914573387865862
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 1024
+
+No warnings encountered during test.
+
+No errors encountered during test.

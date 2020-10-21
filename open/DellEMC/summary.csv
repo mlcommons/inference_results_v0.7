@@ -1,0 +1,4 @@
+Organization,Availability,Division,SystemType,Platform,Model,MlperfModel,Scenario,Result,Accuracy,Location
+DellEMC,rdi,open,datacenter,R740xd_vck5000,resnet50,resnet,Offline,6015.8,75.768,open/DellEMC/results/R740xd_vck5000/resnet50/Offline
+DellEMC,rdi,open,datacenter,R740xd_vck5000,resnet50,resnet,Server,5802.01,75.768,open/DellEMC/results/R740xd_vck5000/resnet50/Server
+DellEMC,available,open,edge,R740xd_u280_v3me,ssd-mobilenet,ssd-small,SingleStream,1.284188,23.412,open/DellEMC/results/R740xd_u280_v3me/ssd-mobilenet/SingleStream

@@ -1,0 +1,45 @@
+INFO:main:closed/ALTOS/results/T4x4_TRT/resnet50/Server/accuracy, accuracy is 75.920
+INFO:main:closed/ALTOS/results/T4x4_TRT/resnet50/Server is OK
+INFO:main:closed/ALTOS/results/T4x4_TRT/resnet50/Offline/accuracy, accuracy is 75.920
+INFO:main:closed/ALTOS/results/T4x4_TRT/resnet50/Offline is OK
+INFO:main:closed/ALTOS/results/T4x4_TRT/ssd-resnet34/Server/accuracy, accuracy is 20.111
+INFO:main:closed/ALTOS/results/T4x4_TRT/ssd-resnet34/Server is OK
+INFO:main:closed/ALTOS/results/T4x4_TRT/ssd-resnet34/Offline/accuracy, accuracy is 20.111
+INFO:main:closed/ALTOS/results/T4x4_TRT/ssd-resnet34/Offline is OK
+INFO:main:closed/ALTOS/results/T4x4_TRT/rnnt/Server/accuracy, accuracy is 92.5567656542425
+INFO:main:closed/ALTOS/results/T4x4_TRT/rnnt/Server is OK
+INFO:main:closed/ALTOS/results/T4x4_TRT/rnnt/Offline/accuracy, accuracy is 92.5567656542425
+INFO:main:closed/ALTOS/results/T4x4_TRT/rnnt/Offline is OK
+INFO:main:closed/ALTOS/results/T4x4_TRT/bert-99/Server/accuracy, accuracy is 90.39882434899022
+INFO:main:closed/ALTOS/results/T4x4_TRT/bert-99/Server is OK
+INFO:main:closed/ALTOS/results/T4x4_TRT/bert-99/Offline/accuracy, accuracy is 90.43326524910879
+INFO:main:closed/ALTOS/results/T4x4_TRT/bert-99/Offline is OK
+INFO:main:closed/ALTOS/results/T4x4_TRT/bert-99.9/Server/accuracy, accuracy is 90.88619636044712
+INFO:main:closed/ALTOS/results/T4x4_TRT/bert-99.9/Server is OK
+INFO:main:closed/ALTOS/results/T4x4_TRT/bert-99.9/Offline/accuracy, accuracy is 90.87896194883707
+INFO:main:closed/ALTOS/results/T4x4_TRT/bert-99.9/Offline is OK
+INFO:main:closed/ALTOS/results/T4x4_TRT/3d-unet-99.9/Offline/accuracy, accuracy is 0.85367
+INFO:main:closed/ALTOS/results/T4x4_TRT/3d-unet-99.9/Offline is OK
+INFO:main:closed/ALTOS/results/T4x4_TRT/3d-unet-99/Offline/accuracy, accuracy is 0.85367
+INFO:main:closed/ALTOS/results/T4x4_TRT/3d-unet-99/Offline is OK
+ERROR:main:invalid division in input dir .config
+ERROR:main:invalid division in input dir .gnupg
+ERROR:main:invalid division in input dir .docker
+ERROR:main:invalid division in input dir .local
+ERROR:main:invalid division in input dir .nv
+ERROR:main:invalid division in input dir .cache
+ERROR:main:invalid division in input dir apex
+INFO:main:Results closed/ALTOS/results/T4x4_TRT/resnet50/Server 20001.64
+INFO:main:Results closed/ALTOS/results/T4x4_TRT/resnet50/Offline 22973.4
+INFO:main:Results closed/ALTOS/results/T4x4_TRT/ssd-resnet34/Server 449.6
+INFO:main:Results closed/ALTOS/results/T4x4_TRT/ssd-resnet34/Offline 518.326
+INFO:main:Results closed/ALTOS/results/T4x4_TRT/rnnt/Server 3396.95
+INFO:main:Results closed/ALTOS/results/T4x4_TRT/rnnt/Offline 5488.79
+INFO:main:Results closed/ALTOS/results/T4x4_TRT/bert-99/Server 1099.01
+INFO:main:Results closed/ALTOS/results/T4x4_TRT/bert-99/Offline 1621.4
+INFO:main:Results closed/ALTOS/results/T4x4_TRT/bert-99.9/Server 548.51
+INFO:main:Results closed/ALTOS/results/T4x4_TRT/bert-99.9/Offline 668.781
+INFO:main:Results closed/ALTOS/results/T4x4_TRT/3d-unet-99.9/Offline 26.9782
+INFO:main:Results closed/ALTOS/results/T4x4_TRT/3d-unet-99/Offline 26.9782
+INFO:main:Results=12, NoResults=0
+INFO:main:SUMMARY: submission looks OK

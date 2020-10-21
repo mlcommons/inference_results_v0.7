@@ -1,0 +1,5 @@
+Verifying performance.
+WARNING: 1172 ERROR reported in reference results
+reference score = 2810.92
+test score = 2648.92
+TEST PASS

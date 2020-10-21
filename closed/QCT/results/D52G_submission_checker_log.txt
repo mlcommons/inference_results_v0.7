@@ -1,0 +1,14 @@
+INFO:main:closed/QCT/results/QCT_D52G_A100-PCIex10_TRT/resnet50/Offline/accuracy, accuracy is 75.918
+INFO:main:closed/QCT/results/QCT_D52G_A100-PCIex10_TRT/resnet50/Offline is OK
+INFO:main:closed/QCT/results/QCT_D52G_A100-PCIex10_TRT/resnet50/Server/accuracy, accuracy is 75.918
+INFO:main:closed/QCT/results/QCT_D52G_A100-PCIex10_TRT/resnet50/Server is OK
+INFO:main:closed/QCT/results/QCT_D52G_A100-PCIex10_TRT/ssd-resnet34/Offline/accuracy, accuracy is 20.111
+INFO:main:closed/QCT/results/QCT_D52G_A100-PCIex10_TRT/ssd-resnet34/Offline is OK
+INFO:main:closed/QCT/results/QCT_D52G_A100-PCIex10_TRT/ssd-resnet34/Server/accuracy, accuracy is 20.111
+INFO:main:closed/QCT/results/QCT_D52G_A100-PCIex10_TRT/ssd-resnet34/Server is OK
+INFO:main:Results closed/QCT/results/QCT_D52G_A100-PCIex10_TRT/resnet50/Offline 326612.0
+INFO:main:Results closed/QCT/results/QCT_D52G_A100-PCIex10_TRT/resnet50/Server 220056.24
+INFO:main:Results closed/QCT/results/QCT_D52G_A100-PCIex10_TRT/ssd-resnet34/Offline 8256.98
+INFO:main:Results closed/QCT/results/QCT_D52G_A100-PCIex10_TRT/ssd-resnet34/Server 8199.0
+INFO:main:Results=4, NoResults=0
+INFO:main:SUMMARY: submission looks OK

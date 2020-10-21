@@ -1,0 +1,4 @@
+
+10 warnings encountered. See detailed log.
+
+6 ERRORS encountered. See detailed log.

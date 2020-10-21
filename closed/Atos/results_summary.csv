@@ -1,0 +1,5 @@
+system_id,benchmark,scenario,perf_metric,perf_value
+T4x2_TRT,resnet50,Offline,Samples per second,11762.3
+T4x2_TRT,resnet50,SingleStream,90th percentile latency \(ns\),1258096.0
+T4x2_TRT,ssd-resnet34,Offline,Samples per second,265.713
+T4x2_TRT,ssd-resnet34,SingleStream,90th percentile latency \(ns\),6842228.0

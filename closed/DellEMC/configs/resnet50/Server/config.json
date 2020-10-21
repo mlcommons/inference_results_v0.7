@@ -1,0 +1,275 @@
+{
+    "XE2420_T4x4": {
+        "active_sms": 100,
+        "config_ver": {
+        },
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 26,
+        "gpu_copy_streams": 8,
+        "gpu_inference_streams": 2,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 21000,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": true
+    },
+    "DSS8440_T4x12": {
+        "active_sms": 100,
+        "config_ver": {
+        },
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 52,
+        "gpu_copy_streams": 8,
+        "gpu_inference_streams": 3,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 62300,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": true
+    },
+    "R740_T4x4": {
+        "active_sms": 100,
+        "config_ver": {
+            "triton": {
+                "server_target_qps": 42000,
+                "use_graphs": false,
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 26,
+        "gpu_copy_streams": 8,
+        "gpu_inference_streams": 2,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 21800,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": true
+    },
+    "R7515_T4x4": {
+        "active_sms": 100,
+        "config_ver": {
+            "triton": {
+                "server_target_qps": 42000,
+                "use_graphs": false,
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 26,
+        "gpu_copy_streams": 8,
+        "gpu_inference_streams": 2,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 21500,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": true
+    },
+    "DSS8440_QuadroRTX8000x8": {
+        "active_sms": 100,
+        "config_ver": {
+        },
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 80,
+        "gpu_copy_streams": 8,
+        "gpu_inference_streams": 2,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 99000,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "DSS8440_QuadroRTX6000x10": {
+        "active_sms": 100,
+        "config_ver": {
+        },
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 80,
+        "gpu_copy_streams": 8,
+        "gpu_inference_streams": 2,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 123200,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "R7525_A100x2": {
+        "active_sms": 100,
+        "config_ver": {
+        },
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 64,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 3,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 52400,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": true
+    },
+    "R7525_A100x3": {
+        "active_sms": 100,
+        "config_ver": {
+        },
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 64,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 3,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 90000,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": true
+    },
+    "R7525_QuadroRTX8000x3": {
+        "active_sms": 100,
+        "config_ver": {
+          },
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 64,
+        "gpu_copy_streams": 3,
+        "gpu_inference_streams": 2,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 41481,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "DSS8440_T4x16": {
+        "active_sms": 100,
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 52,
+        "gpu_copy_streams": 8,
+        "gpu_inference_streams": 4,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 90600,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": true
+    },
+    "DSS8440_QuadroRTX8000x10": {
+        "active_sms": 50,
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 94,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 134300,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "R740_vT4x4": {
+        "active_sms": 100,
+        "config_ver": {
+            "triton": {
+                "server_target_qps": 21000,
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 26,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 2,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 22250,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": true
+    },
+    "C4140_QuadroRTX6000x4": {
+        "active_sms": 100,
+        "config_ver": {
+            "triton": {
+                "server_target_qps": 53550,
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 90,
+        "gpu_copy_streams": 3,
+        "gpu_inference_streams": 1,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 52500,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "R7525_T4x8": {
+        "active_sms": 100,
+        "config_ver": {
+            "triton": {
+                "server_target_qps": 42000,
+                "use_graphs": false,
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 26,
+        "gpu_copy_streams": 8,
+        "gpu_inference_streams": 2,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 44800,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": true
+    },
+    "benchmark": "resnet50",
+    "scenario": "Server"
+}

@@ -1,0 +1,309 @@
+{
+    "A100-PCIex1": {
+        "check_contiguity": true,
+        "coalesced_tensor": true,
+        "complete_threads": 1,
+        "config_ver": {
+            "high_accuracy": {},
+            "high_accuracy_triton": {
+                "use_triton": true
+            },
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 1,
+        "gpu_batch_size": 262100,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_num_bundles": 2,
+        "gpu_offline_expected_qps": 270000,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "max_pairs_per_staging_thread": 262100,
+        "num_staging_batches": 8,
+        "num_staging_threads": 8,
+        "precision": "int8",
+        "sample_partition_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/sample_partition.npy",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/numeric_int8_chw4.npy,${PREPROCESSED_DATA_DIR}/criteo/full_recalib/categorical_int32.npy",
+        "use_graphs": false,
+        "use_jemalloc": true
+    },
+    "A100-PCIex2": {
+        "check_contiguity": true,
+        "coalesced_tensor": true,
+        "complete_threads": 1,
+        "config_ver": {
+            "high_accuracy": {},
+            "high_accuracy_triton": {
+                "use_triton": true
+            },
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 1,
+        "gpu_batch_size": 262100,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_num_bundles": 2,
+        "gpu_offline_expected_qps": 540000,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "max_pairs_per_staging_thread": 262100,
+        "num_staging_batches": 8,
+        "num_staging_threads": 8,
+        "precision": "int8",
+        "sample_partition_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/sample_partition.npy",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/numeric_int8_chw4.npy,${PREPROCESSED_DATA_DIR}/criteo/full_recalib/categorical_int32.npy",
+        "use_graphs": false,
+        "use_jemalloc": true
+    },
+    "A100-PCIex4": {
+        "check_contiguity": true,
+        "coalesced_tensor": true,
+        "complete_threads": 1,
+        "config_ver": {
+            "high_accuracy": {},
+            "high_accuracy_triton": {
+                "use_triton": true
+            },
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 1,
+        "gpu_batch_size": 262100,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_num_bundles": 2,
+        "gpu_offline_expected_qps": 950000,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "max_pairs_per_staging_thread": 262100,
+        "num_staging_batches": 8,
+        "num_staging_threads": 8,
+        "precision": "int8",
+        "sample_partition_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/sample_partition.npy",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/numeric_int8_chw4.npy,${PREPROCESSED_DATA_DIR}/criteo/full_recalib/categorical_int32.npy",
+        "use_graphs": false,
+        "use_jemalloc": true
+    },
+    "A100-SXM4x1": {
+        "check_contiguity": true,
+        "coalesced_tensor": true,
+        "complete_threads": 1,
+        "config_ver": {
+            "high_accuracy": {},
+            "high_accuracy_triton": {
+                "start_from_device": false,
+                "use_triton": true
+            },
+            "triton": {
+                "start_from_device": false,
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 1,
+        "gpu_batch_size": 262100,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_num_bundles": 2,
+        "gpu_offline_expected_qps": 270000,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "max_pairs_per_staging_thread": 262100,
+        "num_staging_batches": 8,
+        "num_staging_threads": 8,
+        "precision": "int8",
+        "sample_partition_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/sample_partition.npy",
+        "start_from_device": true,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/numeric_int8_chw4.npy,${PREPROCESSED_DATA_DIR}/criteo/full_recalib/categorical_int32.npy",
+        "use_graphs": false,
+        "use_jemalloc": true
+    },
+    "A100-SXM4x8": {
+        "check_contiguity": true,
+        "coalesced_tensor": true,
+        "complete_threads": 1,
+        "config_ver": {
+            "high_accuracy": {},
+            "high_accuracy_triton": {
+                "start_from_device": false,
+                "use_triton": true
+            },
+            "triton": {
+                "start_from_device": false,
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 262100,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_num_bundles": 2,
+        "gpu_offline_expected_qps": 2120000,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "max_pairs_per_staging_thread": 262100,
+        "precision": "int8",
+        "sample_partition_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/sample_partition.npy",
+        "start_from_device": true,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/numeric_int8_chw4.npy,${PREPROCESSED_DATA_DIR}/criteo/full_recalib/categorical_int32.npy",
+        "use_graphs": false,
+        "use_jemalloc": true
+    },
+    "T4x1": {
+        "check_contiguity": true,
+        "coalesced_tensor": true,
+        "complete_threads": 2,
+        "config_ver": {
+            "high_accuracy": {},
+            "high_accuracy_triton": {
+                "use_triton": true
+            },
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 1,
+        "embedding_weights_on_gpu_part": 0.5,
+        "gpu_batch_size": 262100,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_num_bundles": 2,
+        "gpu_offline_expected_qps": 34000,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "max_pairs_per_staging_thread": 262100,
+        "num_staging_batches": 4,
+        "num_staging_threads": 4,
+        "precision": "int8",
+        "sample_partition_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/sample_partition.npy",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/numeric_int8_chw4.npy,${PREPROCESSED_DATA_DIR}/criteo/full_recalib/categorical_int32.npy",
+        "use_graphs": false,
+        "use_jemalloc": true
+    },
+    "T4x20": {
+        "check_contiguity": true,
+        "coalesced_tensor": true,
+        "complete_threads": 8,
+        "config_ver": {
+            "high_accuracy": {},
+            "high_accuracy_triton": {
+                "gpu_offline_expected_qps": 200000,
+                "use_triton": true
+            },
+            "triton": {
+                "gpu_offline_expected_qps": 200000,
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 1,
+        "embedding_weights_on_gpu_part": 0.5,
+        "gpu_batch_size": 262100,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_num_bundles": 2,
+        "gpu_offline_expected_qps": 680000,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "max_pairs_per_staging_thread": 262100,
+        "num_staging_batches": 64,
+        "num_staging_threads": 80,
+        "precision": "int8",
+        "sample_partition_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/sample_partition.npy",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/numeric_int8_chw4.npy,${PREPROCESSED_DATA_DIR}/criteo/full_recalib/categorical_int32.npy",
+        "use_graphs": false,
+        "use_jemalloc": false
+    },
+    "T4x8": {
+        "check_contiguity": true,
+        "coalesced_tensor": true,
+        "complete_threads": 8,
+        "config_ver": {
+            "high_accuracy": {},
+            "high_accuracy_triton": {
+                "use_triton": true
+            },
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 1,
+        "embedding_weights_on_gpu_part": 0.5,
+        "gpu_batch_size": 262100,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_num_bundles": 2,
+        "gpu_offline_expected_qps": 272000,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "max_pairs_per_staging_thread": 262100,
+        "num_staging_batches": 16,
+        "num_staging_threads": 16,
+        "precision": "int8",
+        "sample_partition_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/sample_partition.npy",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/numeric_int8_chw4.npy,${PREPROCESSED_DATA_DIR}/criteo/full_recalib/categorical_int32.npy",
+        "use_graphs": false,
+        "use_jemalloc": true
+    },
+    "TitanRTXx1": {
+        "check_contiguity": true,
+        "coalesced_tensor": true,
+        "complete_threads": 2,
+        "config_ver": {
+            "high_accuracy": {},
+            "high_accuracy_triton": {
+                "use_triton": true
+            },
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 1,
+        "embedding_weights_on_gpu_part": 0.5,
+        "gpu_batch_size": 262144,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_num_bundles": 2,
+        "gpu_offline_expected_qps": 108000,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "precision": "int8",
+        "sample_partition_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/sample_partition.npy",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/numeric_int8_chw4.npy,${PREPROCESSED_DATA_DIR}/criteo/full_recalib/categorical_int32.npy",
+        "use_graphs": false,
+        "use_jemalloc": true
+    },
+    "TitanRTXx4": {
+        "assume_contiguous": true,
+        "check_contiguity": true,
+        "coalesced_tensor": true,
+        "complete_threads": 4,
+        "config_ver": {
+            "high_accuracy": {},
+            "high_accuracy_triton": {
+                "use_triton": true
+            },
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 1,
+        "embedding_weights_on_gpu_part": 0.5,
+        "gpu_batch_size": 262144,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_num_bundles": 2,
+        "gpu_offline_expected_qps": 418000,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "precision": "int8",
+        "sample_partition_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/sample_partition.npy",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/criteo/full_recalib/numeric_int8_chw4.npy,${PREPROCESSED_DATA_DIR}/criteo/full_recalib/categorical_int32.npy",
+        "use_graphs": false,
+        "use_jemalloc": true
+    },
+    "benchmark": "dlrm",
+    "scenario": "Offline"
+}

@@ -1,0 +1,22 @@
+{
+    "TestScenario.Offline": {
+        "count": 1024,
+        "good_items": 0,
+        "mean": 1.0501731710000004,
+        "percentiles": {
+            "50.0": 1.050173171,
+            "80.0": 1.050173171,
+            "90.0": 1.050173171,
+            "95.0": 1.050173171,
+            "99.0": 1.050173171,
+            "99.9": 1.050173171
+        },
+        "qps": 806.73145912254,
+        "took": 1.2693195343017578,
+        "total_items": 1024
+    },
+    "cmdline": "Namespace(accuracy=False, backend='tflite-ncore-resnet-offline', cache=1, count=None, data_format=None, dataset='imagenet_ncore', dataset_list=None, dataset_path='/datasets/mlperf-v0.5/dataset-imagenet-ilsvrc2012-val', find_peak_performance=False, inputs=['input_tensor:0'], max_batchsize=1024, max_latency=None, mlperf_conf='ncoresw/mlperf/mlperf.conf', model='/datasets/mlperf-v0.5/models/resnet50_v1.tflite', model_name='resnet50', output='/workspace/mlperf_submission_official/closed/CentaurTechnology/compliance/0/resnet/Offline/TEST04-B/performance/run_1', outputs=['ArgMax:0'], profile='resnet50-tf-ncore-offline', qps=None, samples_per_query=None, scenario='Offline', threads=2, time=None, user_conf='ncoresw/mlperf/vision/classification_and_detection/user.conf')",
+    "runtime": "tflite-ncore",
+    "time": 1599796177,
+    "version": "0.1"
+}

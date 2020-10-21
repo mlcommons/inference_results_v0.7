@@ -1,0 +1,133 @@
+"pid": 26039, "tid": 26039, "ts": 7915ns : LoadgenVersionInfo:
+"pid": 26039, "tid": 26039, "ts": 7915ns : version : .5a1 @ f41dbd6f18
+"pid": 26039, "tid": 26039, "ts": 7915ns : build_date_local : 2020-09-16T04:06:40.048259
+"pid": 26039, "tid": 26039, "ts": 7915ns : build_date_utc   : 2020-09-16T09:06:40.048265
+"pid": 26039, "tid": 26039, "ts": 7915ns : git_commit_date  : 2020-09-08T09:06:47-07:00
+"pid": 26039, "tid": 26039, "ts": 7915ns : git_log :
+
+f41dbd6f18f1fb94a5cb96838d7c268e4202a205 Merge pull request #720 from nvpohanh/dev-nvpohanh-checker-singlestream-error
+be48f556cd7bee386031d1eab3ec5d71621a9e5e Fix submission checker error for SingleStream performance logs
+146270918773698a3437f1ca373cba1b8e923a5e create r0.7 branch
+dd9e6bf867869fad0b9fcade0f719e1536780299 Merge pull request #717 from guschmue/gs/seeds
+7631a63c1fb327974058be5c415e2ce665243f07 seeds for v07
+0b40315728715f29e59303587fda452313ce3d09 Merge pull request #712 from nvpohanh/develop-pohanh-user-conf-in-ref
+0bbb7a7025e86010cc65cf80b4cafbad72d57693 Populate user.conf with user-configurable LoadGen settings. Update benchmark names
+792a50b5ba2b56dff1e43c9cfcb07a3a3c2ee419 Merge pull request #708 from georgelyuan/master
+5576f64ef91a7993755535d443cf8fafd7cb6d90 Merge pull request #713 from guschmue/gs/acc_log_optional
+9dd095880c88c407995a8183a066bf1a1f1f37a7 Add empty user.conf files to avoid command failure
+26807d2328ddad8c90b6843b661e05e643a6b31f Add user.conf support in RN50/SSDs/DLRM reference implementation
+2f42f34fa3676d8d8fe015e73667a1c73122755f Merge pull request #710 from mnaumovfb/master
+0972f5bdd48def1628200f64d40bdfc7bd5d8a82 make mlperf_log_accuracy.json optional for perf, few fixes for v0.5
+0b2f0c26c59cce78be7af8d1b160c3e49d912cfb Merge pull request #711 from nvpohanh/dev-pohanh-fix-checker-scripts
+c2b58357deaf59708218db11db60f59798c246c3 Fix bugs in checker and truncation scripts
+cf0d0b3e71d0889bf24e3e75c8d22c9895e808f0 Fixing latent bug when fixed number of samples is agglomerated and --mlperf-bin-loader is used
+
+"pid": 26039, "tid": 26039, "ts": 7915ns : git_status :
+
+
+
+"pid": 26039, "tid": 26039, "ts": 7915ns : SHA1 of files :
+
+012aad77e5206c89d50718c46c119d1f3cb056b2 /.clang-format
+b82905303c4756c4a2ab40ceed92cdddbf04bf2d /BUILD.gn
+7067c2704e8de3be0a0fb9ef5984d52a88f9b91e /CMakeLists.txt
+79fbce4843967690e0750fd7ffc021f4f1e4c5c4 /README.md
+34b89a712a0ca1691b89715fe2ce459a676d0f77 /README_BUILD.md
+f75741b91085a20ebb23de1ce03d45a56d3457fe /README_FAQ.md
+a00620bb4c9b583c1d2f5beef1a5e8d772aefb9b /bindings/c_api.cc
+81873e098bc60c7bc59045c8329ce153dd1ec055 /bindings/c_api.h
+227149dc287e93a28da9ce92346158e4e403b694 /bindings/python_api.cc
+4b68d3399b31e14e554cff678a0db9b4d1299e23 /demos/BUILD.gn
+07d85ea5fefade8d3d66ca832b783bf90e5bce7d /demos/py_demo_multi_stream.py
+2f941e949770a2ea9ad6d6eea2f33fc19150edcd /demos/py_demo_multi_stream_free.py
+73c60cf12cfb69619249e637f9bcad18a47cda6c /demos/py_demo_offline.py
+02a6ddbe8b51bde2cfed32abeccdb7fdd9cfe4e7 /demos/py_demo_server.py
+3e7d786882099ac784bf878f1cde9dd3db2f6d9f /demos/py_demo_single_stream.py
+8e76b6b70bc724c4a75dde2931c060ac831335b3 /issue_query_controller.cc
+703be7bdc58a8fa83555917f89054cbdb50038d4 /issue_query_controller.h
+d0a22cb9115eed76f7cfb81ee8d0679ba16485fe /loadgen.cc
+ef11e328aa06b4e1996d68e4746a969b9c9ade67 /loadgen.h
+47f748307536f80cfc606947b440dd732afc2637 /loadgen_integration_diagram.svg
+9960bfaf44da0925444c74d54e1b97d75bf5e812 /logging.cc
+fdb61b8a2e2593bab4ae5bf9758434cf6a60e218 /logging.h
+a879f127c4bb64d131056942734ea1a6ba9c3033 /query_sample.h
+61feb478b15668f48245c5083d559dee5de1c082 /query_sample_library.h
+bd41a2b3f4ed365566e411fddd012c66a320e87b /setup.py
+744482c84336420adbbe31ef8c2b39612c6ca3f8 /system_under_test.h
+34eec1f8fb4a2db273b715686580f19cffa2f3a1 /test_settings.h
+08bc8aec88abd99fa5633c23fb94d090138b475e /test_settings_internal.cc
+085aaa57819f88c585c1f3a627a2d9a432a01bbc /test_settings_internal.h
+86fc4c8035e7b73132c56d1781aca647b6bd6916 /utils.cc
+5395a04f82e90288f52bf918d7b1d6027bfe0964 /utils.h
+e1c46896da912ff2a0187276c3a8ba4eec057a17 /version.cc
+9d574baa64424e9c708fcfedd3dbb0b518a65fcc /version.h
+07dbee77c9707efdb95def65477c288fe6667e92 /version_generator.py
+
+"pid": 26039, "tid": 26039, "ts": 22763ns : Date + time of test: 2020-09-17T01:34:46Z
+"pid": 26039, "tid": 26039, "ts": 22763ns : System Under Test (SUT) name: LWIS_Server
+"pid": 26039, "tid": 26039, "ts": 22763ns : Query Sample Library (QSL) name: LWIS_SampleLibrary
+"pid": 26039, "tid": 26039, "ts": 22763ns : QSL total size: 5000
+"pid": 26039, "tid": 26039, "ts": 22763ns : QSL performance size*: 64
+"pid": 26039, "tid": 26039, "ts": 22763ns : *TestSettings (performance_sample_count_override) can override
+"pid": 26039, "tid": 26039, "ts": 22763ns : *Refer to Effective Settings for actual value
+"pid": 26039, "tid": 26039, "ts": 40617ns : Found Audit Config file (audit.config). Overriding TestSettings from audit.config file.
+"pid": 26039, "tid": 26039, "ts": 110300ns : 
+"pid": 26039, "tid": 26039, "ts": 110300ns : Effective Settings:
+"pid": 26039, "tid": 26039, "ts": 110300ns : Scenario : Offline
+"pid": 26039, "tid": 26039, "ts": 110300ns : Test mode : Performance
+"pid": 26039, "tid": 26039, "ts": 110300ns : samples_per_query : 73656
+"pid": 26039, "tid": 26039, "ts": 110300ns : target_qps : 1116
+"pid": 26039, "tid": 26039, "ts": 110300ns : target_latency (ns): 0
+"pid": 26039, "tid": 26039, "ts": 110300ns : target_latency_percentile : 0
+"pid": 26039, "tid": 26039, "ts": 110300ns : max_async_queries : 1
+"pid": 26039, "tid": 26039, "ts": 110300ns : target_duration (ms): 0
+"pid": 26039, "tid": 26039, "ts": 110300ns : min_duration (ms): 60000
+"pid": 26039, "tid": 26039, "ts": 110300ns : max_duration (ms): 0
+"pid": 26039, "tid": 26039, "ts": 110300ns : min_query_count : 1
+"pid": 26039, "tid": 26039, "ts": 110300ns : max_query_count : 0
+"pid": 26039, "tid": 26039, "ts": 110300ns : min_sample_count : 73656
+"pid": 26039, "tid": 26039, "ts": 110300ns : qsl_rng_seed : 12786827339337101903
+"pid": 26039, "tid": 26039, "ts": 110300ns : sample_index_rng_seed : 12640797754436136668
+"pid": 26039, "tid": 26039, "ts": 110300ns : schedule_rng_seed : 3135815929913719677
+"pid": 26039, "tid": 26039, "ts": 110300ns : accuracy_log_rng_seed : 720381539243781796
+"pid": 26039, "tid": 26039, "ts": 110300ns : accuracy_log_probability : 0
+"pid": 26039, "tid": 26039, "ts": 110300ns : accuracy_log_sampling_target : 256
+"pid": 26039, "tid": 26039, "ts": 110300ns : print_timestamps : false
+"pid": 26039, "tid": 26039, "ts": 110300ns : performance_issue_unique : false
+"pid": 26039, "tid": 26039, "ts": 110300ns : performance_issue_same : false
+"pid": 26039, "tid": 26039, "ts": 110300ns : performance_issue_same_index : 0
+"pid": 26039, "tid": 26039, "ts": 110300ns : performance_sample_count : 64
+"pid": 26039, "tid": 26039, "ts": 111913ns : 
+"pid": 26039, "tid": 26039, "ts": 111913ns : Requested Settings:
+"pid": 26039, "tid": 26039, "ts": 111913ns : Scenario : Offline
+"pid": 26039, "tid": 26039, "ts": 111913ns : Test mode : Performance
+"pid": 26039, "tid": 26039, "ts": 111913ns : offline_expected_qps : 1116
+"pid": 26039, "tid": 26039, "ts": 111913ns : min_duration_ms : 60000
+"pid": 26039, "tid": 26039, "ts": 111913ns : max_duration_ms : 0
+"pid": 26039, "tid": 26039, "ts": 111913ns : min_query_count : 24576
+"pid": 26039, "tid": 26039, "ts": 111913ns : max_query_count : 0
+"pid": 26039, "tid": 26039, "ts": 111913ns : qsl_rng_seed : 12786827339337101903
+"pid": 26039, "tid": 26039, "ts": 111913ns : sample_index_rng_seed : 12640797754436136668
+"pid": 26039, "tid": 26039, "ts": 111913ns : schedule_rng_seed : 3135815929913719677
+"pid": 26039, "tid": 26039, "ts": 111913ns : accuracy_log_rng_seed : 720381539243781796
+"pid": 26039, "tid": 26039, "ts": 111913ns : accuracy_log_probability : 0
+"pid": 26039, "tid": 26039, "ts": 111913ns : accuracy_log_sampling_target : 256
+"pid": 26039, "tid": 26039, "ts": 111913ns : print_timestamps : false
+"pid": 26039, "tid": 26039, "ts": 111913ns : performance_issue_unique : false
+"pid": 26039, "tid": 26039, "ts": 111913ns : performance_issue_same : false
+"pid": 26039, "tid": 26039, "ts": 111913ns : performance_issue_same_index : 0
+"pid": 26039, "tid": 26039, "ts": 111913ns : performance_sample_count_override : 64
+"pid": 26039, "tid": 26039, "ts": 111913ns : 
+"pid": 26039, "tid": 26039, "ts": 114759ns : Starting performance mode:
+"pid": 26039, "tid": 26039, "ts": 300293ns : Loading QSL : "set" : "[3597,3213,3666,2071,929,1697,1788,2446,3286,3449,2025,1848,3029,656,1648,4214,4722,840,2921,3250,288,644,522,1642,4729,4962,247,347,3419,1925,1545,1342,2608,4455,2241,1865,4629,142,2881,3327,3637,3884,486,1301,1220,3452,431,4151,785,1139,1278,4134,176,455,3919,554,3869,2171,3661,3310,57,3315,3533,2019]"
+"pid": 26039, "tid": 26039, "ts": 66917098ns : GeneratedQueries: "queries" : 1, "samples per query" : 73656, "duration" : 896057
+"pid": 26039, "tid": 26039, "ts": 67281554ns :  Ending naturally: Minimum query count and test duration met.
+"pid": 26039, "tid": 26039, "ts": 138129976050ns : Log Contention Counters:
+"pid": 26039, "tid": 26039, "ts": 138129976050ns : 0 : swap_request_slots_retry_count
+"pid": 26039, "tid": 26039, "ts": 138129976050ns : 0 : swap_request_slots_retry_retry_count
+"pid": 26039, "tid": 26039, "ts": 138129976050ns : 0 : swap_request_slots_retry_reencounter_count
+"pid": 26039, "tid": 26039, "ts": 138129976050ns : 0 : start_reading_entries_retry_count
+"pid": 26039, "tid": 26039, "ts": 138129976050ns : 0 : tls_total_log_cas_fail_count
+"pid": 26039, "tid": 26039, "ts": 138129976050ns : 0 : tls_total_swap_buffers_slot_retry_count
+"pid": 26039, "tid": 26039, "ts": 138129978305ns : POWER_BEGIN: "mode" : Performance, "time" : 09-17-2020 01:34:46.618
+"pid": 26039, "tid": 26039, "ts": 138129978305ns : POWER_END: "mode" : Performance, "time" : 09-17-2020 01:37:04.675

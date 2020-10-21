@@ -1,0 +1,33 @@
+{
+    "A100-SXM4x1": {
+        "coalesced_tensor": true,
+        "gpu_batch_size": 256,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 2,
+        "gpu_offline_expected_qps": 4050,
+        "input_dtype": "int32",
+        "input_format": "linear",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/squad_tokenized/input_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/segment_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/input_mask.npy",
+        "use_graphs": false,
+        "sparsity": true,
+        "enable_interleaved": true
+    },
+    "A100-SXM4x8": {
+        "coalesced_tensor": true,
+        "gpu_batch_size": 256,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 2,
+        "gpu_offline_expected_qps": 32400,
+        "input_dtype": "int32",
+        "input_format": "linear",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/squad_tokenized/input_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/segment_ids.npy,${PREPROCESSED_DATA_DIR}/squad_tokenized/input_mask.npy",
+        "use_graphs": false,
+        "enable_interleaved": true,
+        "sparsity": true,
+        "workspace_size": 7516192768
+    },
+    "benchmark": "bert",
+    "scenario": "Offline"
+}

@@ -1,0 +1,57 @@
+{
+    "A100-PCIex1": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 1,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_single_stream_expected_latency_ns": 660000,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": true
+    },
+    "A100-SXM4x1": {
+        "config_ver": {
+            "triton": {
+                "start_from_device": false,
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 1,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_single_stream_expected_latency_ns": 660000,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "start_from_device": true,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": true
+    },
+    "T4x1": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 1,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_single_stream_expected_latency_ns": 996648,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": true
+    },
+    "benchmark": "resnet50",
+    "scenario": "SingleStream"
+}

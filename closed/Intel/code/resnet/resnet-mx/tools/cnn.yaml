@@ -1,0 +1,13 @@
+framework:
+  - name: mxnet
+
+calibration:                        # optional. calibration tuning constraints on model-wise for advanced user to reduce tuning space.
+  - iterations: 300                 # optional. default value is 1.
+
+tuning:
+    metric:
+      - topk: 1                     # tuning metrics: accuracy
+    accuracy_criterion:
+      - relative: 0.009             # the tuning target of accuracy loss percentage: 1%
+    timeout: 0                      # tuning timeout (seconds)
+    random_seed: 9527               # random seed

@@ -1,0 +1,133 @@
+"pid": 2100, "tid": 2100, "ts": 11722ns : LoadgenVersionInfo:
+"pid": 2100, "tid": 2100, "ts": 11722ns : version : .5a1 @ 818cbe272a
+"pid": 2100, "tid": 2100, "ts": 11722ns : build_date_local : 2020-09-15T14:50:29.119902
+"pid": 2100, "tid": 2100, "ts": 11722ns : build_date_utc   : 2020-09-15T13:50:29.119977
+"pid": 2100, "tid": 2100, "ts": 11722ns : git_commit_date  : 2020-09-11T13:22:01-07:00
+"pid": 2100, "tid": 2100, "ts": 11722ns : git_log :
+
+818cbe272a6b5315fa5ccb9da6fde3242fa35bf6 Merge pull request #726 from nvpohanh/dev-nvpohanh-open-utf8
+efedb7e79a9d33cb5c8031b94b00095548976fc7 Fix truncate_accuracy_log.py failure on 3DUnet accuracy logs
+f41dbd6f18f1fb94a5cb96838d7c268e4202a205 Merge pull request #720 from nvpohanh/dev-nvpohanh-checker-singlestream-error
+be48f556cd7bee386031d1eab3ec5d71621a9e5e Fix submission checker error for SingleStream performance logs
+146270918773698a3437f1ca373cba1b8e923a5e create r0.7 branch
+dd9e6bf867869fad0b9fcade0f719e1536780299 Merge pull request #717 from guschmue/gs/seeds
+7631a63c1fb327974058be5c415e2ce665243f07 seeds for v07
+0b40315728715f29e59303587fda452313ce3d09 Merge pull request #712 from nvpohanh/develop-pohanh-user-conf-in-ref
+0bbb7a7025e86010cc65cf80b4cafbad72d57693 Populate user.conf with user-configurable LoadGen settings. Update benchmark names
+792a50b5ba2b56dff1e43c9cfcb07a3a3c2ee419 Merge pull request #708 from georgelyuan/master
+5576f64ef91a7993755535d443cf8fafd7cb6d90 Merge pull request #713 from guschmue/gs/acc_log_optional
+9dd095880c88c407995a8183a066bf1a1f1f37a7 Add empty user.conf files to avoid command failure
+26807d2328ddad8c90b6843b661e05e643a6b31f Add user.conf support in RN50/SSDs/DLRM reference implementation
+2f42f34fa3676d8d8fe015e73667a1c73122755f Merge pull request #710 from mnaumovfb/master
+0972f5bdd48def1628200f64d40bdfc7bd5d8a82 make mlperf_log_accuracy.json optional for perf, few fixes for v0.5
+0b2f0c26c59cce78be7af8d1b160c3e49d912cfb Merge pull request #711 from nvpohanh/dev-pohanh-fix-checker-scripts
+
+"pid": 2100, "tid": 2100, "ts": 11722ns : git_status :
+
+
+
+"pid": 2100, "tid": 2100, "ts": 11722ns : SHA1 of files :
+
+012aad77e5206c89d50718c46c119d1f3cb056b2 /.clang-format
+b82905303c4756c4a2ab40ceed92cdddbf04bf2d /BUILD.gn
+7067c2704e8de3be0a0fb9ef5984d52a88f9b91e /CMakeLists.txt
+79fbce4843967690e0750fd7ffc021f4f1e4c5c4 /README.md
+34b89a712a0ca1691b89715fe2ce459a676d0f77 /README_BUILD.md
+f75741b91085a20ebb23de1ce03d45a56d3457fe /README_FAQ.md
+a00620bb4c9b583c1d2f5beef1a5e8d772aefb9b /bindings/c_api.cc
+81873e098bc60c7bc59045c8329ce153dd1ec055 /bindings/c_api.h
+227149dc287e93a28da9ce92346158e4e403b694 /bindings/python_api.cc
+4b68d3399b31e14e554cff678a0db9b4d1299e23 /demos/BUILD.gn
+07d85ea5fefade8d3d66ca832b783bf90e5bce7d /demos/py_demo_multi_stream.py
+2f941e949770a2ea9ad6d6eea2f33fc19150edcd /demos/py_demo_multi_stream_free.py
+73c60cf12cfb69619249e637f9bcad18a47cda6c /demos/py_demo_offline.py
+02a6ddbe8b51bde2cfed32abeccdb7fdd9cfe4e7 /demos/py_demo_server.py
+3e7d786882099ac784bf878f1cde9dd3db2f6d9f /demos/py_demo_single_stream.py
+8e76b6b70bc724c4a75dde2931c060ac831335b3 /issue_query_controller.cc
+703be7bdc58a8fa83555917f89054cbdb50038d4 /issue_query_controller.h
+d0a22cb9115eed76f7cfb81ee8d0679ba16485fe /loadgen.cc
+ef11e328aa06b4e1996d68e4746a969b9c9ade67 /loadgen.h
+47f748307536f80cfc606947b440dd732afc2637 /loadgen_integration_diagram.svg
+9960bfaf44da0925444c74d54e1b97d75bf5e812 /logging.cc
+fdb61b8a2e2593bab4ae5bf9758434cf6a60e218 /logging.h
+a879f127c4bb64d131056942734ea1a6ba9c3033 /query_sample.h
+61feb478b15668f48245c5083d559dee5de1c082 /query_sample_library.h
+bd41a2b3f4ed365566e411fddd012c66a320e87b /setup.py
+744482c84336420adbbe31ef8c2b39612c6ca3f8 /system_under_test.h
+34eec1f8fb4a2db273b715686580f19cffa2f3a1 /test_settings.h
+08bc8aec88abd99fa5633c23fb94d090138b475e /test_settings_internal.cc
+085aaa57819f88c585c1f3a627a2d9a432a01bbc /test_settings_internal.h
+86fc4c8035e7b73132c56d1781aca647b6bd6916 /utils.cc
+5395a04f82e90288f52bf918d7b1d6027bfe0964 /utils.h
+e1c46896da912ff2a0187276c3a8ba4eec057a17 /version.cc
+9d574baa64424e9c708fcfedd3dbb0b518a65fcc /version.h
+07dbee77c9707efdb95def65477c288fe6667e92 /version_generator.py
+
+"pid": 2100, "tid": 2100, "ts": 43962ns : Date + time of test: 2020-09-16T22:40:23Z
+"pid": 2100, "tid": 2100, "ts": 43962ns : System Under Test (SUT) name: ArmNN_TFLite_SUT
+"pid": 2100, "tid": 2100, "ts": 43962ns : Query Sample Library (QSL) name: ArmNN_TFLite_QSL
+"pid": 2100, "tid": 2100, "ts": 43962ns : QSL total size: 1024
+"pid": 2100, "tid": 2100, "ts": 43962ns : QSL performance size*: 1024
+"pid": 2100, "tid": 2100, "ts": 43962ns : *TestSettings (performance_sample_count_override) can override
+"pid": 2100, "tid": 2100, "ts": 43962ns : *Refer to Effective Settings for actual value
+"pid": 2100, "tid": 2100, "ts": 76720ns : 
+"pid": 2100, "tid": 2100, "ts": 76720ns : Effective Settings:
+"pid": 2100, "tid": 2100, "ts": 76720ns : Scenario : Single Stream
+"pid": 2100, "tid": 2100, "ts": 76720ns : Test mode : Performance
+"pid": 2100, "tid": 2100, "ts": 76720ns : samples_per_query : 1
+"pid": 2100, "tid": 2100, "ts": 76720ns : target_qps : 20
+"pid": 2100, "tid": 2100, "ts": 76720ns : target_latency (ns): 0
+"pid": 2100, "tid": 2100, "ts": 76720ns : target_latency_percentile : 0.9
+"pid": 2100, "tid": 2100, "ts": 76720ns : max_async_queries : 1
+"pid": 2100, "tid": 2100, "ts": 76720ns : target_duration (ms): 60000
+"pid": 2100, "tid": 2100, "ts": 76720ns : min_duration (ms): 60000
+"pid": 2100, "tid": 2100, "ts": 76720ns : max_duration (ms): 0
+"pid": 2100, "tid": 2100, "ts": 76720ns : min_query_count : 1024
+"pid": 2100, "tid": 2100, "ts": 76720ns : max_query_count : 0
+"pid": 2100, "tid": 2100, "ts": 76720ns : min_sample_count : 1024
+"pid": 2100, "tid": 2100, "ts": 76720ns : qsl_rng_seed : 12786827339337101903
+"pid": 2100, "tid": 2100, "ts": 76720ns : sample_index_rng_seed : 12640797754436136668
+"pid": 2100, "tid": 2100, "ts": 76720ns : schedule_rng_seed : 3135815929913719677
+"pid": 2100, "tid": 2100, "ts": 76720ns : accuracy_log_rng_seed : 0
+"pid": 2100, "tid": 2100, "ts": 76720ns : accuracy_log_probability : 0
+"pid": 2100, "tid": 2100, "ts": 76720ns : accuracy_log_sampling_target : 0
+"pid": 2100, "tid": 2100, "ts": 76720ns : print_timestamps : false
+"pid": 2100, "tid": 2100, "ts": 76720ns : performance_issue_unique : false
+"pid": 2100, "tid": 2100, "ts": 76720ns : performance_issue_same : false
+"pid": 2100, "tid": 2100, "ts": 76720ns : performance_issue_same_index : 0
+"pid": 2100, "tid": 2100, "ts": 76720ns : performance_sample_count : 1024
+"pid": 2100, "tid": 2100, "ts": 78535ns : 
+"pid": 2100, "tid": 2100, "ts": 78535ns : Requested Settings:
+"pid": 2100, "tid": 2100, "ts": 78535ns : Scenario : Single Stream
+"pid": 2100, "tid": 2100, "ts": 78535ns : Test mode : Performance
+"pid": 2100, "tid": 2100, "ts": 78535ns : single_stream_expected_latency_ns : 50000000
+"pid": 2100, "tid": 2100, "ts": 78535ns : single_stream_target_latency_percentile : 0.9
+"pid": 2100, "tid": 2100, "ts": 78535ns : min_duration_ms : 60000
+"pid": 2100, "tid": 2100, "ts": 78535ns : max_duration_ms : 0
+"pid": 2100, "tid": 2100, "ts": 78535ns : min_query_count : 1024
+"pid": 2100, "tid": 2100, "ts": 78535ns : max_query_count : 0
+"pid": 2100, "tid": 2100, "ts": 78535ns : qsl_rng_seed : 12786827339337101903
+"pid": 2100, "tid": 2100, "ts": 78535ns : sample_index_rng_seed : 12640797754436136668
+"pid": 2100, "tid": 2100, "ts": 78535ns : schedule_rng_seed : 3135815929913719677
+"pid": 2100, "tid": 2100, "ts": 78535ns : accuracy_log_rng_seed : 0
+"pid": 2100, "tid": 2100, "ts": 78535ns : accuracy_log_probability : 0
+"pid": 2100, "tid": 2100, "ts": 78535ns : accuracy_log_sampling_target : 0
+"pid": 2100, "tid": 2100, "ts": 78535ns : print_timestamps : false
+"pid": 2100, "tid": 2100, "ts": 78535ns : performance_issue_unique : false
+"pid": 2100, "tid": 2100, "ts": 78535ns : performance_issue_same : false
+"pid": 2100, "tid": 2100, "ts": 78535ns : performance_issue_same_index : 0
+"pid": 2100, "tid": 2100, "ts": 78535ns : performance_sample_count_override : 1024
+"pid": 2100, "tid": 2100, "ts": 78535ns : 
+"pid": 2100, "tid": 2100, "ts": 83405ns : Starting performance mode:
+"pid": 2100, "tid": 2100, "ts": 177162ns : Loading QSL : "set" : "[150,220,653,398,929,796,729,543,655,404,143,240,454,656,399,191,107,840,593,87,288,644,522,532,51,63,247,347,195,282,975,818,508,27,81,699,166,142,775,402,834,403,486,545,639,623,431,158,785,302,728,990,176,455,189,554,594,116,462,893,57,723,696,10,345,609,1017,940,521,179,49,865,446,386,754,17,215,440,1007,622,381,79,274,1010,880,941,591,892,441,448,983,844,765,482,298,677,1015,377,501,419,529,382,569,320,652,998,853,310,484,978,572,311,208,558,786,255,450,689,537,684,323,389,76,714,548,1011,736,513,205,289,490,838,248,273,846,831,688,760,984,8,48,201,923,887,913,141,243,881,557,83,137,59,968,764,643,472,190,950,183,187,713,71,868,898,117,942,162,813,1009,620,896,316,624,36,269,947,175,905,238,790,995,531,747,1001,47,585,109,300,1008,939,768,466,6,82,131,102,149,105,436,4,584,134,971,101,974,453,737,161,967,626,770,132,882,832,842,244,918,449,229,100,866,667,236,809,266,674,817,646,872,814,611,332,21,895,732,641,91,95,374,867,628,960,1,261,153,128,659,916,124,507,994,957,245,98,231,988,32,743,73,390,340,712,246,372,154,319,661,899,876,542,583,505,597,379,700,679,992,519,297,631,587,253,739,118,199,717,306,409,563,9,835,539,96,371,573,350,767,756,358,870,694,67,1023,221,12,520,478,424,13,536,891,437,788,565,443,502,878,342,509,418,877,759,1013,683,401,370,3,483,422,665,951,368,1016,664,666,910,169,726,715,468,753,927,80,848,40,748,303,864,718,348,668,500,177,52,435,14,533,792,304,928,23,384,779,547,858,952,811,592,894,135,884,857,959,912,716,281,619,883,997,34,538,352,510,479,670,825,685,121,926,958,99,86,89,129,943,194,945,692,429,503,879,333,228,1005,516,84,847,237,387,889,103,738,415,526,924,710,35,535,873,574,920,196,576,420,285,966,286,922,475,804,902,735,170,856,427,546,750,706,492,875,433,795,915,463,608,459,119,686,954,495,18,925,329,474,30,648,284,605,691,41,292,469,582,148,160,956,268,90,366,385,566,640,647,181,672,287,230,425,26,202,291,94,541,751,136,635,949,720,649,808,654,182,771,341,447,317,789,19,741,481,50,932,900,816,336,845,432,852,112,803,833,678,209,976,901,980,705,125,798,72,192,964,755,296,719,257,227,7,560,400,92,186,963,612,730,638,130,204,275,173,53,185,430,579,854,904,363,354,524,772,106,791,414,367,934,278,525,669,1020,944,810,512,660,680,948,334,1022,595,413,552,621,693,416,197,989,784,550,445,982,721,849,806,338,695,438,22,265,65,343,515,494,762,406,365,1003,829,871,937,613,318,0,203,293,171,346,627,540,426,498,993,625,212,224,151,411,241,797,299,60,140,394,571,1014,776,122,935,869,309,193,782,561,45,172,493,85,733,43,115,820,752,836,434,410,888,885,452,496,703,235,675,822,280,596,564,946,745,397,123,313,826,113,523,606,267,56,58,1000,29,256,863,25,327,156,456,663,914,805,1006,464,383,801,766,746,778,110,897,676,518,214,555,200,239,259,709,843,314,690,534,662,321,841,488,996,31,671,528,279,322,283,636,827,260,850,114,210,423,44,586,1021,774,999,702,589,250,364,761,599,206,985,645,258,337,658,461,673,749,61,54,442,909,931,55,251,930,969,487,351,568,380,328,657,421,1018,987,637,707,799,444,207,911,617,412,725,361,527,353,451,290,458,855,159,355,787,769,485,977,360,470,773,581,861,973,991,272,308,600,936,477,551,828,632,724,559,126,222,362,77,601,146,70,219,145,553,263,97,335,213,783,373,78,369,24,376,972,642,722,375,276,734,763,331,851,180,511,270,242,66,264,681,744,62,254,506,908,42,392,711,339,497,188,38,359,577,417,74,39,460,629,388,575,517,315,650,823,16,793,88,955,157,330,758,698,393,252,886,907,471,962,530,562,480,324,15,780,965,428,120,979,108,824,344,819,986,903,139,634,405,953,295,232,860,933,152,168,216,147,890,580,467,614,465,651,164,970,615,307,1004,602,491,862,233,578,391,633,618,357,75,28,499,839,697,504,906,301,603,961,757,549,514,800,588,33,294,349,277,234,610,133,981,917,938,473,742,174,616,2,598,837,326,262,325,271,223,607,489,556,1002,919,69,708,704,630,5,921,794,305,211,570,727,830,590,740,144,821,396,682,64,111,312,476,807,93,1012,356,218,138,701,217,178,167,163,155,859,408,68,567,407,104,395,198,378,249,127,802,165,815,457,439,20,1019,604,731,812,46,781,687,37,11,225,226,184,544,777,874]"
+"pid": 2100, "tid": 2100, "ts": 670429658ns : GeneratedQueries: "queries" : 2401, "samples per query" : 1, "duration" : 120050000000
+"pid": 2100, "tid": 2100, "ts": 60725228914ns :  Ending naturally: Minimum query count and test duration met.
+"pid": 2100, "tid": 2100, "ts": 60725724068ns : Log Contention Counters:
+"pid": 2100, "tid": 2100, "ts": 60725724068ns : 0 : swap_request_slots_retry_count
+"pid": 2100, "tid": 2100, "ts": 60725724068ns : 0 : swap_request_slots_retry_retry_count
+"pid": 2100, "tid": 2100, "ts": 60725724068ns : 0 : swap_request_slots_retry_reencounter_count
+"pid": 2100, "tid": 2100, "ts": 60725724068ns : 0 : start_reading_entries_retry_count
+"pid": 2100, "tid": 2100, "ts": 60725724068ns : 0 : tls_total_log_cas_fail_count
+"pid": 2100, "tid": 2100, "ts": 60725724068ns : 0 : tls_total_swap_buffers_slot_retry_count
+"pid": 2100, "tid": 2100, "ts": 60725726235ns : POWER_BEGIN: "mode" : Performance, "time" : 09-16-2020 22:40:24.452
+"pid": 2100, "tid": 2100, "ts": 60725726235ns : POWER_END: "mode" : Performance, "time" : 09-16-2020 22:41:24.506

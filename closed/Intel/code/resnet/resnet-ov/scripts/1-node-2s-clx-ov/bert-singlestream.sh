@@ -1,0 +1,1 @@
+numactl --cpunodebind=0 --membind=0 Release/ov_mlperf --scenario SingleStream --mlperf_conf Configs/mlperf.conf --user_conf Configs/bert/user.conf --model_name bert --data_path /root/cbai/squadv1.1 --nireq 1 --nthreads 28 --nstreams 1 --total_sample_count 1024 --warmup_iters 10 --model_path Models/bert/bert_large_v1_1_int8.xml

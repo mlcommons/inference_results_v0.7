@@ -1,0 +1,210 @@
+
+Running Server accuracy
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 50000
+Target QPS: 5800
+Start loadgen
+Loaded samples: 50000
+accuracy=75.768%, good=37884, total=50000
+
+Running Server performance #1
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 1024
+Target QPS: 5800
+Start loadgen
+Loaded samples: 1024
+
+Running Server performance #2
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 1024
+Target QPS: 5800
+Start loadgen
+Loaded samples: 1024
+
+Running Server performance #3
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 1024
+Target QPS: 5800
+Start loadgen
+Loaded samples: 1024
+
+Running Server performance #4
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 1024
+Target QPS: 5800
+Start loadgen
+Loaded samples: 1024
+
+Running Server performance #5
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 1024
+Target QPS: 5800
+Start loadgen
+Loaded samples: 1024
+
+Running Server TEST01 compliance
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 1024
+Target QPS: 5800
+Start loadgen
+Loaded samples: 1024
+Verifying accuracy. This might take a while...
+Reading accuracy mode results...
+Reading performance mode results...
+num_acc_log_entries = 50000
+num_acc_log_duplicate_keys = 0
+num_acc_log_data_mismatch = 0
+num_perf_log_entries = 4129
+num_perf_log_qsl_idx_match = 4129
+num_perf_log_data_mismatch = 0
+num_missing_qsl_idxs = 0
+TEST PASS
+
+Verifying performance.
+reference score = 5802.01
+test score = 5802.01
+TEST PASS
+Parsing arguments.
+Accuracy check pass: True
+Performance check pass: True
+TEST01 verification complete
+
+Running Server TEST04 compliance
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 1024
+Target QPS: 5800
+Start loadgen
+Loaded samples: 1024
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 1024
+Target QPS: 5800
+Start loadgen
+Loaded samples: 1024
+Verifying performance.
+TEST04-A score = 5867.33
+TEST04-B score = 5867.33
+TEST PASS
+Parsing arguments.
+Performance check pass: True
+TEST04 verification complete
+
+Running Server TEST05 compliance
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 1024
+Target QPS: 5800
+Start loadgen
+Loaded samples: 1024
+Verifying performance.
+reference score = 5802.01
+test score = 5786.49
+TEST PASS
+Parsing arguments.
+Performance check pass: True
+TEST05 verification complete
+
+Running Offline accuracy
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 50000
+Target QPS: 6000
+Start loadgen
+Loaded samples: 50000
+accuracy=75.768%, good=37884, total=50000
+
+Running Offline performance #1
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 24576
+Target QPS: 6000
+Start loadgen
+Loaded samples: 24576
+
+Running Offline TEST01 compliance
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 24576
+Target QPS: 6000
+Start loadgen
+Loaded samples: 24576
+Verifying accuracy. This might take a while...
+Reading accuracy mode results...
+Reading performance mode results...
+num_acc_log_entries = 50000
+num_acc_log_duplicate_keys = 0
+num_acc_log_data_mismatch = 0
+num_perf_log_entries = 4504
+num_perf_log_qsl_idx_match = 4504
+num_perf_log_data_mismatch = 0
+num_missing_qsl_idxs = 0
+TEST PASS
+
+Verifying performance.
+reference score = 6015.8
+test score = 6014.57
+TEST PASS
+Parsing arguments.
+Accuracy check pass: True
+Performance check pass: True
+TEST01 verification complete
+
+Running Offline TEST04 compliance
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 24576
+Target QPS: 6000
+Start loadgen
+Loaded samples: 24576
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 24576
+Target QPS: 6000
+Start loadgen
+Loaded samples: 24576
+Verifying performance.
+TEST04-A score = 6000.55
+TEST04-B score = 6012.78
+TEST PASS
+Parsing arguments.
+Performance check pass: True
+TEST04 verification complete
+
+Running Offline TEST05 compliance
+loading xclbin: /home/sdausr/sridhark/XCLBIN/162ps_WNS_350MHz.xclbin
+done loading xclbin
+Query count: 270336
+Sample count: 24576
+Target QPS: 6000
+Start loadgen
+Loaded samples: 24576
+Verifying performance.
+reference score = 6015.8
+test score = 6016.49
+TEST PASS
+Parsing arguments.
+Performance check pass: True
+TEST05 verification complete

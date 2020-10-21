@@ -1,0 +1,119 @@
+"pid": 3321, "tid": 3321, "ts": 5242ns : LoadgenVersionInfo:
+"pid": 3321, "tid": 3321, "ts": 5242ns : version : .5a1 @ 30f1fd3333
+"pid": 3321, "tid": 3321, "ts": 5242ns : build_date_local : 2020-09-09T14:06:20.968232
+"pid": 3321, "tid": 3321, "ts": 5242ns : build_date_utc   : 2020-09-09T14:06:20.968248
+"pid": 3321, "tid": 3321, "ts": 5242ns : git_commit_date  : 2020-09-09T16:56:24+03:00
+"pid": 3321, "tid": 3321, "ts": 5242ns : git_log :
+
+30f1fd33333ffa528468eb348043ec742d16c71f 1
+4e191363138a3ddedfd355a33e688e0ad7742e3e 1
+
+"pid": 3321, "tid": 3321, "ts": 5242ns : git_status :
+
+
+
+"pid": 3321, "tid": 3321, "ts": 5242ns : SHA1 of files :
+
+012aad77e5206c89d50718c46c119d1f3cb056b2 /.clang-format
+b82905303c4756c4a2ab40ceed92cdddbf04bf2d /BUILD.gn
+7067c2704e8de3be0a0fb9ef5984d52a88f9b91e /CMakeLists.txt
+79fbce4843967690e0750fd7ffc021f4f1e4c5c4 /README.md
+34b89a712a0ca1691b89715fe2ce459a676d0f77 /README_BUILD.md
+f75741b91085a20ebb23de1ce03d45a56d3457fe /README_FAQ.md
+a00620bb4c9b583c1d2f5beef1a5e8d772aefb9b /bindings/c_api.cc
+81873e098bc60c7bc59045c8329ce153dd1ec055 /bindings/c_api.h
+227149dc287e93a28da9ce92346158e4e403b694 /bindings/python_api.cc
+4b68d3399b31e14e554cff678a0db9b4d1299e23 /demos/BUILD.gn
+07d85ea5fefade8d3d66ca832b783bf90e5bce7d /demos/py_demo_multi_stream.py
+2f941e949770a2ea9ad6d6eea2f33fc19150edcd /demos/py_demo_multi_stream_free.py
+73c60cf12cfb69619249e637f9bcad18a47cda6c /demos/py_demo_offline.py
+02a6ddbe8b51bde2cfed32abeccdb7fdd9cfe4e7 /demos/py_demo_server.py
+3e7d786882099ac784bf878f1cde9dd3db2f6d9f /demos/py_demo_single_stream.py
+8e76b6b70bc724c4a75dde2931c060ac831335b3 /issue_query_controller.cc
+703be7bdc58a8fa83555917f89054cbdb50038d4 /issue_query_controller.h
+d0a22cb9115eed76f7cfb81ee8d0679ba16485fe /loadgen.cc
+ef11e328aa06b4e1996d68e4746a969b9c9ade67 /loadgen.h
+47f748307536f80cfc606947b440dd732afc2637 /loadgen_integration_diagram.svg
+9960bfaf44da0925444c74d54e1b97d75bf5e812 /logging.cc
+fdb61b8a2e2593bab4ae5bf9758434cf6a60e218 /logging.h
+a879f127c4bb64d131056942734ea1a6ba9c3033 /query_sample.h
+61feb478b15668f48245c5083d559dee5de1c082 /query_sample_library.h
+bd41a2b3f4ed365566e411fddd012c66a320e87b /setup.py
+744482c84336420adbbe31ef8c2b39612c6ca3f8 /system_under_test.h
+34eec1f8fb4a2db273b715686580f19cffa2f3a1 /test_settings.h
+08bc8aec88abd99fa5633c23fb94d090138b475e /test_settings_internal.cc
+085aaa57819f88c585c1f3a627a2d9a432a01bbc /test_settings_internal.h
+86fc4c8035e7b73132c56d1781aca647b6bd6916 /utils.cc
+5395a04f82e90288f52bf918d7b1d6027bfe0964 /utils.h
+e1c46896da912ff2a0187276c3a8ba4eec057a17 /version.cc
+9d574baa64424e9c708fcfedd3dbb0b518a65fcc /version.h
+07dbee77c9707efdb95def65477c288fe6667e92 /version_generator.py
+
+"pid": 3321, "tid": 3321, "ts": 18771ns : Date + time of test: 2020-09-17T13:56:54Z
+"pid": 3321, "tid": 3321, "ts": 18771ns : System Under Test (SUT) name: PySUT
+"pid": 3321, "tid": 3321, "ts": 18771ns : Query Sample Library (QSL) name: PyQSL
+"pid": 3321, "tid": 3321, "ts": 18771ns : QSL total size: 1024
+"pid": 3321, "tid": 3321, "ts": 18771ns : QSL performance size*: 1024
+"pid": 3321, "tid": 3321, "ts": 18771ns : *TestSettings (performance_sample_count_override) can override
+"pid": 3321, "tid": 3321, "ts": 18771ns : *Refer to Effective Settings for actual value
+"pid": 3321, "tid": 3321, "ts": 26729ns : Found Audit Config file (audit.config). Overriding TestSettings from audit.config file.
+"pid": 3321, "tid": 3321, "ts": 82777ns : 
+"pid": 3321, "tid": 3321, "ts": 82777ns : Effective Settings:
+"pid": 3321, "tid": 3321, "ts": 82777ns : Scenario : Offline
+"pid": 3321, "tid": 3321, "ts": 82777ns : Test mode : Performance
+"pid": 3321, "tid": 3321, "ts": 82777ns : samples_per_query : 1024
+"pid": 3321, "tid": 3321, "ts": 82777ns : target_qps : 1200
+"pid": 3321, "tid": 3321, "ts": 82777ns : target_latency (ns): 0
+"pid": 3321, "tid": 3321, "ts": 82777ns : target_latency_percentile : 0
+"pid": 3321, "tid": 3321, "ts": 82777ns : max_async_queries : 1
+"pid": 3321, "tid": 3321, "ts": 82777ns : target_duration (ms): 0
+"pid": 3321, "tid": 3321, "ts": 82777ns : min_duration (ms): 60000
+"pid": 3321, "tid": 3321, "ts": 82777ns : max_duration (ms): 0
+"pid": 3321, "tid": 3321, "ts": 82777ns : min_query_count : 1
+"pid": 3321, "tid": 3321, "ts": 82777ns : max_query_count : 1024
+"pid": 3321, "tid": 3321, "ts": 82777ns : min_sample_count : 1024
+"pid": 3321, "tid": 3321, "ts": 82777ns : qsl_rng_seed : 12786827339337101903
+"pid": 3321, "tid": 3321, "ts": 82777ns : sample_index_rng_seed : 12640797754436136668
+"pid": 3321, "tid": 3321, "ts": 82777ns : schedule_rng_seed : 3135815929913719677
+"pid": 3321, "tid": 3321, "ts": 82777ns : accuracy_log_rng_seed : 0
+"pid": 3321, "tid": 3321, "ts": 82777ns : accuracy_log_probability : 0
+"pid": 3321, "tid": 3321, "ts": 82777ns : accuracy_log_sampling_target : 0
+"pid": 3321, "tid": 3321, "ts": 82777ns : print_timestamps : false
+"pid": 3321, "tid": 3321, "ts": 82777ns : performance_issue_unique : true
+"pid": 3321, "tid": 3321, "ts": 82777ns : performance_issue_same : false
+"pid": 3321, "tid": 3321, "ts": 82777ns : performance_issue_same_index : 0
+"pid": 3321, "tid": 3321, "ts": 82777ns : performance_sample_count : 1024
+"pid": 3321, "tid": 3321, "ts": 83505ns : 
+"pid": 3321, "tid": 3321, "ts": 83505ns : Requested Settings:
+"pid": 3321, "tid": 3321, "ts": 83505ns : Scenario : Offline
+"pid": 3321, "tid": 3321, "ts": 83505ns : Test mode : Performance
+"pid": 3321, "tid": 3321, "ts": 83505ns : offline_expected_qps : 1200
+"pid": 3321, "tid": 3321, "ts": 83505ns : min_duration_ms : 60000
+"pid": 3321, "tid": 3321, "ts": 83505ns : max_duration_ms : 0
+"pid": 3321, "tid": 3321, "ts": 83505ns : min_query_count : 1024
+"pid": 3321, "tid": 3321, "ts": 83505ns : max_query_count : 1024
+"pid": 3321, "tid": 3321, "ts": 83505ns : qsl_rng_seed : 12786827339337101903
+"pid": 3321, "tid": 3321, "ts": 83505ns : sample_index_rng_seed : 12640797754436136668
+"pid": 3321, "tid": 3321, "ts": 83505ns : schedule_rng_seed : 3135815929913719677
+"pid": 3321, "tid": 3321, "ts": 83505ns : accuracy_log_rng_seed : 0
+"pid": 3321, "tid": 3321, "ts": 83505ns : accuracy_log_probability : 0
+"pid": 3321, "tid": 3321, "ts": 83505ns : accuracy_log_sampling_target : 0
+"pid": 3321, "tid": 3321, "ts": 83505ns : print_timestamps : false
+"pid": 3321, "tid": 3321, "ts": 83505ns : performance_issue_unique : true
+"pid": 3321, "tid": 3321, "ts": 83505ns : performance_issue_same : false
+"pid": 3321, "tid": 3321, "ts": 83505ns : performance_issue_same_index : 0
+"pid": 3321, "tid": 3321, "ts": 83505ns : performance_sample_count_override : 0
+"pid": 3321, "tid": 3321, "ts": 83505ns : 
+"pid": 3321, "tid": 3321, "ts": 85768ns : Starting performance mode:
+"pid": 3321, "tid": 3321, "ts": 114831ns : Loading QSL : "set" : "[570,283,774,895,203,925,329,825,701,40,323,822,36,17,595,672,585,71,84,751,418,244,611,165,301,641,89,278,298,698,85,349,1006,610,112,87,810,940,620,312,697,506,984,447,973,956,44,242,603,148,201,680,327,523,862,684,7,394,942,140,343,937,275,369,1007,658,8,424,736,927,930,616,531,653,127,851,485,514,476,96,91,550,863,372,82,796,601,613,20,46,396,951,94,26,528,385,234,818,757,34,649,948,488,827,31,965,513,964,460,123,434,967,947,663,871,526,710,367,218,608,995,560,561,75,459,498,101,557,495,673,196,357,187,779,439,272,158,351,497,166,37,728,997,727,154,68,832,788,633,536,436,438,515,986,240,615,395,183,440,806,210,290,83,724,645,212,509,334,456,364,970,957,858,375,742,670,770,991,178,397,902,99,430,668,920,776,279,693,781,296,972,978,256,336,866,730,59,887,959,347,413,136,990,259,130,784,370,463,356,998,461,268,591,600,777,596,452,642,105,849,944,29,133,305,344,478,521,882,325,143,135,655,292,479,230,800,692,594,771,189,790,518,580,787,785,949,328,924,73,139,122,752,683,169,427,962,661,489,627,773,400,483,253,847,916,281,674,262,366,56,831,172,216,453,48,941,54,363,468,11,908,406,549,855,834,53,319,209,393,492,407,404,892,938,142,77,538,204,402,803,79,152,224,1022,288,931,280,877,149,118,217,552,597,598,804,820,646,120,759,282,411,881,445,318,963,238,412,1023,723,228,725,706,738,981,501,904,78,16,516,504,809,614,558,390,686,535,797,35,639,346,157,581,768,42,274,124,794,426,952,355,388,654,27,208,852,70,890,330,753,160,682,432,625,466,519,946,936,546,609,1017,311,872,555,958,374,1000,662,731,874,159,103,879,869,271,700,175,415,893,25,745,66,841,15,626,669,310,100,239,1002,168,749,711,57,164,93,317,896,254,584,976,783,23,417,225,961,721,171,880,525,55,651,578,4,1008,694,482,689,324,919,928,252,707,588,876,983,1021,517,704,885,726,435,989,566,428,665,137,894,935,568,22,545,667,766,703,291,816,921,74,13,306,750,755,72,574,300,341,237,657,899,502,223,353,763,884,47,383,63,322,612,90,569,675,734,381,39,564,812,676,754,24,233,644,98,579,194,151,174,839,198,643,307,473,475,442,562,97,458,431,632,229,527,316,299,586,121,138,408,505,520,845,950,583,824,1004,861,128,379,799,628,197,789,294,179,352,350,43,994,854,623,975,888,257,859,599,836,116,119,889,823,974,576,814,104,107,760,903,891,392,134,287,765,621,153,512,815,443,481,985,380,144,150,553,269,630,909,554,500,780,529,769,918,289,180,605,719,52,1011,977,389,115,922,1015,548,532,464,775,182,929,188,155,870,988,199,934,886,534,590,905,540,125,221,145,491,762,441,915,830,714,382,12,793,499,592,1016,982,826,817,95,451,109,709,640,429,185,705,186,567,772,6,671,496,718,163,996,677,147,589,801,420,778,333,807,314,737,338,503,64,391,477,543,748,293,410,593,873,835,1012,966,361,487,277,993,9,695,559,522,798,309,735,565,449,260,321,842,943,712,508,926,865,474,469,856,850,264,207,733,414,939,480,828,563,898,638,193,622,648,635,245,713,129,222,195,457,833,910,167,1009,843,19,422,708,263,384,660,980,699,883,664,304,419,365,146,433,933,530,51,126,587,786,837,1001,795,467,342,911,470,284,32,58,571,49,273,624,266,968,111,454,360,631,732,335,337,907,265,401,295,575,971,60,716,878,629,637,860,808,744,767,864,533,276,912,900,340,923,1010,202,690,746,339,227,76,69,416,373,286,679,906,792,875,92,302,10,740,378,715,634,258,955,80,868,1,213,969,617,691,61,21,28,650,377,117,14,539,688,236,572,255,368,446,618,455,399,722,541,914,494,371,106,248,376,308,65,162,838,345,573,421,331,425,696,246,582,243,472,156,232,604,960,659,551,471,437,636,758,81,3,0,184,829,332,717,739,30,547,398,297,200,86,450,819,320,486,577,113,979,537,913,954,747,542,251,247,953,241,791,656,1020,249,511,840,161,811,1014,652,761,782,720,490,33,348,448,802,484,214,219,1013,177,493,1005,901,5,250,235,685,62,359,354,358,220,303,813,387,226,867,607,524,191,556,846,405,678,681,666,465,544,110,423,932,41,114,108,231,326,647,987,386,1018,131,267,764,211,462,848,606,917,857,756,215,1019,190,507,38,687,844,992,170,261,729,181,409,362,45,602,285,510,315,67,18,897,192,2,205,805,173,619,702,102,50,444,853,999,403,141,945,821,313,176,741,132,270,88,206,1003,743]"
+"pid": 3321, "tid": 3321, "ts": 631225150ns : GeneratedQueries: "queries" : 1, "samples per query" : 1024, "duration" : 833333
+"pid": 3321, "tid": 3321, "ts": 1365387592ns :  Ending naturally: Minimum query count and test duration met.
+"pid": 3321, "tid": 3321, "ts": 1700739513ns : Log Contention Counters:
+"pid": 3321, "tid": 3321, "ts": 1700739513ns : 0 : swap_request_slots_retry_count
+"pid": 3321, "tid": 3321, "ts": 1700739513ns : 0 : swap_request_slots_retry_retry_count
+"pid": 3321, "tid": 3321, "ts": 1700739513ns : 0 : swap_request_slots_retry_reencounter_count
+"pid": 3321, "tid": 3321, "ts": 1700739513ns : 0 : start_reading_entries_retry_count
+"pid": 3321, "tid": 3321, "ts": 1700739513ns : 0 : tls_total_log_cas_fail_count
+"pid": 3321, "tid": 3321, "ts": 1700739513ns : 0 : tls_total_swap_buffers_slot_retry_count
+"pid": 3321, "tid": 3321, "ts": 1700741906ns : POWER_BEGIN: "mode" : Performance, "time" : 09-17-2020 13:56:55.552
+"pid": 3321, "tid": 3321, "ts": 1700741906ns : POWER_END: "mode" : Performance, "time" : 09-17-2020 13:56:56.619

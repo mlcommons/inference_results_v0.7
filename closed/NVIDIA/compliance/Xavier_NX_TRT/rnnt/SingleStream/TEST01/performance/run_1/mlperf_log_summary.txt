@@ -1,0 +1,53 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : RNNT SERVER
+Scenario : Single Stream
+Mode     : Performance
+90th percentile latency (ns) : 374739481
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 4.34
+QPS w/o loadgen overhead        : 4.39
+
+Min latency (ns)                : 67735981
+Max latency (ns)                : 508727453
+Mean latency (ns)               : 228004318
+50.00 percentile latency (ns)   : 208171913
+90.00 percentile latency (ns)   : 374739481
+95.00 percentile latency (ns)   : 438335262
+97.00 percentile latency (ns)   : 469963138
+99.00 percentile latency (ns)   : 487145323
+99.90 percentile latency (ns)   : 508167741
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 5
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1024
+max_query_count : 0
+qsl_rng_seed : 12786827339337101903
+sample_index_rng_seed : 12640797754436136668
+schedule_rng_seed : 3135815929913719677
+accuracy_log_rng_seed : 720381539243781796
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 4096
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 2513
+
+No warnings encountered during test.
+
+No errors encountered during test.

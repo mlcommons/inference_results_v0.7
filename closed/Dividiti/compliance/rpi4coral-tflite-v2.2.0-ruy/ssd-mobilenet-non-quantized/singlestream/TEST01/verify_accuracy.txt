@@ -1,0 +1,15 @@
+Verifying accuracy. This might take a while...
+Traceback (most recent call last):
+  File "/home/anton/CK_TOOLS/mlperf-inference-r0.7/inference/compliance/nvidia/TEST01/verify_accuracy.py", line 184, in <module>
+    main()
+  File "/home/anton/CK_TOOLS/mlperf-inference-r0.7/inference/compliance/nvidia/TEST01/verify_accuracy.py", line 68, in main
+    acc_data = json.load(acc_json)
+  File "/usr/lib/python3.6/json/__init__.py", line 299, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/usr/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.6/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid control character at: line 73 column 84 (char 4096)

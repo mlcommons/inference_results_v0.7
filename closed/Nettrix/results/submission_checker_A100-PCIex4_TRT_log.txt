@@ -1,0 +1,50 @@
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/resnet50/Server/accuracy, accuracy is 75.918
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/resnet50/Server is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/resnet50/Offline/accuracy, accuracy is 75.918
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/resnet50/Offline is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/rnnt/Server/accuracy, accuracy is 92.55225596969493
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/rnnt/Server is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/rnnt/Offline/accuracy, accuracy is 92.55225596969493
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/rnnt/Offline is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/bert-99.9/Server/accuracy, accuracy is 90.87601624418225
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/bert-99.9/Server is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/bert-99.9/Offline/accuracy, accuracy is 90.86345516918031
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/bert-99.9/Offline is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/ssd-resnet34/Server/accuracy, accuracy is 20.111
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/ssd-resnet34/Server is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/ssd-resnet34/Offline/accuracy, accuracy is 20.111
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/ssd-resnet34/Offline is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/dlrm-99.9/Server/accuracy, accuracy is 80.185
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/dlrm-99.9/Server is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/dlrm-99.9/Offline/accuracy, accuracy is 80.185
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/dlrm-99.9/Offline is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/3d-unet-99.9/Offline/accuracy, accuracy is 0.85333
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/3d-unet-99.9/Offline is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/bert-99/Server/accuracy, accuracy is 90.40699747883913
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/bert-99/Server is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/bert-99/Offline/accuracy, accuracy is 90.43326524910879
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/bert-99/Offline is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/dlrm-99/Server/accuracy, accuracy is 80.185
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/dlrm-99/Server is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/dlrm-99/Offline/accuracy, accuracy is 80.185
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/dlrm-99/Offline is OK
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/3d-unet-99/Offline/accuracy, accuracy is 0.85333
+INFO:main:closed/Nettrix/results/A100-PCIex4_TRT/3d-unet-99/Offline is OK
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/resnet50/Server 110049.91
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/resnet50/Offline 131395.0
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/rnnt/Server 32007.37
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/rnnt/Offline 35159.7
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/bert-99.9/Server 5048.25
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/bert-99.9/Offline 5767.04
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/ssd-resnet34/Server 3339.0
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/ssd-resnet34/Offline 3439.98
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/dlrm-99.9/Server 369085.68
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/dlrm-99.9/Offline 921417.0
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/3d-unet-99.9/Offline 160.516
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/bert-99/Server 10853.47
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/bert-99/Offline 11521.0
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/dlrm-99/Server 369085.68
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/dlrm-99/Offline 921417.0
+INFO:main:Results closed/Nettrix/results/A100-PCIex4_TRT/3d-unet-99/Offline 160.516
+INFO:main:Results=16, NoResults=0
+INFO:main:SUMMARY: submission looks OK

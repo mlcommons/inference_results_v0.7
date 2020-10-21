@@ -1,0 +1,53 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : MOBILINT
+Scenario : Single Stream
+Mode     : Performance
+90th percentile latency (ns) : 10635287
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 94.32
+QPS w/o loadgen overhead        : 94.34
+
+Min latency (ns)                : 10479493
+Max latency (ns)                : 11017329
+Mean latency (ns)               : 10599893
+50.00 percentile latency (ns)   : 10600704
+90.00 percentile latency (ns)   : 10635287
+95.00 percentile latency (ns)   : 10643441
+97.00 percentile latency (ns)   : 10647701
+99.00 percentile latency (ns)   : 10656086
+99.90 percentile latency (ns)   : 10691362
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 90.9091
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1024
+max_query_count : 0
+qsl_rng_seed : 12786827339337101903
+sample_index_rng_seed : 12640797754436136668
+schedule_rng_seed : 3135815929913719677
+accuracy_log_rng_seed : 720381539243781796
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 1024
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 256
+
+No warnings encountered during test.
+
+No errors encountered during test.

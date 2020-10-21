@@ -1,0 +1,261 @@
+system_id,benchmark,scenario,perf_metric,perf_value
+A100-PCIex1_TRT,3d-unet-99,Offline,Samples per second,38.1951
+A100-PCIex1_TRT,3d-unet-99,SingleStream,90th percentile latency \(ns\),35284801.0
+A100-PCIex1_TRT,3d-unet-99.9,Offline,Samples per second,38.1951
+A100-PCIex1_TRT,3d-unet-99.9,SingleStream,90th percentile latency \(ns\),35284801.0
+A100-PCIex1_TRT,bert-99,Offline,Samples per second,2859.17
+A100-PCIex1_TRT,bert-99,SingleStream,90th percentile latency \(ns\),1759950.0
+A100-PCIex1_TRT,resnet50,MultiStream,Samples per query,1344.0
+A100-PCIex1_TRT,resnet50,Offline,Samples per second,32008.2
+A100-PCIex1_TRT,resnet50,SingleStream,90th percentile latency \(ns\),518641.0
+A100-PCIex1_TRT,rnnt,Offline,Samples per second,8650.5
+A100-PCIex1_TRT,rnnt,SingleStream,90th percentile latency \(ns\),31468586.0
+A100-PCIex1_TRT,ssd-mobilenet,MultiStream,Samples per query,1600.0
+A100-PCIex1_TRT,ssd-mobilenet,Offline,Samples per second,44370.9
+A100-PCIex1_TRT,ssd-mobilenet,SingleStream,90th percentile latency \(ns\),350254.0
+A100-PCIex1_TRT,ssd-resnet34,MultiStream,Samples per query,48.0
+A100-PCIex1_TRT,ssd-resnet34,Offline,Samples per second,852.186
+A100-PCIex1_TRT,ssd-resnet34,SingleStream,90th percentile latency \(ns\),1988396.0
+A100-PCIex1_TRT_Triton,3d-unet-99,Offline,Samples per second,35.3979
+A100-PCIex1_TRT_Triton,3d-unet-99,SingleStream,90th percentile latency \(ns\),44937372.0
+A100-PCIex1_TRT_Triton,3d-unet-99.9,Offline,Samples per second,35.3979
+A100-PCIex1_TRT_Triton,3d-unet-99.9,SingleStream,90th percentile latency \(ns\),44937372.0
+A100-PCIex1_TRT_Triton,bert-99,Offline,Samples per second,2734.56
+A100-PCIex1_TRT_Triton,bert-99,SingleStream,90th percentile latency \(ns\),1949327.0
+A100-PCIex1_TRT_Triton,resnet50,MultiStream,Samples per query,1344.0
+A100-PCIex1_TRT_Triton,resnet50,Offline,Samples per second,33422.7
+A100-PCIex1_TRT_Triton,resnet50,SingleStream,90th percentile latency \(ns\),562560.0
+A100-PCIex1_TRT_Triton,ssd-mobilenet,MultiStream,Samples per query,1600.0
+A100-PCIex1_TRT_Triton,ssd-mobilenet,Offline,Samples per second,44134.4
+A100-PCIex1_TRT_Triton,ssd-mobilenet,SingleStream,90th percentile latency \(ns\),372694.0
+A100-PCIex1_TRT_Triton,ssd-resnet34,MultiStream,Samples per query,48.0
+A100-PCIex1_TRT_Triton,ssd-resnet34,Offline,Samples per second,852.183
+A100-PCIex1_TRT_Triton,ssd-resnet34,SingleStream,90th percentile latency \(ns\),2038186.0
+A100-PCIex2_TRT,3d-unet-99,Offline,Samples per second,75.1293
+A100-PCIex2_TRT,3d-unet-99.9,Offline,Samples per second,75.1293
+A100-PCIex2_TRT,bert-99,Offline,Samples per second,5665.3
+A100-PCIex2_TRT,bert-99,Server,Scheduled samples per second,5199.74
+A100-PCIex2_TRT,bert-99.9,Offline,Samples per second,2815.49
+A100-PCIex2_TRT,bert-99.9,Server,Scheduled samples per second,2427.82
+A100-PCIex2_TRT,dlrm-99,Offline,Samples per second,458955.0
+A100-PCIex2_TRT,dlrm-99,Server,Scheduled samples per second,385085.3
+A100-PCIex2_TRT,dlrm-99.9,Offline,Samples per second,458955.0
+A100-PCIex2_TRT,dlrm-99.9,Server,Scheduled samples per second,385085.3
+A100-PCIex2_TRT,resnet50,Offline,Samples per second,63781.8
+A100-PCIex2_TRT,resnet50,Server,Scheduled samples per second,52425.14
+A100-PCIex2_TRT,rnnt,Offline,Samples per second,17207.0
+A100-PCIex2_TRT,rnnt,Server,Scheduled samples per second,15002.23
+A100-PCIex2_TRT,ssd-resnet34,Offline,Samples per second,1688.85
+A100-PCIex2_TRT,ssd-resnet34,Server,Scheduled samples per second,1598.56
+A100-PCIex2_TRT_Triton,3d-unet-99,Offline,Samples per second,67.2968
+A100-PCIex2_TRT_Triton,3d-unet-99.9,Offline,Samples per second,67.2968
+A100-PCIex2_TRT_Triton,bert-99,Offline,Samples per second,5210.6
+A100-PCIex2_TRT_Triton,bert-99,Server,Scheduled samples per second,4386.07
+A100-PCIex2_TRT_Triton,bert-99.9,Offline,Samples per second,2694.1
+A100-PCIex2_TRT_Triton,bert-99.9,Server,Scheduled samples per second,2367.87
+A100-PCIex2_TRT_Triton,resnet50,Offline,Samples per second,63828.5
+A100-PCIex2_TRT_Triton,resnet50,Server,Scheduled samples per second,39997.81
+A100-PCIex2_TRT_Triton,ssd-resnet34,Offline,Samples per second,1677.55
+A100-PCIex2_TRT_Triton,ssd-resnet34,Server,Scheduled samples per second,1571.09
+AGX_Xavier_TRT,3d-unet-99,Offline,Samples per second,2.28825
+AGX_Xavier_TRT,3d-unet-99,SingleStream,90th percentile latency \(ns\),439273668.0
+AGX_Xavier_TRT,3d-unet-99.9,Offline,Samples per second,2.28825
+AGX_Xavier_TRT,3d-unet-99.9,SingleStream,90th percentile latency \(ns\),439273668.0
+AGX_Xavier_TRT,bert-99,Offline,Samples per second,91.0156
+AGX_Xavier_TRT,bert-99,SingleStream,90th percentile latency \(ns\),30806756.0
+AGX_Xavier_TRT,resnet50,MultiStream,Samples per query,96.0
+AGX_Xavier_TRT,resnet50,Offline,Samples per second,2074.53
+AGX_Xavier_TRT,resnet50,SingleStream,90th percentile latency \(ns\),2144898.0
+AGX_Xavier_TRT,rnnt,Offline,Samples per second,419.313
+AGX_Xavier_TRT,rnnt,SingleStream,90th percentile latency \(ns\),179312276.0
+AGX_Xavier_TRT,ssd-mobilenet,MultiStream,Samples per query,107.0
+AGX_Xavier_TRT,ssd-mobilenet,Offline,Samples per second,2532.74
+AGX_Xavier_TRT,ssd-mobilenet,SingleStream,90th percentile latency \(ns\),1245207.0
+AGX_Xavier_TRT,ssd-resnet34,MultiStream,Samples per query,2.0
+AGX_Xavier_TRT,ssd-resnet34,Offline,Samples per second,50.9757
+AGX_Xavier_TRT,ssd-resnet34,SingleStream,90th percentile latency \(ns\),28531845.0
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT,3d-unet-99,Offline,Samples per second,5.18784
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT,3d-unet-99,SingleStream,90th percentile latency \(ns\),192918583.0
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT,3d-unet-99.9,Offline,Samples per second,5.18784
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT,3d-unet-99.9,SingleStream,90th percentile latency \(ns\),192918583.0
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT,bert-99,Offline,Samples per second,464.276
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT,bert-99,SingleStream,90th percentile latency \(ns\),6759718.0
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT,resnet50,Offline,Samples per second,4966.44
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT,resnet50,SingleStream,90th percentile latency \(ns\),739918.0
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT,rnnt,Offline,Samples per second,1133.86
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT,rnnt,SingleStream,90th percentile latency \(ns\),95380884.0
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT,ssd-mobilenet,Offline,Samples per second,6939.28
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT,ssd-mobilenet,SingleStream,90th percentile latency \(ns\),489248.0
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT,ssd-resnet34,Offline,Samples per second,134.428
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT,ssd-resnet34,SingleStream,90th percentile latency \(ns\),8341516.0
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT_Triton,3d-unet-99,Offline,Samples per second,5.1883
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT_Triton,3d-unet-99,SingleStream,90th percentile latency \(ns\),203000661.0
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT_Triton,3d-unet-99.9,Offline,Samples per second,5.1883
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT_Triton,3d-unet-99.9,SingleStream,90th percentile latency \(ns\),203000661.0
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT_Triton,bert-99,Offline,Samples per second,434.931
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT_Triton,bert-99,SingleStream,90th percentile latency \(ns\),10992868.0
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT_Triton,resnet50,Offline,Samples per second,4906.54
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT_Triton,resnet50,SingleStream,90th percentile latency \(ns\),760125.0
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT_Triton,ssd-mobilenet,Offline,Samples per second,6841.59
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT_Triton,ssd-mobilenet,SingleStream,90th percentile latency \(ns\),527078.0
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT_Triton,ssd-resnet34,Offline,Samples per second,134.744
+DGX-A100_A100-SXM4x1-MIG_1x1g.5gb_TRT_Triton,ssd-resnet34,SingleStream,90th percentile latency \(ns\),8514429.0
+DGX-A100_A100-SXM4x1_TRT,3d-unet-99,Offline,Samples per second,41.8081
+DGX-A100_A100-SXM4x1_TRT,3d-unet-99,SingleStream,90th percentile latency \(ns\),27421021.0
+DGX-A100_A100-SXM4x1_TRT,3d-unet-99.9,Offline,Samples per second,41.8081
+DGX-A100_A100-SXM4x1_TRT,3d-unet-99.9,SingleStream,90th percentile latency \(ns\),27421021.0
+DGX-A100_A100-SXM4x1_TRT,bert-99,Offline,Samples per second,3335.21
+DGX-A100_A100-SXM4x1_TRT,bert-99,SingleStream,90th percentile latency \(ns\),1741417.0
+DGX-A100_A100-SXM4x1_TRT,resnet50,MultiStream,Samples per query,1760.0
+DGX-A100_A100-SXM4x1_TRT,resnet50,Offline,Samples per second,37479.5
+DGX-A100_A100-SXM4x1_TRT,resnet50,SingleStream,90th percentile latency \(ns\),507332.0
+DGX-A100_A100-SXM4x1_TRT,rnnt,Offline,Samples per second,10413.4
+DGX-A100_A100-SXM4x1_TRT,rnnt,SingleStream,90th percentile latency \(ns\),27375305.0
+DGX-A100_A100-SXM4x1_TRT,ssd-mobilenet,MultiStream,Samples per query,2368.0
+DGX-A100_A100-SXM4x1_TRT,ssd-mobilenet,Offline,Samples per second,51204.6
+DGX-A100_A100-SXM4x1_TRT,ssd-mobilenet,SingleStream,90th percentile latency \(ns\),312567.0
+DGX-A100_A100-SXM4x1_TRT,ssd-resnet34,MultiStream,Samples per query,60.0
+DGX-A100_A100-SXM4x1_TRT,ssd-resnet34,Offline,Samples per second,980.642
+DGX-A100_A100-SXM4x1_TRT,ssd-resnet34,SingleStream,90th percentile latency \(ns\),1761845.0
+DGX-A100_A100-SXM4x1_TRT_Triton,3d-unet-99,Offline,Samples per second,37.7479
+DGX-A100_A100-SXM4x1_TRT_Triton,3d-unet-99,SingleStream,90th percentile latency \(ns\),37213311.0
+DGX-A100_A100-SXM4x1_TRT_Triton,3d-unet-99.9,Offline,Samples per second,37.7479
+DGX-A100_A100-SXM4x1_TRT_Triton,3d-unet-99.9,SingleStream,90th percentile latency \(ns\),37213311.0
+DGX-A100_A100-SXM4x1_TRT_Triton,bert-99,Offline,Samples per second,3198.83
+DGX-A100_A100-SXM4x1_TRT_Triton,bert-99,SingleStream,90th percentile latency \(ns\),1860460.0
+DGX-A100_A100-SXM4x1_TRT_Triton,resnet50,MultiStream,Samples per query,1440.0
+DGX-A100_A100-SXM4x1_TRT_Triton,resnet50,Offline,Samples per second,37558.2
+DGX-A100_A100-SXM4x1_TRT_Triton,resnet50,SingleStream,90th percentile latency \(ns\),531336.0
+DGX-A100_A100-SXM4x1_TRT_Triton,ssd-mobilenet,MultiStream,Samples per query,1920.0
+DGX-A100_A100-SXM4x1_TRT_Triton,ssd-mobilenet,Offline,Samples per second,50796.1
+DGX-A100_A100-SXM4x1_TRT_Triton,ssd-mobilenet,SingleStream,90th percentile latency \(ns\),331863.0
+DGX-A100_A100-SXM4x1_TRT_Triton,ssd-resnet34,MultiStream,Samples per query,56.0
+DGX-A100_A100-SXM4x1_TRT_Triton,ssd-resnet34,Offline,Samples per second,979.047
+DGX-A100_A100-SXM4x1_TRT_Triton,ssd-resnet34,SingleStream,90th percentile latency \(ns\),1945280.0
+DGX-A100_A100-SXM4x8_TRT,3d-unet-99,Offline,Samples per second,328.324
+DGX-A100_A100-SXM4x8_TRT,3d-unet-99.9,Offline,Samples per second,328.324
+DGX-A100_A100-SXM4x8_TRT,bert-99,Offline,Samples per second,26625.2
+DGX-A100_A100-SXM4x8_TRT,bert-99,Server,Scheduled samples per second,24757.49
+DGX-A100_A100-SXM4x8_TRT,bert-99.9,Offline,Samples per second,13537.8
+DGX-A100_A100-SXM4x8_TRT,bert-99.9,Server,Scheduled samples per second,11502.44
+DGX-A100_A100-SXM4x8_TRT,dlrm-99,Offline,Samples per second,2113510.0
+DGX-A100_A100-SXM4x8_TRT,dlrm-99,Server,Scheduled samples per second,2102386.37
+DGX-A100_A100-SXM4x8_TRT,dlrm-99.9,Offline,Samples per second,2113510.0
+DGX-A100_A100-SXM4x8_TRT,dlrm-99.9,Server,Scheduled samples per second,2102386.37
+DGX-A100_A100-SXM4x8_TRT,resnet50,Offline,Samples per second,298647.0
+DGX-A100_A100-SXM4x8_TRT,resnet50,Server,Scheduled samples per second,255061.34
+DGX-A100_A100-SXM4x8_TRT,rnnt,Offline,Samples per second,82400.9
+DGX-A100_A100-SXM4x8_TRT,rnnt,Server,Scheduled samples per second,71510.03
+DGX-A100_A100-SXM4x8_TRT,ssd-resnet34,Offline,Samples per second,7787.72
+DGX-A100_A100-SXM4x8_TRT,ssd-resnet34,Server,Scheduled samples per second,7546.07
+DGX-A100_A100-SXM4x8_TRT_Triton,3d-unet-99,Offline,Samples per second,321.046
+DGX-A100_A100-SXM4x8_TRT_Triton,3d-unet-99.9,Offline,Samples per second,321.046
+DGX-A100_A100-SXM4x8_TRT_Triton,bert-99,Offline,Samples per second,25270.8
+DGX-A100_A100-SXM4x8_TRT_Triton,bert-99,Server,Scheduled samples per second,22460.98
+DGX-A100_A100-SXM4x8_TRT_Triton,bert-99.9,Offline,Samples per second,12933.3
+DGX-A100_A100-SXM4x8_TRT_Triton,bert-99.9,Server,Scheduled samples per second,11207.18
+DGX-A100_A100-SXM4x8_TRT_Triton,resnet50,Offline,Samples per second,274139.0
+DGX-A100_A100-SXM4x8_TRT_Triton,resnet50,Server,Scheduled samples per second,210057.67
+DGX-A100_A100-SXM4x8_TRT_Triton,ssd-resnet34,Offline,Samples per second,7750.85
+DGX-A100_A100-SXM4x8_TRT_Triton,ssd-resnet34,Server,Scheduled samples per second,7094.26
+T4x1_TRT,3d-unet-99,Offline,Samples per second,7.20312
+T4x1_TRT,3d-unet-99,SingleStream,90th percentile latency \(ns\),157755172.0
+T4x1_TRT,3d-unet-99.9,Offline,Samples per second,7.20312
+T4x1_TRT,3d-unet-99.9,SingleStream,90th percentile latency \(ns\),157755172.0
+T4x1_TRT,bert-99,Offline,Samples per second,443.145
+T4x1_TRT,bert-99,SingleStream,90th percentile latency \(ns\),6459832.0
+T4x1_TRT,resnet50,MultiStream,Samples per query,272.0
+T4x1_TRT,resnet50,Offline,Samples per second,6035.57
+T4x1_TRT,resnet50,SingleStream,90th percentile latency \(ns\),1086217.0
+T4x1_TRT,rnnt,Offline,Samples per second,1502.93
+T4x1_TRT,rnnt,SingleStream,90th percentile latency \(ns\),62724225.0
+T4x1_TRT,ssd-mobilenet,MultiStream,Samples per query,368.0
+T4x1_TRT,ssd-mobilenet,Offline,Samples per second,7959.76
+T4x1_TRT,ssd-mobilenet,SingleStream,90th percentile latency \(ns\),550122.0
+T4x1_TRT,ssd-resnet34,MultiStream,Samples per query,8.0
+T4x1_TRT,ssd-resnet34,Offline,Samples per second,135.452
+T4x1_TRT,ssd-resnet34,SingleStream,90th percentile latency \(ns\),8416519.0
+T4x1_TRT_Triton,3d-unet-99,Offline,Samples per second,7.04912
+T4x1_TRT_Triton,3d-unet-99,SingleStream,90th percentile latency \(ns\),173680417.0
+T4x1_TRT_Triton,3d-unet-99.9,Offline,Samples per second,7.04912
+T4x1_TRT_Triton,3d-unet-99.9,SingleStream,90th percentile latency \(ns\),173680417.0
+T4x1_TRT_Triton,bert-99,Offline,Samples per second,424.152
+T4x1_TRT_Triton,bert-99,SingleStream,90th percentile latency \(ns\),6782306.0
+T4x1_TRT_Triton,resnet50,MultiStream,Samples per query,264.0
+T4x1_TRT_Triton,resnet50,Offline,Samples per second,6010.48
+T4x1_TRT_Triton,resnet50,SingleStream,90th percentile latency \(ns\),1189947.0
+T4x1_TRT_Triton,ssd-mobilenet,MultiStream,Samples per query,360.0
+T4x1_TRT_Triton,ssd-mobilenet,Offline,Samples per second,7962.5
+T4x1_TRT_Triton,ssd-mobilenet,SingleStream,90th percentile latency \(ns\),613363.0
+T4x1_TRT_Triton,ssd-resnet34,MultiStream,Samples per query,8.0
+T4x1_TRT_Triton,ssd-resnet34,Offline,Samples per second,135.107
+T4x1_TRT_Triton,ssd-resnet34,SingleStream,90th percentile latency \(ns\),8485333.0
+T4x20_TRT,3d-unet-99,Offline,Samples per second,145.489
+T4x20_TRT,3d-unet-99.9,Offline,Samples per second,145.489
+T4x20_TRT,bert-99,Offline,Samples per second,8898.69
+T4x20_TRT,bert-99,Server,Scheduled samples per second,7596.02
+T4x20_TRT,bert-99.9,Offline,Samples per second,4196.69
+T4x20_TRT,bert-99.9,Server,Scheduled samples per second,3646.73
+T4x20_TRT,dlrm-99,Offline,Samples per second,665646.0
+T4x20_TRT,dlrm-99,Server,Scheduled samples per second,600249.52
+T4x20_TRT,dlrm-99.9,Offline,Samples per second,665646.0
+T4x20_TRT,dlrm-99.9,Server,Scheduled samples per second,600249.52
+T4x20_TRT,resnet50,Offline,Samples per second,121564.0
+T4x20_TRT,resnet50,Server,Scheduled samples per second,111495.51
+T4x20_TRT,rnnt,Offline,Samples per second,28531.5
+T4x20_TRT,rnnt,Server,Scheduled samples per second,20001.64
+T4x20_TRT,ssd-resnet34,Offline,Samples per second,2774.48
+T4x20_TRT,ssd-resnet34,Server,Scheduled samples per second,2517.74
+T4x20_TRT_Triton,3d-unet-99,Offline,Samples per second,140.9
+T4x20_TRT_Triton,3d-unet-99.9,Offline,Samples per second,140.9
+T4x20_TRT_Triton,bert-99,Offline,Samples per second,8433.22
+T4x20_TRT_Triton,bert-99,Server,Scheduled samples per second,7016.31
+T4x20_TRT_Triton,bert-99.9,Offline,Samples per second,3877.22
+T4x20_TRT_Triton,bert-99.9,Server,Scheduled samples per second,3371.97
+T4x20_TRT_Triton,resnet50,Offline,Samples per second,121536.0
+T4x20_TRT_Triton,resnet50,Server,Scheduled samples per second,103995.07
+T4x20_TRT_Triton,ssd-resnet34,Offline,Samples per second,2751.62
+T4x20_TRT_Triton,ssd-resnet34,Server,Scheduled samples per second,2397.85
+T4x8_TRT,3d-unet-99,Offline,Samples per second,58.3585
+T4x8_TRT,3d-unet-99.9,Offline,Samples per second,58.3585
+T4x8_TRT,bert-99,Offline,Samples per second,3494.53
+T4x8_TRT,bert-99,Server,Scheduled samples per second,3097.22
+T4x8_TRT,bert-99.9,Offline,Samples per second,1603.33
+T4x8_TRT,bert-99.9,Server,Scheduled samples per second,1418.73
+T4x8_TRT,dlrm-99,Offline,Samples per second,272416.0
+T4x8_TRT,dlrm-99,Server,Scheduled samples per second,250062.18
+T4x8_TRT,dlrm-99.9,Offline,Samples per second,272416.0
+T4x8_TRT,dlrm-99.9,Server,Scheduled samples per second,250062.18
+T4x8_TRT,resnet50,Offline,Samples per second,48897.8
+T4x8_TRT,resnet50,Server,Scheduled samples per second,44504.81
+T4x8_TRT,rnnt,Offline,Samples per second,11963.3
+T4x8_TRT,rnnt,Server,Scheduled samples per second,8659.56
+T4x8_TRT,ssd-resnet34,Offline,Samples per second,1111.8
+T4x8_TRT,ssd-resnet34,Server,Scheduled samples per second,1029.08
+T4x8_TRT_Triton,3d-unet-99,Offline,Samples per second,56.9005
+T4x8_TRT_Triton,3d-unet-99.9,Offline,Samples per second,56.9005
+T4x8_TRT_Triton,bert-99,Offline,Samples per second,3391.25
+T4x8_TRT_Triton,bert-99,Server,Scheduled samples per second,2787.5
+T4x8_TRT_Triton,bert-99.9,Offline,Samples per second,1550.5
+T4x8_TRT_Triton,bert-99.9,Server,Scheduled samples per second,1330.8
+T4x8_TRT_Triton,resnet50,Offline,Samples per second,48802.5
+T4x8_TRT_Triton,resnet50,Server,Scheduled samples per second,42006.89
+T4x8_TRT_Triton,ssd-resnet34,Offline,Samples per second,1110.95
+T4x8_TRT_Triton,ssd-resnet34,Server,Scheduled samples per second,749.33
+Xavier_NX_TRT,3d-unet-99,Offline,Samples per second,1.29299
+Xavier_NX_TRT,3d-unet-99,SingleStream,90th percentile latency \(ns\),771461139.0
+Xavier_NX_TRT,3d-unet-99.9,Offline,Samples per second,1.29299
+Xavier_NX_TRT,3d-unet-99.9,SingleStream,90th percentile latency \(ns\),771461139.0
+Xavier_NX_TRT,bert-99,Offline,Samples per second,50.6152
+Xavier_NX_TRT,bert-99,SingleStream,90th percentile latency \(ns\),48881385.0
+Xavier_NX_TRT,resnet50,MultiStream,Samples per query,50.0
+Xavier_NX_TRT,resnet50,Offline,Samples per second,1032.25
+Xavier_NX_TRT,resnet50,SingleStream,90th percentile latency \(ns\),3206187.0
+Xavier_NX_TRT,rnnt,Offline,Samples per second,195.238
+Xavier_NX_TRT,rnnt,SingleStream,90th percentile latency \(ns\),375597610.0
+Xavier_NX_TRT,ssd-mobilenet,MultiStream,Samples per query,60.0
+Xavier_NX_TRT,ssd-mobilenet,Offline,Samples per second,1266.78
+Xavier_NX_TRT,ssd-mobilenet,SingleStream,90th percentile latency \(ns\),1674000.0
+Xavier_NX_TRT,ssd-resnet34,MultiStream,Samples per query,1.0
+Xavier_NX_TRT,ssd-resnet34,Offline,Samples per second,26.7825
+Xavier_NX_TRT,ssd-resnet34,SingleStream,90th percentile latency \(ns\),46907121.0

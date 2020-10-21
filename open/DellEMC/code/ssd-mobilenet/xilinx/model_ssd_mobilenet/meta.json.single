@@ -1,0 +1,10 @@
+{
+    "lib": "libn2cube.so",
+    "vitis_dpu_kernel": "ssd_mobilenet_v1_coco",
+    "pre_processing_pool": 1,
+    "post_processing_pool": 1,
+    "dpu_thread_pool": 1,
+    "dpu_task_pool": 1,
+    "dpu_datatype_read_int8": 1,
+    "dpu_datatype_write_int8": 1
+}

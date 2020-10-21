@@ -1,0 +1,38 @@
+{
+    "T4x16": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 12,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 2350,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_graphs": false
+    },
+    "A100-PCIex4": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 64,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 2,
+        "gpu_offline_expected_qps": 3700,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_graphs": false
+    },
+    "benchmark": "ssd-resnet34",
+    "scenario": "Offline"
+}

@@ -1,0 +1,12 @@
+system_id,benchmark,scenario,perf_metric,perf_value
+A100-PCIex8_TRT,resnet50,Offline,Samples per second,298098.0
+DGX-A100_A100-SXM4x1_TRT,resnet50,Offline,Samples per second,68994.6
+DGX-A100_A100-SXM4x1_TRT,resnet50,SingleStream,90th percentile latency \(ns\),408267.0
+DGX-A100_A100-SXM4x8_TRT,resnet50,Offline,Samples per second,549782.0
+DGX-A100_A100-SXM4x8_TRT,resnet50,Server,Scheduled samples per second,420097.36
+T4x1_TRT,resnet50,Offline,Samples per second,12955.5
+T4x1_TRT,resnet50,SingleStream,90th percentile latency \(ns\),660157.0
+T4x20_TRT,resnet50,Offline,Samples per second,259448.0
+T4x20_TRT,resnet50,Server,Scheduled samples per second,190027.38
+T4x8_TRT,resnet50,Offline,Samples per second,102224.0
+T4x8_TRT,resnet50,Server,Scheduled samples per second,90015.51

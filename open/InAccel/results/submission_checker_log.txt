@@ -1,0 +1,22 @@
+WARNING:main:open/InAccel/results/1xU250/resnet/Offline/accuracy accuracy not met: expected=75.695400, found=62.266
+WARNING:main:open/InAccel/results/1xU250/resnet/Offline/accuracy, accuracy not valid but taken for open
+INFO:main:open/InAccel/results/1xU250/resnet/Offline/accuracy, accuracy is 62.266
+INFO:main:open/InAccel/results/1xU250/resnet/Offline is OK
+WARNING:main:open/InAccel/results/1xU250/resnet/SingleStream/accuracy accuracy not met: expected=75.695400, found=62.266
+WARNING:main:open/InAccel/results/1xU250/resnet/SingleStream/accuracy, accuracy not valid but taken for open
+INFO:main:open/InAccel/results/1xU250/resnet/SingleStream/accuracy, accuracy is 62.266
+INFO:main:open/InAccel/results/1xU250/resnet/SingleStream is OK
+WARNING:main:open/InAccel/results/1xU250/resnet/MultiStream/accuracy accuracy not met: expected=75.695400, found=62.266
+WARNING:main:open/InAccel/results/1xU250/resnet/MultiStream/accuracy, accuracy not valid but taken for open
+INFO:main:open/InAccel/results/1xU250/resnet/MultiStream/accuracy, accuracy is 62.266
+INFO:main:open/InAccel/results/1xU250/resnet/MultiStream is OK
+WARNING:main:open/InAccel/results/2xU250/resnet/Offline/accuracy accuracy not met: expected=75.695400, found=62.266
+WARNING:main:open/InAccel/results/2xU250/resnet/Offline/accuracy, accuracy not valid but taken for open
+INFO:main:open/InAccel/results/2xU250/resnet/Offline/accuracy, accuracy is 62.266
+INFO:main:open/InAccel/results/2xU250/resnet/Offline is OK
+INFO:main:Results open/InAccel/results/1xU250/resnet/Offline 3025.94
+INFO:main:Results open/InAccel/results/1xU250/resnet/SingleStream 7.004864
+INFO:main:Results open/InAccel/results/1xU250/resnet/MultiStream 58.0
+INFO:main:Results open/InAccel/results/2xU250/resnet/Offline 6008.19
+INFO:main:Results=4, NoResults=0
+INFO:main:SUMMARY: submission looks OK

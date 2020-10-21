@@ -1,0 +1,62 @@
+{
+    "A100-PCIex1": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true,
+                "gpu_batch_size": 12,
+                "gpu_multi_stream_samples_per_query": 48
+            }
+        },
+        "gpu_batch_size": 12,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 2,
+        "gpu_multi_stream_samples_per_query": 48,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_graphs": false
+    },
+    "A100-SXM4x1": {
+        "config_ver": {
+           "triton": {
+                "start_from_device": false,
+                "use_triton": true,
+                "gpu_batch_size": 14,
+                "gpu_multi_stream_samples_per_query": 56
+            }
+        },
+        "gpu_batch_size": 60,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 2,
+        "gpu_multi_stream_samples_per_query": 60,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "start_from_device": true,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_graphs": false
+    },
+    "T4x1": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true,
+                "gpu_batch_size": 2,
+                "gpu_multi_stream_samples_per_query": 8
+            }
+        },
+
+        "gpu_batch_size": 4,
+        "gpu_multi_stream_samples_per_query": 8,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_graphs": false
+    },
+    "benchmark": "ssd-resnet34",
+    "scenario": "MultiStream"
+}

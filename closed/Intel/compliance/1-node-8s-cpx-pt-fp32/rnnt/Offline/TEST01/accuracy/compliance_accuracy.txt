@@ -1,0 +1,142 @@
+Dataset loaded with 4.36 hours. Filtered 1.02 hours. Number of samples: 2513
+### set rank 2 to cores [28:41]; omp num threads = 14
+lazy_init rank 2
+### rank 2 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 13 to cores [182:195]; omp num threads = 14
+lazy_init rank 13
+### rank 13 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 0 to cores [2:13]; omp num threads = 12
+lazy_init rank 0
+### rank 0 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 15 to cores [210:223]; omp num threads = 14
+lazy_init rank 15
+### rank 15 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 7 to cores [98:111]; omp num threads = 14
+lazy_init rank 7
+### rank 7 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 3 to cores [42:55]; omp num threads = 14
+lazy_init rank 3
+### rank 3 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 1 to cores [14:27]; omp num threads = 14
+lazy_init rank 1
+### rank 1 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 6 to cores [84:97]; omp num threads = 14
+lazy_init rank 6
+### rank 6 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 14 to cores [196:209]; omp num threads = 14
+lazy_init rank 14
+### rank 14 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 11 to cores [154:167]; omp num threads = 14
+lazy_init rank 11
+### rank 11 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 10 to cores [140:153]; omp num threads = 14
+lazy_init rank 10
+### rank 10 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 9 to cores [126:139]; omp num threads = 14
+lazy_init rank 9
+### rank 9 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 4 to cores [56:69]; omp num threads = 14
+lazy_init rank 4
+### rank 4 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 5 to cores [70:83]; omp num threads = 14
+lazy_init rank 5
+### rank 5 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 12 to cores [168:181]; omp num threads = 14
+lazy_init rank 12
+### rank 12 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+### set rank 8 to cores [112:125]; omp num threads = 14
+lazy_init rank 8
+### rank 8 finished
+/nfs/pdx/home/mingxiao/anaconda3/envs/rnnt-0908/lib/python3.7/site-packages/torch/jit/annotations.py:319: UserWarning: Enum support is work in progress, enum class <enum 'Optimization'> is not compiled
+  " is not compiled".format(ann))
+Running Loadgen test...
+Average latency (ms) per query:
+92945.81659481535
+Median latency (ms): 
+75219.7858255
+90 percentile latency (ms): 
+208578.7933398
+Done!
+Finished destroying SUT.
+Exiting response thread
+Finish processing 46200 samples
+================================================
+MLPerf Results Summary
+================================================
+SUT name : PySUT
+Scenario : Offline
+Mode     : Performance
+Samples per second: 176.558
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Min latency (ns)                : 654892885
+Max latency (ns)                : 261670641747
+Mean latency (ns)               : 92945816594
+50.00 percentile latency (ns)   : 75219802415
+90.00 percentile latency (ns)   : 208578807684
+95.00 percentile latency (ns)   : 233185377896
+97.00 percentile latency (ns)   : 243593705990
+99.00 percentile latency (ns)   : 256020018787
+99.90 percentile latency (ns)   : 261456636015
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 46200
+target_qps : 700
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1
+max_query_count : 0
+qsl_rng_seed : 12786827339337101903
+sample_index_rng_seed : 12640797754436136668
+schedule_rng_seed : 3135815929913719677
+accuracy_log_rng_seed : 720381539243781796
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 4096
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 2513
+
+No warnings encountered during test.
+
+No errors encountered during test.

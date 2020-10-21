@@ -1,0 +1,50 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : OV_SUT
+Scenario : Offline
+Mode     : Performance
+Samples per second: 4.1973
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Min latency (ns)                : 2296063243
+Max latency (ns)                : 5855187986784
+Mean latency (ns)               : 2930894880963
+50.00 percentile latency (ns)   : 2932395050401
+90.00 percentile latency (ns)   : 5270317893441
+95.00 percentile latency (ns)   : 5563454235076
+97.00 percentile latency (ns)   : 5680483004179
+99.00 percentile latency (ns)   : 5797213941125
+99.90 percentile latency (ns)   : 5849632319267
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 24576
+target_qps : 1
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1
+max_query_count : 0
+qsl_rng_seed : 12786827339337101903
+sample_index_rng_seed : 12640797754436136668
+schedule_rng_seed : 3135815929913719677
+accuracy_log_rng_seed : 720381539243781796
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 64
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 16
+
+No warnings encountered during test.
+
+No errors encountered during test.

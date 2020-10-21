@@ -1,0 +1,22 @@
+{
+    "TestScenario.SingleStream": {
+        "count": 45657,
+        "good_items": 0,
+        "mean": 0.0012980491068182317,
+        "percentiles": {
+            "50.0": 0.001294722,
+            "80.0": 0.001315395,
+            "90.0": 0.001325243,
+            "95.0": 0.001336068,
+            "99.0": 0.001353528,
+            "99.9": 0.0014012554160000208
+        },
+        "qps": 756.2894949236825,
+        "took": 60.36973977088928,
+        "total_items": 45657
+    },
+    "cmdline": "Namespace(accuracy=False, backend='tflite-ncore-ssd', cache=1, count=None, data_format=None, dataset='coco-300-ncore', dataset_list=None, dataset_path='/datasets/mlperf-v0.5/dataset-coco-2017-val', find_peak_performance=False, inputs=['image_tensor:0'], max_batchsize=1, max_latency=None, mlperf_conf='ncoresw/mlperf/mlperf.conf', model='/datasets/mlperf-v0.5/models/ssd_mobilenet_v1_coco_2018_01_28.tflite', model_name='ssd-mobilenet', output='/workspace/mlperf_submission_official/closed/CentaurTechnology/results/0/ssd-small/SingleStream/performance/run_1', outputs=['detection_boxes:0', 'detection_classes:0', 'detection_scores:0', 'num_detections:0'], profile='ssd-mobilenet-tf-ncore', qps=None, samples_per_query=None, scenario='SingleStream', threads=2, time=None, user_conf='ncoresw/mlperf/vision/classification_and_detection/user.conf')",
+    "runtime": "tflite-ncore",
+    "time": 1599682803,
+    "version": "0.1"
+}

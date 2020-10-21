@@ -1,0 +1,127 @@
+{
+    "A100-PCIex1": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 64,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 2,
+        "gpu_offline_expected_qps": 960,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_graphs": false
+    },
+    "A100-PCIex8": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 64,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 2,
+        "gpu_offline_expected_qps": 6912,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_graphs": false
+    },
+    "A100-SXM4x1": {
+        "config_ver": {
+            "triton": {
+                "start_from_device": false,
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 64,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 2,
+        "gpu_offline_expected_qps": 960,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "start_from_device": true,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_graphs": false
+    },
+    "A100-SXM4x8": {
+        "config_ver": {
+            "triton": {
+                "start_from_device": false,
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 64,
+        "gpu_copy_streams": 3,
+        "gpu_inference_streams": 2,
+        "gpu_offline_expected_qps": 7500,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "start_from_device": true,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_graphs": false
+    },
+    "T4x1": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 12,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 140,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_graphs": false
+    },
+    "T4x20": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 12,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 2800,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_graphs": false
+    },
+    "T4x8": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 24,
+        "gpu_copy_streams": 3,
+        "gpu_inference_streams": 2,
+        "gpu_offline_expected_qps": 1116,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_graphs": true
+    },
+    "benchmark": "ssd-resnet34",
+    "scenario": "Offline"
+}

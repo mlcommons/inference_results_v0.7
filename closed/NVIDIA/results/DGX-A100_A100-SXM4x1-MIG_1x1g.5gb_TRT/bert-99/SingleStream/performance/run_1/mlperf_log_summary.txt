@@ -1,0 +1,53 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : BERT SERVER
+Scenario : Single Stream
+Mode     : Performance
+90th percentile latency (ns) : 6759718
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 194.68
+QPS w/o loadgen overhead        : 194.98
+
+Min latency (ns)                : 4169790
+Max latency (ns)                : 7931275
+Mean latency (ns)               : 5128691
+50.00 percentile latency (ns)   : 4950825
+90.00 percentile latency (ns)   : 6759718
+95.00 percentile latency (ns)   : 6881997
+97.00 percentile latency (ns)   : 7026058
+99.00 percentile latency (ns)   : 7055242
+99.90 percentile latency (ns)   : 7096350
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 588.235
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1024
+max_query_count : 0
+qsl_rng_seed : 12786827339337101903
+sample_index_rng_seed : 12640797754436136668
+schedule_rng_seed : 3135815929913719677
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 10833
+
+No warnings encountered during test.
+
+No errors encountered during test.

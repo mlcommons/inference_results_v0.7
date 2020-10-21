@@ -1,0 +1,9 @@
+INFO:main:closed/DellEMC/results/R640_6248R_VMwarevSphere7.0_openvino/resnet50/Server/accuracy, accuracy is 76.292
+INFO:main:closed/DellEMC/results/R640_6248R_VMwarevSphere7.0_openvino/resnet50/Server is OK
+INFO:main:closed/DellEMC/results/R640_6248R_VMwarevSphere7.0_openvino/resnet50/Offline/accuracy, accuracy is 76.292
+INFO:main:closed/DellEMC/results/R640_6248R_VMwarevSphere7.0_openvino/resnet50/Offline is OK
+INFO:main:Results closed/DellEMC/results/R640_6248R_VMwarevSphere7.0_openvino/resnet50/Server 1798.38
+INFO:main:Results closed/DellEMC/results/R640_6248R_VMwarevSphere7.0_openvino/resnet50/Offline 2402.52
+INFO:main:Results=2, NoResults=0
+INFO:main:SUMMARY: submission looks OK
+

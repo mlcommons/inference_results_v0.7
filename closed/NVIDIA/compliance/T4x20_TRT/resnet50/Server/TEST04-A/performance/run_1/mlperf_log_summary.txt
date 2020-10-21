@@ -1,0 +1,58 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : LWIS_Server
+Scenario : Server
+Mode     : Performance
+Scheduled samples per second : 113309.42
+Result is : INVALID
+  Performance constraints satisfied : NO
+  Min duration satisfied : NO
+  Min queries satisfied : NO
+Recommendations:
+ * Reduce target QPS to improve latency.
+ * Increase the target QPS so the loadgen pre-generates more queries.
+ * The test exited early, before enough queries were issued.
+   See the detailed log for why this may have occurred.
+
+================================================
+Additional Stats
+================================================
+Completed samples per second    : 67888.93
+
+Min latency (ns)                : 7864671
+Max latency (ns)                : 23860726
+Mean latency (ns)               : 12705653
+50.00 percentile latency (ns)   : 10106518
+90.00 percentile latency (ns)   : 20888854
+95.00 percentile latency (ns)   : 22591765
+97.00 percentile latency (ns)   : 22966662
+99.00 percentile latency (ns)   : 23752713
+99.90 percentile latency (ns)   : 23856805
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 111500
+target_latency (ns): 15000000
+max_async_queries : 0
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 270336
+max_query_count : 0
+qsl_rng_seed : 12786827339337101903
+sample_index_rng_seed : 12640797754436136668
+schedule_rng_seed : 3135815929913719677
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : false
+performance_issue_unique : true
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 2048
+
+No warnings encountered during test.
+
+No errors encountered during test.

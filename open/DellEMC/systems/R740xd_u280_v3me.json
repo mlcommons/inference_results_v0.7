@@ -1,0 +1,21 @@
+{
+  "submitter": "DellEMC",
+  "division": "open",
+  "status": "available",
+  "system_name": "R740xd_u280_v3me",
+  "system_type": "edge",
+  "number_of_nodes": 1,
+  "host_processors_per_node": 2,
+  "host_processor_model_name": "Intel Xeon Platinum 8276",
+  "host_processor_core_count": 28,
+  "host_memory_capacity": "7680 GB",
+  "host_storage_type": "HDD",
+  "host_storage_capacity": "21.42 GB",
+  "accelerators_per_node": 1,
+  "accelerator_model_name": "u280_v3me",
+  "accelerator_memory_configuration": "HBM",
+  "accelerator_memory_capacity": "16 GB per accelerator",
+  "framework": "TF",
+  "other_software_stack": "Xilinx Vitis Runtime",
+  "operating_system": "Ubuntu 18.04"
+}

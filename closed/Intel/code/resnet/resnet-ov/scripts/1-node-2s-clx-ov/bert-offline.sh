@@ -1,0 +1,1 @@
+Release/ov_mlperf --scenario Offline --mlperf_conf Configs/mlperf.conf --user_conf Configs/bert/user.conf --model_name bert --data_path /root/cbai/dataset --nseq 128 --nseq_step 64 --nireq 56 --nthreads 56 --nstreams 56 --total_sample_count 10833 --warmup_iters 10 --model_path Models/bert/bert_large_v1_1_int8.xml

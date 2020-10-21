@@ -1,0 +1,2 @@
+mAP=23.039%
+hash=34f6b4dadcf86cf273619a4b05b2c490f8c5cbc07fd4c988f1e364cc7ba7e572

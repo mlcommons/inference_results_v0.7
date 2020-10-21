@@ -1,0 +1,14 @@
+INFO:main:closed/CentaurTechnology/results/0/ssd-small/SingleStream/accuracy, accuracy is 23.039
+INFO:main:closed/CentaurTechnology/results/0/ssd-small/SingleStream is OK
+INFO:main:closed/CentaurTechnology/results/0/ssd-small/Offline/accuracy, accuracy is 23.039
+INFO:main:closed/CentaurTechnology/results/0/ssd-small/Offline is OK
+INFO:main:closed/CentaurTechnology/results/0/resnet/Offline/accuracy, accuracy is 76.140
+INFO:main:closed/CentaurTechnology/results/0/resnet/Offline is OK
+INFO:main:closed/CentaurTechnology/results/0/resnet/SingleStream/accuracy, accuracy is 76.142
+INFO:main:closed/CentaurTechnology/results/0/resnet/SingleStream is OK
+INFO:main:Results closed/CentaurTechnology/results/0/ssd-small/SingleStream 1.325243
+INFO:main:Results closed/CentaurTechnology/results/0/ssd-small/Offline 1937.82
+INFO:main:Results closed/CentaurTechnology/results/0/resnet/Offline 1253.96
+INFO:main:Results closed/CentaurTechnology/results/0/resnet/SingleStream 1.04881
+INFO:main:Results=4, NoResults=0
+INFO:main:SUMMARY: submission looks OK

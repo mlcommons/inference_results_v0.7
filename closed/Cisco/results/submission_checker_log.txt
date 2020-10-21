@@ -1,0 +1,42 @@
+INFO:main:closed/CISCO/results/T4x6_TRT/dlrm-99/Server/accuracy, accuracy is 80.185
+INFO:main:closed/CISCO/results/T4x6_TRT/dlrm-99/Server is OK
+INFO:main:closed/CISCO/results/T4x6_TRT/dlrm-99/Offline/accuracy, accuracy is 80.185
+INFO:main:closed/CISCO/results/T4x6_TRT/dlrm-99/Offline is OK
+INFO:main:closed/CISCO/results/T4x6_TRT/dlrm-99.9/Server/accuracy, accuracy is 80.185
+INFO:main:closed/CISCO/results/T4x6_TRT/dlrm-99.9/Server is OK
+INFO:main:closed/CISCO/results/T4x6_TRT/dlrm-99.9/Offline/accuracy, accuracy is 80.185
+INFO:main:closed/CISCO/results/T4x6_TRT/dlrm-99.9/Offline is OK
+INFO:main:closed/CISCO/results/T4x6_TRT/resnet50/Server/accuracy, accuracy is 75.918
+INFO:main:closed/CISCO/results/T4x6_TRT/resnet50/Server is OK
+INFO:main:closed/CISCO/results/T4x6_TRT/resnet50/Offline/accuracy, accuracy is 75.918
+INFO:main:closed/CISCO/results/T4x6_TRT/resnet50/Offline is OK
+INFO:main:closed/CISCO/results/T4x6_TRT/3d-unet-99/Offline/accuracy, accuracy is 0.85367
+INFO:main:closed/CISCO/results/T4x6_TRT/3d-unet-99/Offline is OK
+INFO:main:closed/CISCO/results/T4x6_TRT/3d-unet-99.9/Offline/accuracy, accuracy is 0.85367
+INFO:main:closed/CISCO/results/T4x6_TRT/3d-unet-99.9/Offline is OK
+ERROR:main:invalid division in input dir .cache
+ERROR:main:invalid division in input dir .ssh
+ERROR:main:invalid division in input dir bert
+ERROR:main:invalid division in input dir results
+ERROR:main:invalid division in input dir T4x6_TRT-bkp
+ERROR:main:invalid division in input dir test
+ERROR:main:invalid division in input dir closed-v0.7.6
+ERROR:main:invalid division in input dir configs
+ERROR:main:invalid division in input dir .gnupg
+ERROR:main:invalid division in input dir full_results
+ERROR:main:invalid division in input dir .docker
+ERROR:main:invalid division in input dir closed-tmp
+ERROR:main:invalid division in input dir rnnt
+ERROR:main:invalid division in input dir closed-v0.7.5
+ERROR:main:invalid division in input dir models
+ERROR:main:invalid division in input dir closed-v0.7.4
+INFO:main:Results closed/CISCO/results/T4x6_TRT/dlrm-99/Server 189018.81
+INFO:main:Results closed/CISCO/results/T4x6_TRT/dlrm-99/Offline 206499.0
+INFO:main:Results closed/CISCO/results/T4x6_TRT/dlrm-99.9/Server 189018.81
+INFO:main:Results closed/CISCO/results/T4x6_TRT/dlrm-99.9/Offline 206499.0
+INFO:main:Results closed/CISCO/results/T4x6_TRT/resnet50/Server 34603.18
+INFO:main:Results closed/CISCO/results/T4x6_TRT/resnet50/Offline 37267.5
+INFO:main:Results closed/CISCO/results/T4x6_TRT/3d-unet-99/Offline 44.1912
+INFO:main:Results closed/CISCO/results/T4x6_TRT/3d-unet-99.9/Offline 44.1912
+INFO:main:Results=8, NoResults=0
+INFO:main:SUMMARY: submission looks OK

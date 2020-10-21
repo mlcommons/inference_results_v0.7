@@ -1,0 +1,260 @@
+{
+    "T4x2_TRT": {
+        "resnet50": {
+            "Offline": {
+                "accuracy": {
+                    "count": 1,
+                    "result_id": "T4x2_manual-2020.09.18-10.51.02",
+                    "results_export_timestamp": "2020-09-18 10:51:03.826791"
+                },
+                "compliance": {
+                    "TEST01": {
+                        "accuracy": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_accuracy.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_performance.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    },
+                    "TEST04-A": {
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_performance.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    },
+                    "TEST04-B": {
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    },
+                    "TEST05": {
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_performance.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    }
+                },
+                "performance": {
+                    "count": 1,
+                    "last_updated": 1,
+                    "result_id": [
+                        "T4x2_manual-2020.09.18-10.51.02"
+                    ],
+                    "results_export_timestamp": [
+                        "2020-09-18 10:51:03.826791"
+                    ]
+                }
+            },
+            "SingleStream": {
+                "accuracy": {
+                    "count": 1,
+                    "result_id": "T4x2_manual-2020.09.18-10.51.02",
+                    "results_export_timestamp": "2020-09-18 10:51:03.826791"
+                },
+                "compliance": {
+                    "TEST01": {
+                        "accuracy": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_accuracy.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_performance.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    },
+                    "TEST04-A": {
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_performance.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    },
+                    "TEST04-B": {
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    },
+                    "TEST05": {
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_performance.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    }
+                },
+                "performance": {
+                    "count": 1,
+                    "last_updated": 1,
+                    "result_id": [
+                        "T4x2_manual-2020.09.18-10.51.02"
+                    ],
+                    "results_export_timestamp": [
+                        "2020-09-18 10:51:03.826791"
+                    ]
+                }
+            }
+        },
+        "ssd-resnet34": {
+            "Offline": {
+                "accuracy": {
+                    "count": 1,
+                    "result_id": "T4x2_manual-2020.09.18-10.51.02",
+                    "results_export_timestamp": "2020-09-18 10:51:03.826791"
+                },
+                "compliance": {
+                    "TEST01": {
+                        "accuracy": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_accuracy.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_performance.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    },
+                    "TEST04-A": {
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_performance.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    },
+                    "TEST04-B": {
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    },
+                    "TEST05": {
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_performance.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    }
+                },
+                "performance": {
+                    "count": 1,
+                    "last_updated": 1,
+                    "result_id": [
+                        "T4x2_manual-2020.09.18-10.51.02"
+                    ],
+                    "results_export_timestamp": [
+                        "2020-09-18 10:51:03.826791"
+                    ]
+                }
+            },
+            "SingleStream": {
+                "accuracy": {
+                    "count": 1,
+                    "result_id": "T4x2_manual-2020.09.18-10.51.02",
+                    "results_export_timestamp": "2020-09-18 10:51:03.826791"
+                },
+                "compliance": {
+                    "TEST01": {
+                        "accuracy": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_accuracy.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_performance.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    },
+                    "TEST04-A": {
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_performance.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    },
+                    "TEST04-B": {
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    },
+                    "TEST05": {
+                        "performance": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        },
+                        "verify_performance.txt": {
+                            "result_export_timestamp": "2020-09-18 13:01:25.896064",
+                            "result_id": "T4x2_manual-2020.09.18-13.01.24"
+                        }
+                    }
+                },
+                "performance": {
+                    "count": 1,
+                    "last_updated": 1,
+                    "result_id": [
+                        "T4x2_manual-2020.09.18-10.51.02"
+                    ],
+                    "results_export_timestamp": [
+                        "2020-09-18 10:51:03.826791"
+                    ]
+                }
+            }
+        }
+    }
+}

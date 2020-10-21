@@ -1,0 +1,14 @@
+INFO:main:closed/DellEMC/results/R740xd8280M_openvino/ssd-resnet34/server/accuracy, accuracy is 19.928
+INFO:main:closed/DellEMC/results/R740xd8280M_openvino/ssd-resnet34/server is OK
+INFO:main:closed/DellEMC/results/R740xd8280M_openvino/ssd-resnet34/offline/accuracy, accuracy is 19.928
+INFO:main:closed/DellEMC/results/R740xd8280M_openvino/ssd-resnet34/offline is OK
+INFO:main:closed/DellEMC/results/R740xd8280M_openvino/resnet50/server/accuracy, accuracy is 76.292
+INFO:main:closed/DellEMC/results/R740xd8280M_openvino/resnet50/server is OK
+INFO:main:closed/DellEMC/results/R740xd8280M_openvino/resnet50/offline/accuracy, accuracy is 76.292
+INFO:main:closed/DellEMC/results/R740xd8280M_openvino/resnet50/offline is OK
+INFO:main:Results closed/DellEMC/results/R740xd8280M_openvino/ssd-resnet34/server 12.99
+INFO:main:Results closed/DellEMC/results/R740xd8280M_openvino/ssd-resnet34/offline 50.2977
+INFO:main:Results closed/DellEMC/results/R740xd8280M_openvino/resnet50/server 1523.63
+INFO:main:Results closed/DellEMC/results/R740xd8280M_openvino/resnet50/offline 2562.4
+INFO:main:Results=4, NoResults=0
+INFO:main:SUMMARY: submission looks OK

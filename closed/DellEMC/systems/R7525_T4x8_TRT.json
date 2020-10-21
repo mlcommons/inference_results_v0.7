@@ -1,0 +1,37 @@
+{
+    "submitter": "DellEMC",
+    "division": "closed",
+    "system_type": "datacenter",
+    "status": "available",
+    "system_name": "Dell EMC PowerEdge R7525 (8x Tesla T4)",
+
+    "number_of_nodes": "1",
+    "host_processors_per_node": "2",
+    "host_processor_model_name": "AMD EPYC 7452",
+    "host_processor_core_count": "32",
+    "host_processor_frequency": "2.35GHz",
+    "host_processor_caches": "2MB+16MB+128MB",
+    "host_processor_interconnect": "Infinity Fabric",
+    "host_memory_configuration": "8x64GB DDR4-3200 HMAA8GR7AJR4N-XN RDIMM ECC",
+    "host_memory_capacity": "1 TB",
+    "host_storage_capacity": "3 TB (5x800GB WUSTR6480ASS200 in RAID5)",
+    "host_storage_type": "3D-TLC Solid State with 12Gbps SAS",
+    "host_networking": "",
+    "host_networking_topology": "",
+
+    "accelerators_per_node": "8",
+    "accelerator_model_name": "NVIDIA Tesla T4",
+    "accelerator_frequency": "1590MHz",
+    "accelerator_host_interconnect": "PCI Express 3.0",
+    "accelerator_interconnect": "PCI Express 3.0",
+    "accelerator_interconnect_topology": "4 Accelerators per CPU",
+    "accelerator_memory_capacity": "16 GB",
+    "accelerator_memory_configuration": "GDDR6",
+    "accelerator_on-chip_memories": "",
+    "hw_notes": "ECC off",
+
+    "framework": "TensorRT 7.2, CUDA 11.0, cuDNN 8.0.2, cuBLAS 11.2.0, libjemalloc2, cub 1.8.0, tensorrt-laboratory mlperf branch",
+    "operating_system": "Ubuntu 18.04.5 LTS 4.15.0-112-generic",
+    "other_software_stack": "docker 19.03.12, python 3.6.8, gcc 5.5.0, onnx 1.3.0, tensorflow 1.13.1, pytorch 1.1.0, torchvision 0.3.0, pycuda 2019.1, sacrebleu 1.3.3, SimpleJSON, OpenCV 4.1.1",
+    "sw_notes": ""
+}

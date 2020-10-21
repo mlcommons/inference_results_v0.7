@@ -1,0 +1,7 @@
+{
+  "retraining": "no",
+  "input_data_types": "int8",
+  "weight_data_types": "int8",
+  "starting_weights_filename": "https://github.com/google-coral/edgetpu/raw/master/test_data/ssd_mobilenet_v1_coco_quant_postprocess_edgetpu.tflite",
+  "weight_transformations": "TF -> EdgeTPU"
+}

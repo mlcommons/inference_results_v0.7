@@ -1,0 +1,5 @@
+Verifying performance.
+WARNING: 2 ERROR reported in test results
+reference score = 2.11351e+06
+test score = 2.112e+06
+TEST PASS

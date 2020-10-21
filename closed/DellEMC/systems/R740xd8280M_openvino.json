@@ -1,0 +1,38 @@
+{
+    "division": "closed",
+    "submitter": "DellEMC",
+    "status": "available",
+    "system_name": "PowerEdge R740xd",
+    "system_type": "datacenter",
+
+    "number_of_nodes": "1",
+    "host_processor_model_name": "Intel(R) Xeon(R) Platinum 8280M CPU @ 2.70GHz",
+    "host_processors_per_node": "2",
+    "host_processor_core_count": "28",
+    "host_processor_frequency": "2.70GHz",
+    "host_processor_caches": "",
+    "host_memory_configuration": "",     
+    "host_memory_capacity": "376GB",
+    "host_storage_capacity": "1.59TB",
+    "host_storage_type": "SATA",
+    "host_processor_interconnect": "",
+    "host_networking": "",
+    "host_networking_topology": "",
+
+    "accelerators_per_node": "0",
+    "accelerator_model_name": "N/A",
+    "accelerator_frequency": "",
+    "accelerator_host_interconnect": "",
+    "accelerator_interconnect": "",
+    "accelerator_interconnect_topology": "",
+    "accelerator_memory_capacity": "N/A",
+    "accelerator_memory_configuration": "",
+    "accelerator_on-chip_memories": "",
+    "cooling": "",
+    "hw_notes": "",
+
+    "framework": "OpenVINO",
+    "operating_system": "Ubuntu 18.04.5 LTS",
+    "other_software_stack": "MKL-DNN; URL: github.com/intel/mkl-dnn",
+    "sw_notes": ""
+}

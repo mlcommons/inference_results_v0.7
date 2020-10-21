@@ -1,0 +1,21 @@
+{
+  "submitter": "DellEMC",
+  "division": "open",
+  "status": "rdi",
+  "system_name": "R740xd_vck5000_v4e",
+  "system_type": "datacenter",
+  "number_of_nodes": 1,
+  "host_processors_per_node": 2,
+  "host_processor_model_name": "Intel(R) Xeon(R) Platinum 8260C CPU @ 2.30GHz",
+  "host_processor_core_count": 24,
+  "host_memory_capacity": "196 GB",
+  "host_storage_type": "HDD",
+  "host_storage_capacity": "20 GB",
+  "accelerators_per_node": 1,
+  "accelerator_model_name": "vck5000_v4e",
+  "accelerator_memory_configuration": "DDR",
+  "accelerator_memory_capacity": "16 GB per accelerator",
+  "framework": "TF",
+  "other_software_stack": "Xilinx Vitis Runtime",
+  "operating_system": "Centos 7"
+}

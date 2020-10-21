@@ -1,0 +1,223 @@
+{
+    "A100-PCIex1": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 2048,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 36800,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "run_infer_on_copy_streams": true,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "A100-PCIex2": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 2048,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 66240,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "run_infer_on_copy_streams": true,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "A100-SXM4x1": {
+        "config_ver": {
+            "triton": {
+                "start_from_device": false,
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 2048,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 36800,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "run_infer_on_copy_streams": true,
+        "start_from_device": true,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "A100-SXM4x1-MIG_1x1g.5gb": {
+        "config_ver": {
+            "triton": {
+                "start_from_device": false,
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 256,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 36800,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "run_infer_on_copy_streams": true,
+        "start_from_device": true,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "A100-SXM4x8": {
+        "config_ver": {
+            "triton": {
+                "start_from_device": false,
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 2048,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 294400,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "run_infer_on_copy_streams": true,
+        "start_from_device": true,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "AGX_Xavier": {
+        "concurrent_offline_expected_qps": 2181,
+        "dla_batch_size": 32,
+        "dla_copy_streams": 1,
+        "dla_core": 0,
+        "dla_inference_streams": 1,
+        "dla_offline_expected_qps": 396,
+        "gpu_batch_size": 64,
+        "gpu_copy_streams": 1,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 1478.33,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "T4x1": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 256,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 6100,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "T4x20": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 256,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 121500,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "T4x8": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 256,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 50000,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "TitanRTXx1": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 1024,
+        "gpu_copy_streams": 3,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 16291,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "run_infer_on_copy_streams": true,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "TitanRTXx4": {
+        "config_ver": {
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 1024,
+        "gpu_copy_streams": 3,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 65166,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "run_infer_on_copy_streams": true,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "Xavier_NX": {
+        "concurrent_offline_expected_qps": 1030,
+        "dla_batch_size": 32,
+        "dla_copy_streams": 2,
+        "dla_core": 0,
+        "dla_inference_streams": 1,
+        "dla_offline_expected_qps": 396,
+        "gpu_batch_size": 64,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 739,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "benchmark": "resnet50",
+    "scenario": "Offline"
+}

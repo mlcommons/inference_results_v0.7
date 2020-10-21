@@ -1,0 +1,276 @@
+{
+    "XE2420_T4x4": {
+        "active_sms": 100,
+        "config_ver": {
+        },
+        "deque_timeout_us": 30000,
+        "gpu_batch_size": 4,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 510,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "DSS8440_T4x12": {
+        "active_sms": 100,
+        "config_ver": {
+        },
+        "deque_timeout_us": 30000,
+        "gpu_batch_size": 4,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 2,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 1575,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "R740_T4x4": {
+        "active_sms": 100,
+        "config_ver": {
+            "triton": {
+                "instance_group_count": 4,
+                "server_target_qps": 615,
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 30000,
+        "gpu_batch_size": 4,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 470,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "R7515_T4x4": {
+        "active_sms": 100,
+        "config_ver": {
+            "triton": {
+                "instance_group_count": 4,
+                "server_target_qps": 615,
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 30000,
+        "gpu_batch_size": 4,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 450,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "DSS8440_QuadroRTX8000x8": {
+        "active_sms": 100,
+        "config_ver": {
+        },
+        "deque_timeout_us": 30000,
+        "gpu_batch_size": 4,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 2,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 2600,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "DSS8440_QuadroRTX6000x10": {
+        "active_sms": 100,
+        "config_ver": {
+        },
+        "deque_timeout_us": 30000,
+        "gpu_batch_size": 4,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 2,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 3500,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "R7525_A100x2": {
+        "active_sms": 100,
+        "config_ver": {
+        },
+        "deque_timeout_us": 30000,
+        "gpu_batch_size": 8,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 4,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 1545,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "R7525_A100x3": {
+        "active_sms": 100,
+        "config_ver": {
+        },
+        "deque_timeout_us": 30000,
+        "gpu_batch_size": 8,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 4,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 2270,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "R7525_QuadroRTX8000x3": {
+        "active_sms": 100,
+        "config_ver": {
+        },
+        "deque_timeout_us": 30000,
+        "gpu_batch_size": 4,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 3,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 1045,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "DSS8440_T4x16": {
+        "deque_timeout_us": 30000,
+        "gpu_batch_size": 4,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 2,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 2065,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "DSS8440_QuadroRTX8000x10": {
+        "active_sms": 100,
+        "deque_timeout_us": 30000,
+        "gpu_batch_size": 4,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 2,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 3524,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+      "R740_vT4x4": {
+        "active_sms": 100,
+        "config_ver": {
+            "triton": {
+                "instance_group_count": 4,
+                "server_target_qps":310,
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 15000,
+        "gpu_batch_size": 2,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 4,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 440,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": false,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "R7525_T4x8": {
+        "active_sms": 100,
+        "config_ver": {
+            "triton": {
+                "instance_group_count": 4,
+                "server_target_qps": 615,
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 30000,
+        "gpu_batch_size": 4,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 1030,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "C4140_QuadroRTX6000x4": {
+        "active_sms": 100,
+        "config_ver": {
+            "triton": {
+                "instance_group_count": 4,
+                "server_target_qps": 1600,
+                "use_triton": true
+            }
+        },
+        "deque_timeout_us": 30000,
+        "gpu_batch_size": 4,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 4,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 1380,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "benchmark": "ssd-resnet34",
+    "scenario": "Server"
+}

@@ -1,0 +1,101 @@
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/3d-unet-99.9/Offline/accuracy, accuracy is 0.85380
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/3d-unet-99.9/Offline is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/3d-unet-99/Offline/accuracy, accuracy is 0.85380
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/3d-unet-99/Offline is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/bert-99/Offline/accuracy, accuracy is 90.41426333537149
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/bert-99/Offline is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/bert-99/Server/accuracy, accuracy is 90.35341056109169
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/bert-99/Server is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/bert-99.9/Offline/accuracy, accuracy is 90.86087496792462
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/bert-99.9/Offline is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/bert-99.9/Server/accuracy, accuracy is 90.87601624418225
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/bert-99.9/Server is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/dlrm-99.9/Server/accuracy, accuracy is 80.185
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/dlrm-99.9/Server is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/dlrm-99.9/Offline/accuracy, accuracy is 80.185
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/dlrm-99.9/Offline is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/resnet50/Offline/accuracy, accuracy is 75.918
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/resnet50/Offline is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/resnet50/Server/accuracy, accuracy is 75.918
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/resnet50/Server is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/rnnt/Offline/accuracy, accuracy is 92.55225596969493
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/rnnt/Offline is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/rnnt/Server/accuracy, accuracy is 92.5567656542425
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/rnnt/Server is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/ssd-resnet34/Offline/accuracy, accuracy is 20.111
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/ssd-resnet34/Offline is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/ssd-resnet34/Server/accuracy, accuracy is 20.111
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/ssd-resnet34/Server is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/dlrm-99/Server/accuracy, accuracy is 80.185
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/dlrm-99/Server is OK
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/dlrm-99/Offline/accuracy, accuracy is 80.185
+INFO:main:closed/Lenovo/results/A100-PCIex4_TRT72/dlrm-99/Offline is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/3d-unet-99/Offline/accuracy, accuracy is 0.85367
+INFO:main:closed/Lenovo/results/T4x1_TRT/3d-unet-99/Offline is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/3d-unet-99/SingleStream/accuracy, accuracy is 0.85367
+INFO:main:closed/Lenovo/results/T4x1_TRT/3d-unet-99/SingleStream is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/bert-99/Offline/accuracy, accuracy is 90.43326524910879
+INFO:main:closed/Lenovo/results/T4x1_TRT/bert-99/Offline is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/bert-99/SingleStream/accuracy, accuracy is 90.39787134425293
+INFO:main:closed/Lenovo/results/T4x1_TRT/bert-99/SingleStream is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/rnnt/Offline/accuracy, accuracy is 92.5567656542425
+INFO:main:closed/Lenovo/results/T4x1_TRT/rnnt/Offline is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/rnnt/SingleStream/accuracy, accuracy is 92.56578502333763
+INFO:main:closed/Lenovo/results/T4x1_TRT/rnnt/SingleStream is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/ssd-resnet34/MultiStream/accuracy, accuracy is 20.111
+INFO:main:closed/Lenovo/results/T4x1_TRT/ssd-resnet34/MultiStream is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/ssd-resnet34/Offline/accuracy, accuracy is 20.111
+INFO:main:closed/Lenovo/results/T4x1_TRT/ssd-resnet34/Offline is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/ssd-resnet34/SingleStream/accuracy, accuracy is 20.111
+INFO:main:closed/Lenovo/results/T4x1_TRT/ssd-resnet34/SingleStream is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/ssd-mobilenet/MultiStream/accuracy, accuracy is 22.911
+INFO:main:closed/Lenovo/results/T4x1_TRT/ssd-mobilenet/MultiStream is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/ssd-mobilenet/Offline/accuracy, accuracy is 22.911
+INFO:main:closed/Lenovo/results/T4x1_TRT/ssd-mobilenet/Offline is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/ssd-mobilenet/SingleStream/accuracy, accuracy is 22.914
+INFO:main:closed/Lenovo/results/T4x1_TRT/ssd-mobilenet/SingleStream is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/3d-unet-99.9/Offline/accuracy, accuracy is 0.85367
+INFO:main:closed/Lenovo/results/T4x1_TRT/3d-unet-99.9/Offline is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/3d-unet-99.9/SingleStream/accuracy, accuracy is 0.85367
+INFO:main:closed/Lenovo/results/T4x1_TRT/3d-unet-99.9/SingleStream is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/resnet50/MultiStream/accuracy, accuracy is 75.918
+INFO:main:closed/Lenovo/results/T4x1_TRT/resnet50/MultiStream is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/resnet50/Offline/accuracy, accuracy is 75.918
+INFO:main:closed/Lenovo/results/T4x1_TRT/resnet50/Offline is OK
+INFO:main:closed/Lenovo/results/T4x1_TRT/resnet50/SingleStream/accuracy, accuracy is 75.918
+INFO:main:closed/Lenovo/results/T4x1_TRT/resnet50/SingleStream is OK
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/3d-unet-99.9/Offline 154.14
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/3d-unet-99/Offline 154.14
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/bert-99/Offline 11460.4
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/bert-99/Server 10653.37
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/bert-99.9/Offline 5757.35
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/bert-99.9/Server 5199.74
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/dlrm-99.9/Server 638262.86
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/dlrm-99.9/Offline 914003.0
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/resnet50/Offline 130629.0
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/resnet50/Server 105597.27
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/rnnt/Offline 35561.6
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/rnnt/Server 30611.27
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/ssd-resnet34/Offline 3407.36
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/ssd-resnet34/Server 3317.02
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/dlrm-99/Server 638262.86
+INFO:main:Results closed/Lenovo/results/A100-PCIex4_TRT72/dlrm-99/Offline 914003.0
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/3d-unet-99/Offline 7.2727
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/3d-unet-99/SingleStream 156.183216
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/bert-99/Offline 436.955
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/bert-99/SingleStream 6.246506
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/rnnt/Offline 1466.99
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/rnnt/SingleStream 62.102056
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/ssd-resnet34/MultiStream 8.0
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/ssd-resnet34/Offline 133.931
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/ssd-resnet34/SingleStream 8.170757
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/ssd-mobilenet/MultiStream 368.0
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/ssd-mobilenet/Offline 7705.63
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/ssd-mobilenet/SingleStream 0.519557
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/3d-unet-99.9/Offline 7.2727
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/3d-unet-99.9/SingleStream 156.183216
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/resnet50/MultiStream 272.0
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/resnet50/Offline 6083.72
+INFO:main:Results closed/Lenovo/results/T4x1_TRT/resnet50/SingleStream 0.883488
+INFO:main:Results=33, NoResults=0
+INFO:main:SUMMARY: submission looks OK

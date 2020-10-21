@@ -1,0 +1,734 @@
+INFO:main:closed/dividiti/results/firefly-armnn-v20.08-opencl/resnet50/offline/performance/run_1 has infered resuls, qps=2.19
+ERROR:main:no compliance dir for closed/dividiti/results/firefly-armnn-v20.08-opencl/resnet50/offline
+INFO:main:closed/dividiti/compliance/firefly-armnn-v20.08-opencl/resnet50/singlestream/TEST01/accuracy has file list mismatch (['compliance_accuracy.txt', 'baseline_accuracy.txt'])
+INFO:main:closed/dividiti/results/xavier-tflite-v2.2.0-ruy/resnet50/offline/performance/run_1 has infered resuls, qps=12.55
+ERROR:main:no compliance dir for closed/dividiti/results/xavier-tflite-v2.2.0-ruy/resnet50/offline
+INFO:main:closed/dividiti/compliance/xavier-tflite-v2.2.0-ruy/resnet50/singlestream/TEST01/accuracy has file list mismatch (['compliance_accuracy.txt', 'baseline_accuracy.txt'])
+INFO:main:closed/dividiti/results/rpi4-tflite-v2.2.0-ruy/resnet50/offline/performance/run_1 has infered resuls, qps=1.35
+ERROR:main:no compliance dir for closed/dividiti/results/rpi4-tflite-v2.2.0-ruy/resnet50/offline
+INFO:main:closed/dividiti/compliance/rpi4-tflite-v2.2.0-ruy/resnet50/singlestream/TEST01/accuracy has file list mismatch (['compliance_accuracy.txt', 'baseline_accuracy.txt'])
+INFO:main:closed/dividiti/results/xavier-armnn-v20.08-neon/resnet50/offline/performance/run_1 has infered resuls, qps=16.88
+ERROR:main:no compliance dir for closed/dividiti/results/xavier-armnn-v20.08-neon/resnet50/offline
+INFO:main:closed/dividiti/compliance/xavier-armnn-v20.08-neon/resnet50/singlestream/TEST01/accuracy has file list mismatch (['compliance_accuracy.txt', 'baseline_accuracy.txt'])
+ERROR:main:compliance dir closed/dividiti/compliance/xavier-armnn-v20.08-neon/resnet50/singlestream has issues
+INFO:main:closed/dividiti/results/xavier-tflite-v2.3.0-ruy/resnet50/offline/performance/run_1 has infered resuls, qps=8.96
+ERROR:main:no compliance dir for closed/dividiti/results/xavier-tflite-v2.3.0-ruy/resnet50/offline
+INFO:main:closed/dividiti/compliance/xavier-tflite-v2.3.0-ruy/resnet50/singlestream/TEST01/accuracy has file list mismatch (['compliance_accuracy.txt', 'baseline_accuracy.txt'])
+INFO:main:closed/dividiti/results/rpi4coral-armnn-v20.08-neon/resnet50/offline/performance/run_1 has infered resuls, qps=2.84
+ERROR:main:no compliance dir for closed/dividiti/results/rpi4coral-armnn-v20.08-neon/resnet50/offline
+INFO:main:closed/dividiti/compliance/rpi4coral-armnn-v20.08-neon/resnet50/singlestream/TEST01/accuracy has file list mismatch (['compliance_accuracy.txt', 'baseline_accuracy.txt'])
+ERROR:main:compliance dir closed/dividiti/compliance/rpi4coral-armnn-v20.08-neon/resnet50/singlestream has issues
+ERROR:main:compliance dir closed/dividiti/compliance/xavier-tensorrt-v6.0/resnet50/offline has issues
+ERROR:main:compliance dir closed/dividiti/compliance/xavier-tensorrt-v6.0/ssd-mobilenet/offline has issues
+ERROR:main:compliance dir closed/dividiti/compliance/xavier-tensorrt-v6.0/ssd-mobilenet/singlestream has issues
+INFO:main:closed/dividiti/results/rpi4coral-tflite-v2.2.0-ruy/resnet50/offline/performance/run_1 has infered resuls, qps=1.66
+ERROR:main:no compliance dir for closed/dividiti/results/rpi4coral-tflite-v2.2.0-ruy/resnet50/offline
+INFO:main:closed/dividiti/compliance/rpi4coral-tflite-v2.2.0-ruy/resnet50/singlestream/TEST01/accuracy has file list mismatch (['compliance_accuracy.txt', 'baseline_accuracy.txt'])
+ERROR:main:compliance dir closed/dividiti/compliance/rpi4coral-tflite-v2.2.0-ruy/resnet50/singlestream has issues
+INFO:main:closed/dividiti/results/rpi4coral-tflite-v2.2.0-ruy/ssd-mobilenet-non-quantized/offline/performance/run_1 has infered resuls, qps=6.27
+ERROR:main:no compliance dir for closed/dividiti/results/rpi4coral-tflite-v2.2.0-ruy/ssd-mobilenet-non-quantized/offline
+INFO:main:closed/dividiti/compliance/rpi4coral-tflite-v2.2.0-ruy/ssd-mobilenet-non-quantized/singlestream/TEST01/accuracy has file list mismatch (['compliance_accuracy.txt', 'baseline_accuracy.txt'])
+INFO:main:closed/dividiti/results/firefly-armnn-v20.08-neon/resnet50/offline/performance/run_1 has infered resuls, qps=2.73
+ERROR:main:no compliance dir for closed/dividiti/results/firefly-armnn-v20.08-neon/resnet50/offline
+INFO:main:closed/dividiti/compliance/firefly-armnn-v20.08-neon/resnet50/singlestream/TEST01/accuracy has file list mismatch (['compliance_accuracy.txt', 'baseline_accuracy.txt'])
+INFO:main:closed/dividiti/results/firefly-tflite-v2.2.0-ruy/resnet50/offline/performance/run_1 has infered resuls, qps=2.19
+ERROR:main:no compliance dir for closed/dividiti/results/firefly-tflite-v2.2.0-ruy/resnet50/offline
+INFO:main:closed/dividiti/compliance/firefly-tflite-v2.2.0-ruy/resnet50/singlestream/TEST01/accuracy has file list mismatch (['compliance_accuracy.txt', 'baseline_accuracy.txt'])
+ERROR:main:compliance dir closed/dividiti/compliance/firefly-tflite-v2.2.0-ruy/resnet50/singlestream has issues
+INFO:main:closed/dividiti/results/rpi4-armnn-v20.08-neon/resnet50/offline/performance/run_1 has infered resuls, qps=2.48
+ERROR:main:no compliance dir for closed/dividiti/results/rpi4-armnn-v20.08-neon/resnet50/offline
+INFO:main:closed/dividiti/compliance/rpi4-armnn-v20.08-neon/resnet50/singlestream/TEST01/accuracy has file list mismatch (['compliance_accuracy.txt', 'baseline_accuracy.txt'])
+INFO:main:open/dividiti/results/firefly-armnn-v20.08-opencl/efficientnet-lite0-non-quantized/offline/performance/run_1 has infered resuls, qps=11.49
+INFO:main:open/dividiti/results/firefly-armnn-v20.08-opencl/efficientnet-lite4-non-quantized/offline/performance/run_1 has infered resuls, qps=2.32
+INFO:main:open/dividiti/results/firefly-armnn-v20.08-opencl/efficientnet-lite0-quantized/offline/performance/run_1 has infered resuls, qps=8.07
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-192-non-quantized/offline/performance/run_1 has infered resuls, qps=188.56
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-192-quantized/offline/performance/run_1 has infered resuls, qps=78.16
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-224-quantized/offline/performance/run_1 has infered resuls, qps=83.72
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-192-non-quantized/offline/performance/run_1 has infered resuls, qps=223.47
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-96-non-quantized/offline/performance/run_1 has infered resuls, qps=462.14
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-160-quantized/offline/performance/run_1 has infered resuls, qps=109.42
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-96-non-quantized/offline/performance/run_1 has infered resuls, qps=389.05
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-224-quantized/offline/performance/run_1 has infered resuls, qps=66.93
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite0-non-quantized/offline/performance/run_1 has infered resuls, qps=80.25
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-128-non-quantized/offline/performance/run_1 has infered resuls, qps=193.00
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-160-non-quantized/offline/performance/run_1 has infered resuls, qps=172.39
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-192-quantized/offline/performance/run_1 has infered resuls, qps=189.77
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite4-non-quantized/offline/performance/run_1 has infered resuls, qps=17.99
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-128-quantized/offline/performance/run_1 has infered resuls, qps=267.38
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-160-quantized/offline/performance/run_1 has infered resuls, qps=101.13
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-128-quantized/offline/performance/run_1 has infered resuls, qps=200.48
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-160-non-quantized/offline/performance/run_1 has infered resuls, qps=285.48
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-224-non-quantized/offline/performance/run_1 has infered resuls, qps=149.71
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-96-quantized/offline/performance/run_1 has infered resuls, qps=339.84
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=83.23
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-192-non-quantized/offline/performance/run_1 has infered resuls, qps=113.53
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-128-non-quantized/offline/performance/run_1 has infered resuls, qps=593.83
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-192-non-quantized/offline/performance/run_1 has infered resuls, qps=136.77
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-160-non-quantized/offline/performance/run_1 has infered resuls, qps=182.67
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large_224_0.75_float/offline/performance/run_1 has infered resuls, qps=108.80
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_float/offline/performance/run_1 has infered resuls, qps=112.76
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-224-quantized/offline/performance/run_1 has infered resuls, qps=60.55
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-small_224_1.0_float/offline/performance/run_1 has infered resuls, qps=183.50
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-128-quantized/offline/performance/run_1 has infered resuls, qps=171.41
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-224-non-quantized/offline/performance/run_1 has infered resuls, qps=284.96
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-160-non-quantized/offline/performance/run_1 has infered resuls, qps=471.03
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-192-quantized/offline/performance/run_1 has infered resuls, qps=191.33
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-160-quantized/offline/performance/run_1 has infered resuls, qps=230.95
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-96-quantized/offline/performance/run_1 has infered resuls, qps=421.20
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-192-non-quantized/offline/performance/run_1 has infered resuls, qps=357.73
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.3-224-non-quantized/offline/performance/run_1 has infered resuls, qps=65.79
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-small-minimalistic_224_1.0_float/offline/performance/run_1 has infered resuls, qps=222.79
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-224-non-quantized/offline/performance/run_1 has infered resuls, qps=179.22
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-224-quantized/offline/performance/run_1 has infered resuls, qps=121.26
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-224-quantized/offline/performance/run_1 has infered resuls, qps=147.41
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite4-quantized/offline/performance/run_1 has infered resuls, qps=12.58
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-small_224_0.75_float/offline/performance/run_1 has infered resuls, qps=188.31
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-224-quantized/offline/performance/run_1 has infered resuls, qps=277.81
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-128-quantized/offline/performance/run_1 has infered resuls, qps=307.92
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-192-non-quantized/offline/performance/run_1 has infered resuls, qps=141.27
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite3-quantized/offline/performance/run_1 has infered resuls, qps=20.73
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-160-non-quantized/offline/performance/run_1 has infered resuls, qps=150.51
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.4-224-non-quantized/offline/performance/run_1 has infered resuls, qps=60.80
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-160-non-quantized/offline/performance/run_1 has infered resuls, qps=131.29
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite2-non-quantized/offline/performance/run_1 has infered resuls, qps=43.38
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-96-non-quantized/offline/performance/run_1 has infered resuls, qps=302.74
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-192-quantized/offline/performance/run_1 has infered resuls, qps=152.55
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-192-non-quantized/offline/performance/run_1 has infered resuls, qps=221.24
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-96-non-quantized/offline/performance/run_1 has infered resuls, qps=266.96
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-224-quantized/offline/performance/run_1 has infered resuls, qps=149.30
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite3-non-quantized/offline/performance/run_1 has infered resuls, qps=29.44
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-224-non-quantized/offline/performance/run_1 has infered resuls, qps=104.57
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-128-non-quantized/offline/performance/run_1 has infered resuls, qps=235.13
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-160-quantized/offline/performance/run_1 has infered resuls, qps=139.44
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-224-non-quantized/offline/performance/run_1 has infered resuls, qps=195.00
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite2-quantized/offline/performance/run_1 has infered resuls, qps=30.78
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-160-quantized/offline/performance/run_1 has infered resuls, qps=194.46
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=72.52
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite1-quantized/offline/performance/run_1 has infered resuls, qps=39.17
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite1-non-quantized/offline/performance/run_1 has infered resuls, qps=55.93
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-224-non-quantized/offline/performance/run_1 has infered resuls, qps=106.63
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-96-quantized/offline/performance/run_1 has infered resuls, qps=244.94
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-192-non-quantized/offline/performance/run_1 has infered resuls, qps=103.79
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-128-non-quantized/offline/performance/run_1 has infered resuls, qps=327.94
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-160-non-quantized/offline/performance/run_1 has infered resuls, qps=281.99
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-224-quantized/offline/performance/run_1 has infered resuls, qps=79.35
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite0-quantized/offline/performance/run_1 has infered resuls, qps=57.22
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-96-quantized/offline/performance/run_1 has infered resuls, qps=202.57
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-224-non-quantized/offline/performance/run_1 has infered resuls, qps=91.14
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-128-non-quantized/offline/performance/run_1 has infered resuls, qps=349.43
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-small_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=183.10
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-192-quantized/offline/performance/run_1 has infered resuls, qps=328.28
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-128-non-quantized/offline/performance/run_1 has infered resuls, qps=387.25
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-128-quantized/offline/performance/run_1 has infered resuls, qps=143.84
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-160-quantized/offline/performance/run_1 has infered resuls, qps=427.94
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-128-quantized/offline/performance/run_1 has infered resuls, qps=326.46
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-224-non-quantized/offline/performance/run_1 has infered resuls, qps=76.61
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-128-quantized/offline/performance/run_1 has infered resuls, qps=542.44
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-160-quantized/offline/performance/run_1 has infered resuls, qps=243.15
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-128-non-quantized/offline/performance/run_1 has infered resuls, qps=263.56
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-160-non-quantized/offline/performance/run_1 has infered resuls, qps=240.97
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-192-quantized/offline/performance/run_1 has infered resuls, qps=101.97
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.4-224-quantized/offline/performance/run_1 has infered resuls, qps=42.44
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-192-quantized/offline/performance/run_1 has infered resuls, qps=84.89
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-128-non-quantized/offline/performance/run_1 has infered resuls, qps=207.83
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-160-quantized/offline/performance/run_1 has infered resuls, qps=132.25
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large_224_1.0_float/offline/performance/run_1 has infered resuls, qps=92.01
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-192-quantized/offline/performance/run_1 has infered resuls, qps=108.38
+INFO:main:open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-128-quantized/offline/performance/run_1 has infered resuls, qps=129.65
+INFO:main:open/dividiti/results/rpi4-tflite-v2.2.0-ruy/efficientnet-lite0-non-quantized/offline/performance/run_1 has infered resuls, qps=12.49
+INFO:main:open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=39.07
+INFO:main:open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large_224_0.75_float/offline/performance/run_1 has infered resuls, qps=21.53
+INFO:main:open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_float/offline/performance/run_1 has infered resuls, qps=20.30
+INFO:main:open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-small_224_1.0_float/offline/performance/run_1 has infered resuls, qps=42.37
+INFO:main:open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-small-minimalistic_224_1.0_float/offline/performance/run_1 has infered resuls, qps=51.93
+INFO:main:open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-small_224_0.75_float/offline/performance/run_1 has infered resuls, qps=48.21
+INFO:main:open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=30.42
+INFO:main:open/dividiti/results/rpi4-tflite-v2.2.0-ruy/efficientnet-lite0-quantized/offline/performance/run_1 has infered resuls, qps=24.89
+INFO:main:open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-small_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=76.25
+INFO:main:open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large_224_1.0_float/offline/performance/run_1 has infered resuls, qps=17.26
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-192-non-quantized/offline/performance/run_1 has infered resuls, qps=45.95
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-96-non-quantized/offline/performance/run_1 has infered resuls, qps=77.61
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-160-quantized/offline/performance/run_1 has infered resuls, qps=81.80
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-96-non-quantized/offline/performance/run_1 has infered resuls, qps=70.78
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-224-quantized/offline/performance/run_1 has infered resuls, qps=51.48
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite0-non-quantized/offline/performance/run_1 has infered resuls, qps=50.47
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-192-quantized/offline/performance/run_1 has infered resuls, qps=98.72
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite4-non-quantized/offline/performance/run_1 has infered resuls, qps=16.31
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-128-quantized/offline/performance/run_1 has infered resuls, qps=142.79
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-224-non-quantized/offline/performance/run_1 has infered resuls, qps=40.41
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-96-quantized/offline/performance/run_1 has infered resuls, qps=169.16
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large-minimalistic_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=62.55
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-192-non-quantized/offline/performance/run_1 has infered resuls, qps=32.35
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-192-non-quantized/offline/performance/run_1 has infered resuls, qps=34.90
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-160-non-quantized/offline/performance/run_1 has infered resuls, qps=41.84
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large_224_0.75_float/offline/performance/run_1 has infered resuls, qps=59.00
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large-minimalistic_224_1.0_float/offline/performance/run_1 has infered resuls, qps=66.42
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-small_224_1.0_float/offline/performance/run_1 has infered resuls, qps=97.92
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-128-quantized/offline/performance/run_1 has infered resuls, qps=110.35
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-160-quantized/offline/performance/run_1 has infered resuls, qps=121.30
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-96-quantized/offline/performance/run_1 has infered resuls, qps=175.54
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.3-224-non-quantized/offline/performance/run_1 has infered resuls, qps=18.81
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-small-minimalistic_224_1.0_float/offline/performance/run_1 has infered resuls, qps=120.43
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-224-quantized/offline/performance/run_1 has infered resuls, qps=82.62
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite4-quantized/offline/performance/run_1 has infered resuls, qps=5.99
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-small_224_0.75_float/offline/performance/run_1 has infered resuls, qps=102.77
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-128-quantized/offline/performance/run_1 has infered resuls, qps=142.27
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite3-quantized/offline/performance/run_1 has infered resuls, qps=9.70
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-160-non-quantized/offline/performance/run_1 has infered resuls, qps=37.45
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.4-224-non-quantized/offline/performance/run_1 has infered resuls, qps=17.93
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite2-non-quantized/offline/performance/run_1 has infered resuls, qps=26.59
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-96-non-quantized/offline/performance/run_1 has infered resuls, qps=60.27
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-192-quantized/offline/performance/run_1 has infered resuls, qps=97.84
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-192-non-quantized/offline/performance/run_1 has infered resuls, qps=49.32
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-96-non-quantized/offline/performance/run_1 has infered resuls, qps=54.78
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-224-quantized/offline/performance/run_1 has infered resuls, qps=85.91
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite3-non-quantized/offline/performance/run_1 has infered resuls, qps=21.35
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-128-non-quantized/offline/performance/run_1 has infered resuls, qps=48.18
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-224-non-quantized/offline/performance/run_1 has infered resuls, qps=44.62
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite2-quantized/offline/performance/run_1 has infered resuls, qps=13.31
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-160-quantized/offline/performance/run_1 has infered resuls, qps=117.35
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=52.00
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite1-quantized/offline/performance/run_1 has infered resuls, qps=18.73
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite1-non-quantized/offline/performance/run_1 has infered resuls, qps=34.72
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-224-non-quantized/offline/performance/run_1 has infered resuls, qps=30.29
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-96-quantized/offline/performance/run_1 has infered resuls, qps=139.73
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-128-non-quantized/offline/performance/run_1 has infered resuls, qps=60.25
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-160-non-quantized/offline/performance/run_1 has infered resuls, qps=57.14
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-224-quantized/offline/performance/run_1 has infered resuls, qps=57.95
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite0-quantized/offline/performance/run_1 has infered resuls, qps=28.46
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-96-quantized/offline/performance/run_1 has infered resuls, qps=133.26
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-224-non-quantized/offline/performance/run_1 has infered resuls, qps=24.60
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-128-non-quantized/offline/performance/run_1 has infered resuls, qps=65.00
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-small_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=103.97
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-128-quantized/offline/performance/run_1 has infered resuls, qps=108.36
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-160-non-quantized/offline/performance/run_1 has infered resuls, qps=52.14
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-192-quantized/offline/performance/run_1 has infered resuls, qps=70.49
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.4-224-quantized/offline/performance/run_1 has infered resuls, qps=35.43
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-192-quantized/offline/performance/run_1 has infered resuls, qps=65.64
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-128-non-quantized/offline/performance/run_1 has infered resuls, qps=44.71
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-160-quantized/offline/performance/run_1 has infered resuls, qps=87.85
+INFO:main:open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large_224_1.0_float/offline/performance/run_1 has infered resuls, qps=53.63
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite0-non-quantized/offline/performance/run_1 has infered resuls, qps=45.90
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite4-non-quantized/offline/performance/run_1 has infered resuls, qps=9.77
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=52.66
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large_224_0.75_float/offline/performance/run_1 has infered resuls, qps=39.79
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_float/offline/performance/run_1 has infered resuls, qps=63.93
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-small_224_1.0_float/offline/performance/run_1 has infered resuls, qps=64.36
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-small-minimalistic_224_1.0_float/offline/performance/run_1 has infered resuls, qps=145.48
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite4-quantized/offline/performance/run_1 has infered resuls, qps=6.57
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-small_224_0.75_float/offline/performance/run_1 has infered resuls, qps=68.26
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite3-quantized/offline/performance/run_1 has infered resuls, qps=11.10
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite2-non-quantized/offline/performance/run_1 has infered resuls, qps=23.07
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite3-non-quantized/offline/performance/run_1 has infered resuls, qps=16.50
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite2-quantized/offline/performance/run_1 has infered resuls, qps=16.24
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=26.16
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite1-quantized/offline/performance/run_1 has infered resuls, qps=21.81
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite1-non-quantized/offline/performance/run_1 has infered resuls, qps=32.07
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite0-quantized/offline/performance/run_1 has infered resuls, qps=32.84
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-small_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=56.69
+INFO:main:open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large_224_1.0_float/offline/performance/run_1 has infered resuls, qps=33.85
+INFO:main:open/dividiti/results/rpi4coral-armnn-v20.08-neon/efficientnet-lite0-non-quantized/offline/performance/run_1 has infered resuls, qps=12.59
+INFO:main:open/dividiti/results/rpi4coral-armnn-v20.08-neon/efficientnet-lite0-quantized/offline/performance/run_1 has infered resuls, qps=7.06
+INFO:main:open/dividiti/results/rpi4coral-tflite-v2.2.0-ruy/efficientnet-lite0-non-quantized/offline/performance/run_1 has infered resuls, qps=14.00
+INFO:main:open/dividiti/results/rpi4coral-tflite-v2.2.0-ruy/efficientnet-lite0-quantized/offline/performance/run_1 has infered resuls, qps=28.78
+INFO:main:open/dividiti/results/firefly-armnn-v20.08-neon/efficientnet-lite0-non-quantized/offline/performance/run_1 has infered resuls, qps=14.08
+INFO:main:open/dividiti/results/firefly-armnn-v20.08-neon/efficientnet-lite4-non-quantized/offline/performance/run_1 has infered resuls, qps=2.72
+INFO:main:open/dividiti/results/firefly-armnn-v20.08-neon/efficientnet-lite0-quantized/offline/performance/run_1 has infered resuls, qps=4.91
+INFO:main:open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite1/offline/performance/run_1 has infered resuls, qps=13.55
+INFO:main:open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite3/offline/performance/run_1 has infered resuls, qps=3.09
+INFO:main:open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite2/offline/performance/run_1 has infered resuls, qps=4.38
+INFO:main:open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite2/offline/performance/run_1 has infered resuls, qps=7.80
+INFO:main:open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite0/offline/performance/run_1 has infered resuls, qps=11.40
+INFO:main:open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite4/offline/performance/run_1 has infered resuls, qps=3.21
+INFO:main:open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite0/offline/performance/run_1 has infered resuls, qps=19.99
+INFO:main:open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite3/offline/performance/run_1 has infered resuls, qps=6.56
+INFO:main:open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite4/offline/performance/run_1 has infered resuls, qps=2.06
+INFO:main:open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite1/offline/performance/run_1 has infered resuls, qps=8.70
+INFO:main:open/dividiti/results/rpi4-armnn-v20.08-neon/efficientnet-lite0-non-quantized/offline/performance/run_1 has infered resuls, qps=11.35
+INFO:main:open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large-minimalistic_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=4.75
+INFO:main:open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large_224_0.75_float/offline/performance/run_1 has infered resuls, qps=17.20
+INFO:main:open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large-minimalistic_224_1.0_float/offline/performance/run_1 has infered resuls, qps=17.05
+INFO:main:open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-small_224_1.0_float/offline/performance/run_1 has infered resuls, qps=33.37
+INFO:main:open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-small-minimalistic_224_1.0_float/offline/performance/run_1 has infered resuls, qps=40.58
+INFO:main:open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-small_224_0.75_float/offline/performance/run_1 has infered resuls, qps=36.45
+INFO:main:open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=4.60
+INFO:main:open/dividiti/results/rpi4-armnn-v20.08-neon/efficientnet-lite0-quantized/offline/performance/run_1 has infered resuls, qps=2.32
+INFO:main:open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-small_224_1.0_uint8/offline/performance/run_1 has infered resuls, qps=13.27
+INFO:main:open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large_224_1.0_float/offline/performance/run_1 has infered resuls, qps=14.89
+INFO:main:open/dividiti/results/rpi4coral-tflite-for.coral-edgetpu/ssd-mobilenet-v2-edgetpu/offline/performance/run_1 has infered resuls, qps=39.80
+INFO:main:open/dividiti/results/rpi4coral-tflite-for.coral-edgetpu/ssd-mobilenet-v1-edgetpu/offline/performance/run_1 has infered resuls, qps=52.89
+INFO:main:---
+INFO:main:Results closed/dividiti/results/firefly-armnn-v20.08-opencl/resnet50/offline 2.19
+INFO:main:Results closed/dividiti/results/firefly-armnn-v20.08-opencl/resnet50/singlestream 458.246019
+INFO:main:Results closed/dividiti/results/xavier-tflite-v2.2.0-ruy/resnet50/offline 12.55
+INFO:main:Results closed/dividiti/results/xavier-tflite-v2.2.0-ruy/resnet50/singlestream 86.816813
+INFO:main:Results closed/dividiti/results/rpi4-tflite-v2.2.0-ruy/resnet50/offline 1.35
+INFO:main:Results closed/dividiti/results/rpi4-tflite-v2.2.0-ruy/resnet50/singlestream 759.539316
+INFO:main:Results closed/dividiti/results/xavier-armnn-v20.08-neon/resnet50/offline 16.88
+INFO:main:Results closed/dividiti/results/xavier-armnn-v20.08-neon/resnet50/singlestream 73.281484
+INFO:main:Results closed/dividiti/results/xavier-tflite-v2.3.0-ruy/resnet50/offline 8.96
+INFO:main:Results closed/dividiti/results/xavier-tflite-v2.3.0-ruy/resnet50/singlestream 119.348397
+INFO:main:Results closed/dividiti/results/rpi4coral-armnn-v20.08-neon/resnet50/offline 2.84
+INFO:main:Results closed/dividiti/results/rpi4coral-armnn-v20.08-neon/resnet50/singlestream 363.624509
+INFO:main:Results closed/dividiti/results/xavier-tensorrt-v6.0/resnet50/offline 1301.26
+INFO:main:Results closed/dividiti/results/xavier-tensorrt-v6.0/resnet50/singlestream 2.290468
+INFO:main:Results closed/dividiti/results/xavier-tensorrt-v6.0/resnet50/multistream 70.0
+INFO:main:Results closed/dividiti/results/xavier-tensorrt-v6.0/ssd-mobilenet/offline 1244.22
+INFO:main:Results closed/dividiti/results/xavier-tensorrt-v6.0/ssd-mobilenet/singlestream 2.253701
+INFO:main:Results closed/dividiti/results/rpi4coral-tflite-v2.2.0-ruy/resnet50/offline 1.66
+INFO:main:Results closed/dividiti/results/rpi4coral-tflite-v2.2.0-ruy/resnet50/singlestream 612.460091
+INFO:main:Results closed/dividiti/results/rpi4coral-tflite-v2.2.0-ruy/ssd-mobilenet-non-quantized/offline 6.27
+INFO:main:Results closed/dividiti/results/rpi4coral-tflite-v2.2.0-ruy/ssd-mobilenet-non-quantized/singlestream 170.988464
+INFO:main:Results closed/dividiti/results/aws-g4dn.4xlarge-openvino-2020/ssd-resnet34/offline 9.60187
+INFO:main:Results closed/dividiti/results/aws-g4dn.4xlarge-openvino-2020/resnet50/offline 513.119
+INFO:main:Results closed/dividiti/results/aws-g4dn.4xlarge-openvino-2020/resnet50/server 278.75
+INFO:main:Results closed/dividiti/results/firefly-armnn-v20.08-neon/resnet50/offline 2.73
+INFO:main:Results closed/dividiti/results/firefly-armnn-v20.08-neon/resnet50/singlestream 367.529816
+INFO:main:Results closed/dividiti/results/firefly-tflite-v2.2.0-ruy/resnet50/offline 2.19
+INFO:main:Results closed/dividiti/results/firefly-tflite-v2.2.0-ruy/resnet50/singlestream 544.7268
+INFO:main:Results closed/dividiti/results/rpi4-armnn-v20.08-neon/resnet50/offline 2.48
+INFO:main:Results closed/dividiti/results/rpi4-armnn-v20.08-neon/resnet50/singlestream 418.825218
+INFO:main:Results open/dividiti/results/firefly-armnn-v20.08-opencl/efficientnet-lite0-non-quantized/offline 11.49
+INFO:main:Results open/dividiti/results/firefly-armnn-v20.08-opencl/efficientnet-lite0-non-quantized/singlestream 87.881447
+INFO:main:Results open/dividiti/results/firefly-armnn-v20.08-opencl/efficientnet-lite4-non-quantized/offline 2.32
+INFO:main:Results open/dividiti/results/firefly-armnn-v20.08-opencl/efficientnet-lite4-non-quantized/singlestream 433.977908
+INFO:main:Results open/dividiti/results/firefly-armnn-v20.08-opencl/efficientnet-lite0-quantized/offline 8.07
+INFO:main:Results open/dividiti/results/firefly-armnn-v20.08-opencl/efficientnet-lite0-quantized/singlestream 130.113629
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-192-non-quantized/offline 188.56
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-192-non-quantized/singlestream 6.747202
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-192-quantized/offline 78.16
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-192-quantized/singlestream 16.01477
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-224-quantized/offline 83.72
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-224-quantized/singlestream 15.938412
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-192-non-quantized/offline 223.47
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-192-non-quantized/singlestream 5.304029
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-96-non-quantized/offline 462.14
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-96-non-quantized/singlestream 3.067496
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-160-quantized/offline 109.42
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-160-quantized/singlestream 13.103363
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-96-non-quantized/offline 389.05
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-96-non-quantized/singlestream 3.75009
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-224-quantized/offline 66.93
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-224-quantized/singlestream 19.969889
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite0-non-quantized/offline 80.25
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite0-non-quantized/singlestream 16.07689
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-128-non-quantized/offline 193.00
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-128-non-quantized/singlestream 6.117692
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-160-non-quantized/offline 172.39
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-160-non-quantized/singlestream 7.357345
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-192-quantized/offline 189.77
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-192-quantized/singlestream 6.791786
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite4-non-quantized/offline 17.99
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite4-non-quantized/singlestream 66.791119
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-128-quantized/offline 267.38
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-128-quantized/singlestream 4.735441
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-160-quantized/offline 101.13
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-160-quantized/singlestream 12.112325
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-128-quantized/offline 200.48
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-128-quantized/singlestream 6.331537
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-160-non-quantized/offline 285.48
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-160-non-quantized/singlestream 4.273707
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-224-non-quantized/offline 149.71
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-224-non-quantized/singlestream 9.023177
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-96-quantized/offline 339.84
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-96-quantized/singlestream 4.009494
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_uint8/offline 83.23
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_uint8/singlestream 16.316656
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-192-non-quantized/offline 113.53
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-192-non-quantized/singlestream 11.62534
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-128-non-quantized/offline 593.83
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-128-non-quantized/singlestream 1.996424
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-192-non-quantized/offline 136.77
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-192-non-quantized/singlestream 10.22059
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-160-non-quantized/offline 182.67
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-160-non-quantized/singlestream 7.148242
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large_224_0.75_float/offline 108.80
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large_224_0.75_float/singlestream 12.402317
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_float/offline 112.76
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_float/singlestream 11.373913
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-224-quantized/offline 60.55
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-224-quantized/singlestream 20.376978
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-small_224_1.0_float/offline 183.50
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-small_224_1.0_float/singlestream 6.64446
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-128-quantized/offline 171.41
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-128-quantized/singlestream 8.142972
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-224-non-quantized/offline 284.96
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-224-non-quantized/singlestream 4.148805
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-160-non-quantized/offline 471.03
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-160-non-quantized/singlestream 2.51788
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-192-quantized/offline 191.33
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-192-quantized/singlestream 7.241188
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-160-quantized/offline 230.95
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-160-quantized/singlestream 5.793127
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-96-quantized/offline 421.20
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-96-quantized/singlestream 3.126667
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-192-non-quantized/offline 357.73
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-192-non-quantized/singlestream 3.287008
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.3-224-non-quantized/offline 65.79
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.3-224-non-quantized/singlestream 19.984117
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-small-minimalistic_224_1.0_float/offline 222.79
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-small-minimalistic_224_1.0_float/singlestream 5.684381
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-224-non-quantized/offline 179.22
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-224-non-quantized/singlestream 6.934659
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-224-quantized/offline 121.26
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-224-quantized/singlestream 11.651171
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-224-quantized/offline 147.41
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-224-quantized/singlestream 9.376075
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite4-quantized/offline 12.58
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite4-quantized/singlestream 91.953171
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-small_224_0.75_float/offline 188.31
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-small_224_0.75_float/singlestream 7.092963
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-224-quantized/offline 277.81
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-224-quantized/singlestream 4.640029
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-128-quantized/offline 307.92
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-128-quantized/singlestream 4.201465
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-192-non-quantized/offline 141.27
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-192-non-quantized/singlestream 8.599557
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite3-quantized/offline 20.73
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite3-quantized/singlestream 57.612452
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-160-non-quantized/offline 150.51
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-160-non-quantized/singlestream 8.897577
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.4-224-non-quantized/offline 60.80
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.4-224-non-quantized/singlestream 21.268333
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-160-non-quantized/offline 131.29
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-160-non-quantized/singlestream 9.142153
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite2-non-quantized/offline 43.38
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite2-non-quantized/singlestream 28.491733
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-96-non-quantized/offline 302.74
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-96-non-quantized/singlestream 4.547982
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-192-quantized/offline 152.55
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-192-quantized/singlestream 9.445243
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-192-non-quantized/offline 221.24
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-192-non-quantized/singlestream 5.825632
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-96-non-quantized/offline 266.96
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-96-non-quantized/singlestream 5.107063
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-224-quantized/offline 149.30
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-224-quantized/singlestream 9.361528
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite3-non-quantized/offline 29.44
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite3-non-quantized/singlestream 41.380131
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-224-non-quantized/offline 104.57
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-224-non-quantized/singlestream 12.443801
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-128-non-quantized/offline 235.13
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-128-non-quantized/singlestream 5.373742
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-160-quantized/offline 139.44
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-160-quantized/singlestream 9.312341
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-224-non-quantized/offline 195.00
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-224-non-quantized/singlestream 6.247279
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite2-quantized/offline 30.78
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite2-quantized/singlestream 40.187217
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-160-quantized/offline 194.46
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-160-quantized/singlestream 6.93544
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large_224_1.0_uint8/offline 72.52
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large_224_1.0_uint8/singlestream 18.156845
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite1-quantized/offline 39.17
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite1-quantized/singlestream 32.303291
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite1-non-quantized/offline 55.93
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite1-non-quantized/singlestream 23.00695
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-224-non-quantized/offline 106.63
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-224-non-quantized/singlestream 12.323091
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-96-quantized/offline 244.94
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-96-quantized/singlestream 5.717154
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-192-non-quantized/offline 103.79
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-192-non-quantized/singlestream 11.511577
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-128-non-quantized/offline 327.94
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-128-non-quantized/singlestream 3.896044
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-160-non-quantized/offline 281.99
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-160-non-quantized/singlestream 4.606962
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-224-quantized/offline 79.35
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-224-quantized/singlestream 17.488599
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite0-quantized/offline 57.22
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/efficientnet-lite0-quantized/singlestream 22.155169
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-96-quantized/offline 202.57
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-96-quantized/singlestream 7.091436
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-224-non-quantized/offline 91.14
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-224-non-quantized/singlestream 13.864617
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-128-non-quantized/offline 349.43
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.35-128-non-quantized/singlestream 3.614495
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-small_224_1.0_uint8/offline 183.10
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-small_224_1.0_uint8/singlestream 6.983741
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-192-quantized/offline 328.28
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-192-quantized/singlestream 3.870332
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-128-non-quantized/offline 387.25
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-128-non-quantized/singlestream 2.909419
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-128-quantized/offline 143.84
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-128-quantized/singlestream 9.896324
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-160-quantized/offline 427.94
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-160-quantized/singlestream 3.229593
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-128-quantized/offline 326.46
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-128-quantized/singlestream 3.829911
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-224-non-quantized/offline 76.61
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-224-non-quantized/singlestream 15.441413
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-128-quantized/offline 542.44
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.25-128-quantized/singlestream 2.396821
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-160-quantized/offline 243.15
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.5-160-quantized/singlestream 5.621787
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-128-non-quantized/offline 263.56
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-128-non-quantized/singlestream 4.989617
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-160-non-quantized/offline 240.97
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.5-160-non-quantized/singlestream 5.435181
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-192-quantized/offline 101.97
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-192-quantized/singlestream 13.949141
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.4-224-quantized/offline 42.44
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.4-224-quantized/singlestream 29.254159
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-192-quantized/offline 84.89
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-192-quantized/singlestream 16.534358
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-128-non-quantized/offline 207.83
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-1.0-128-non-quantized/singlestream 6.151514
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-160-quantized/offline 132.25
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v2-0.75-160-quantized/singlestream 10.753006
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large_224_1.0_float/offline 92.01
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v3-large_224_1.0_float/singlestream 13.872949
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-192-quantized/offline 108.38
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-0.75-192-quantized/singlestream 11.595456
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-128-quantized/offline 129.65
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.2.0-ruy/mobilenet-v1-1.0-128-quantized/singlestream 9.418983
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/efficientnet-lite0-non-quantized/offline 12.49
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/efficientnet-lite0-non-quantized/singlestream 93.799867
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_uint8/offline 39.07
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_uint8/singlestream 33.17925
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large_224_0.75_float/offline 21.53
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large_224_0.75_float/singlestream 57.359443
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_float/offline 20.30
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_float/singlestream 61.206222
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-small_224_1.0_float/offline 42.37
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-small_224_1.0_float/singlestream 29.101554
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-small-minimalistic_224_1.0_float/offline 51.93
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-small-minimalistic_224_1.0_float/singlestream 22.480848
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-small_224_0.75_float/offline 48.21
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-small_224_0.75_float/singlestream 25.347439
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large_224_1.0_uint8/offline 30.42
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large_224_1.0_uint8/singlestream 42.392315
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/efficientnet-lite0-quantized/offline 24.89
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/efficientnet-lite0-quantized/singlestream 51.871664
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-small_224_1.0_uint8/offline 76.25
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-small_224_1.0_uint8/singlestream 14.594267
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large_224_1.0_float/offline 17.26
+INFO:main:Results open/dividiti/results/rpi4-tflite-v2.2.0-ruy/mobilenet-v3-large_224_1.0_float/singlestream 69.946553
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-192-non-quantized/offline 45.95
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-192-non-quantized/singlestream 25.52433
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-96-non-quantized/offline 77.61
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-96-non-quantized/singlestream 14.132811
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-160-quantized/offline 81.80
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-160-quantized/singlestream 13.429532
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-96-non-quantized/offline 70.78
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-96-non-quantized/singlestream 15.571033
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-224-quantized/offline 51.48
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-224-quantized/singlestream 24.100213
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite0-non-quantized/offline 50.47
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite0-non-quantized/singlestream 23.846018
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-192-quantized/offline 98.72
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-192-quantized/singlestream 11.215886
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite4-non-quantized/offline 16.31
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite4-non-quantized/singlestream 88.623563
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-128-quantized/offline 142.79
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-128-quantized/singlestream 7.264584
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-224-non-quantized/offline 40.41
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-224-non-quantized/singlestream 29.406235
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-96-quantized/offline 169.16
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-96-quantized/singlestream 6.1012
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large-minimalistic_224_1.0_uint8/offline 62.55
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large-minimalistic_224_1.0_uint8/singlestream 20.389919
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-192-non-quantized/offline 32.35
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-192-non-quantized/singlestream 37.517556
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-192-non-quantized/offline 34.90
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-192-non-quantized/singlestream 34.129454
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-160-non-quantized/offline 41.84
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-160-non-quantized/singlestream 28.143391
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large_224_0.75_float/offline 59.00
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large_224_0.75_float/singlestream 18.983031
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large-minimalistic_224_1.0_float/offline 66.42
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large-minimalistic_224_1.0_float/singlestream 18.491366
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-small_224_1.0_float/offline 97.92
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-small_224_1.0_float/singlestream 11.870415
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-128-quantized/offline 110.35
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-128-quantized/singlestream 9.484872
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-160-quantized/offline 121.30
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-160-quantized/singlestream 8.408531
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-96-quantized/offline 175.54
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-96-quantized/singlestream 5.679236
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.3-224-non-quantized/offline 18.81
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.3-224-non-quantized/singlestream 62.113179
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-small-minimalistic_224_1.0_float/offline 120.43
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-small-minimalistic_224_1.0_float/singlestream 9.724138
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-224-quantized/offline 82.62
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-224-quantized/singlestream 12.799281
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite4-quantized/offline 5.99
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite4-quantized/singlestream 178.912196
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-small_224_0.75_float/offline 102.77
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-small_224_0.75_float/singlestream 11.556896
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-128-quantized/offline 142.27
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-128-quantized/singlestream 7.223441
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite3-quantized/offline 9.70
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite3-quantized/singlestream 115.901776
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-160-non-quantized/offline 37.45
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-160-non-quantized/singlestream 31.741509
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.4-224-non-quantized/offline 17.93
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.4-224-non-quantized/singlestream 65.837594
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite2-non-quantized/offline 26.59
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite2-non-quantized/singlestream 42.866274
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-96-non-quantized/offline 60.27
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-96-non-quantized/singlestream 18.136247
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-192-quantized/offline 97.84
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-192-quantized/singlestream 10.90267
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-192-non-quantized/offline 49.32
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-192-non-quantized/singlestream 23.162241
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-96-non-quantized/offline 54.78
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-96-non-quantized/singlestream 20.085807
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-224-quantized/offline 85.91
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-224-quantized/singlestream 12.670618
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite3-non-quantized/offline 21.35
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite3-non-quantized/singlestream 59.164897
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-128-non-quantized/offline 48.18
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-128-non-quantized/singlestream 23.97484
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-224-non-quantized/offline 44.62
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-224-non-quantized/singlestream 26.246142
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite2-quantized/offline 13.31
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite2-quantized/singlestream 86.63528
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-160-quantized/offline 117.35
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-160-quantized/singlestream 8.686529
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large_224_1.0_uint8/offline 52.00
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large_224_1.0_uint8/singlestream 22.9093
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite1-quantized/offline 18.73
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite1-quantized/singlestream 64.974738
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite1-non-quantized/offline 34.72
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite1-non-quantized/singlestream 33.585293
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-224-non-quantized/offline 30.29
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-224-non-quantized/singlestream 40.151972
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-96-quantized/offline 139.73
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-96-quantized/singlestream 7.342263
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-128-non-quantized/offline 60.25
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-128-non-quantized/singlestream 18.372203
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-160-non-quantized/offline 57.14
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-160-non-quantized/singlestream 19.617987
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-224-quantized/offline 57.95
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-224-quantized/singlestream 20.874152
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite0-quantized/offline 28.46
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/efficientnet-lite0-quantized/singlestream 40.255334
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-96-quantized/offline 133.26
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-96-quantized/singlestream 7.896781
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-224-non-quantized/offline 24.60
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-224-non-quantized/singlestream 47.243098
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-128-non-quantized/offline 65.00
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.35-128-non-quantized/singlestream 17.111863
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-small_224_1.0_uint8/offline 103.97
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-small_224_1.0_uint8/singlestream 10.477229
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-128-quantized/offline 108.36
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-128-quantized/singlestream 9.756288
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-160-non-quantized/offline 52.14
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.5-160-non-quantized/singlestream 21.674912
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-192-quantized/offline 70.49
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-192-quantized/singlestream 16.200848
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.4-224-quantized/offline 35.43
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.4-224-quantized/singlestream 33.437846
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-192-quantized/offline 65.64
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-192-quantized/singlestream 17.665165
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-128-non-quantized/offline 44.71
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-1.0-128-non-quantized/singlestream 25.565448
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-160-quantized/offline 87.85
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v2-0.75-160-quantized/singlestream 13.19237
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large_224_1.0_float/offline 53.63
+INFO:main:Results open/dividiti/results/xavier-armnn-v20.08-neon/mobilenet-v3-large_224_1.0_float/singlestream 22.277752
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite0-non-quantized/offline 45.90
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite0-non-quantized/singlestream 24.951905
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite4-non-quantized/offline 9.77
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite4-non-quantized/singlestream 113.259554
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_uint8/offline 52.66
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_uint8/singlestream 23.585086
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large_224_0.75_float/offline 39.79
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large_224_0.75_float/singlestream 28.984129
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_float/offline 63.93
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large-minimalistic_224_1.0_float/singlestream 18.125722
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-small_224_1.0_float/offline 64.36
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-small_224_1.0_float/singlestream 17.205362
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-small-minimalistic_224_1.0_float/offline 145.48
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-small-minimalistic_224_1.0_float/singlestream 7.908844
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite4-quantized/offline 6.57
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite4-quantized/singlestream 165.668909
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-small_224_0.75_float/offline 68.26
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-small_224_0.75_float/singlestream 16.904901
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite3-quantized/offline 11.10
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite3-quantized/singlestream 99.125926
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite2-non-quantized/offline 23.07
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite2-non-quantized/singlestream 49.340966
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite3-non-quantized/offline 16.50
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite3-non-quantized/singlestream 68.535552
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite2-quantized/offline 16.24
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite2-quantized/singlestream 72.326317
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large_224_1.0_uint8/offline 26.16
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large_224_1.0_uint8/singlestream 45.196617
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite1-quantized/offline 21.81
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite1-quantized/singlestream 58.106367
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite1-non-quantized/offline 32.07
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite1-non-quantized/singlestream 35.360771
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite0-quantized/offline 32.84
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/efficientnet-lite0-quantized/singlestream 38.541909
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-small_224_1.0_uint8/offline 56.69
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-small_224_1.0_uint8/singlestream 21.25334
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large_224_1.0_float/offline 33.85
+INFO:main:Results open/dividiti/results/xavier-tflite-v2.3.0-ruy/mobilenet-v3-large_224_1.0_float/singlestream 33.678534
+INFO:main:Results open/dividiti/results/rpi4coral-armnn-v20.08-neon/efficientnet-lite0-non-quantized/offline 12.59
+INFO:main:Results open/dividiti/results/rpi4coral-armnn-v20.08-neon/efficientnet-lite0-non-quantized/singlestream 87.944605
+INFO:main:Results open/dividiti/results/rpi4coral-armnn-v20.08-neon/efficientnet-lite0-quantized/offline 7.06
+INFO:main:Results open/dividiti/results/rpi4coral-armnn-v20.08-neon/efficientnet-lite0-quantized/singlestream 161.706928
+INFO:main:Results open/dividiti/results/rpi4coral-tflite-v2.2.0-ruy/efficientnet-lite0-non-quantized/offline 14.00
+INFO:main:Results open/dividiti/results/rpi4coral-tflite-v2.2.0-ruy/efficientnet-lite0-non-quantized/singlestream 84.102452
+INFO:main:Results open/dividiti/results/rpi4coral-tflite-v2.2.0-ruy/efficientnet-lite0-quantized/offline 28.78
+INFO:main:Results open/dividiti/results/rpi4coral-tflite-v2.2.0-ruy/efficientnet-lite0-quantized/singlestream 42.728287
+INFO:main:Results open/dividiti/results/aws-g4dn.4xlarge-openvino-2020/ssd-resnet34/singlestream 102.491131
+INFO:main:Results open/dividiti/results/aws-g4dn.4xlarge-openvino-2020/resnet50/singlestream 2.665994
+INFO:main:Results open/dividiti/results/firefly-armnn-v20.08-neon/efficientnet-lite0-non-quantized/offline 14.08
+INFO:main:Results open/dividiti/results/firefly-armnn-v20.08-neon/efficientnet-lite0-non-quantized/singlestream 71.547265
+INFO:main:Results open/dividiti/results/firefly-armnn-v20.08-neon/efficientnet-lite4-non-quantized/offline 2.72
+INFO:main:Results open/dividiti/results/firefly-armnn-v20.08-neon/efficientnet-lite4-non-quantized/singlestream 369.180242
+INFO:main:Results open/dividiti/results/firefly-armnn-v20.08-neon/efficientnet-lite0-quantized/offline 4.91
+INFO:main:Results open/dividiti/results/firefly-armnn-v20.08-neon/efficientnet-lite0-quantized/singlestream 204.266654
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite1/offline 13.55
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite1/singlestream 104.808275
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite3/offline 3.09
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite3/singlestream 378.377258
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite2/offline 4.38
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite2/singlestream 296.174557
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite2/offline 7.80
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite2/singlestream 241.031171
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite0/offline 11.40
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite0/singlestream 157.33113
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite4/offline 3.21
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite4/singlestream 425.805975
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite0/offline 19.99
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite0/singlestream 74.255272
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite3/offline 6.56
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/quantized-efficientnet-lite3/singlestream 270.846085
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite4/offline 2.06
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite4/singlestream 542.549738
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite1/offline 8.70
+INFO:main:Results open/dividiti/results/firefly-tflite-v2.2.0-ruy/non-quantized-efficientnet-lite1/singlestream 153.980742
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/efficientnet-lite0-non-quantized/offline 11.35
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/efficientnet-lite0-non-quantized/singlestream 100.684968
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large-minimalistic_224_1.0_uint8/offline 4.75
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large-minimalistic_224_1.0_uint8/singlestream 234.46416
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large_224_0.75_float/offline 17.20
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large_224_0.75_float/singlestream 68.933853
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large-minimalistic_224_1.0_float/offline 17.05
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large-minimalistic_224_1.0_float/singlestream 69.144998
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-small_224_1.0_float/offline 33.37
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-small_224_1.0_float/singlestream 36.092621
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-small-minimalistic_224_1.0_float/offline 40.58
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-small-minimalistic_224_1.0_float/singlestream 29.284568
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-small_224_0.75_float/offline 36.45
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-small_224_0.75_float/singlestream 32.812338
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large_224_1.0_uint8/offline 4.60
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large_224_1.0_uint8/singlestream 239.934122
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/efficientnet-lite0-quantized/offline 2.32
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/efficientnet-lite0-quantized/singlestream 458.60509
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-small_224_1.0_uint8/offline 13.27
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-small_224_1.0_uint8/singlestream 94.042308
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large_224_1.0_float/offline 14.89
+INFO:main:Results open/dividiti/results/rpi4-armnn-v20.08-neon/mobilenet-v3-large_224_1.0_float/singlestream 79.807655
+INFO:main:Results open/dividiti/results/rpi4coral-tflite-for.coral-edgetpu/ssd-mobilenet-v2-edgetpu/offline 39.80
+INFO:main:Results open/dividiti/results/rpi4coral-tflite-for.coral-edgetpu/ssd-mobilenet-v2-edgetpu/singlestream 26.007643
+INFO:main:Results open/dividiti/results/rpi4coral-tflite-for.coral-edgetpu/ssd-mobilenet-v1-edgetpu/offline 52.89
+INFO:main:Results open/dividiti/results/rpi4coral-tflite-for.coral-edgetpu/ssd-mobilenet-v1-edgetpu/singlestream 19.556592
+INFO:main:---
+INFO:main:---
+INFO:main:Results=470, NoResults=0
+INFO:main:SUMMARY: submission looks OK

@@ -1,0 +1,53 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : XLNX_AI
+Scenario : Single Stream
+Mode     : Performance
+90th percentile latency (ns) : 1244684
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 808.24
+QPS w/o loadgen overhead        : 810.30
+
+Min latency (ns)                : 1214469
+Max latency (ns)                : 2527154
+Mean latency (ns)               : 1234105
+50.00 percentile latency (ns)   : 1232109
+90.00 percentile latency (ns)   : 1244684
+95.00 percentile latency (ns)   : 1251047
+97.00 percentile latency (ns)   : 1258467
+99.00 percentile latency (ns)   : 1272735
+99.90 percentile latency (ns)   : 1297373
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 1000
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1024
+max_query_count : 0
+qsl_rng_seed : 12786827339337101903
+sample_index_rng_seed : 12640797754436136668
+schedule_rng_seed : 3135815929913719677
+accuracy_log_rng_seed : 720381539243781796
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 1024
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 256
+
+No warnings encountered during test.
+
+No errors encountered during test.

@@ -1,0 +1,38 @@
+{
+    "division": "closed",
+    "submitter": "DellEMC",
+    "status": "available",
+    "system_type":"datacenter",
+    "system_name": "R640_6248R_VMwarevSphere7.0_openvino",
+
+    "number_of_nodes": "1",
+    "host_processor_model_name": "Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz",
+    "host_processors_per_node": "2",
+    "host_processor_core_count": "24",
+    "host_processor_frequency": "",
+    "host_processor_caches": "",
+    "host_memory_configuration": "12 X 16 GB 2933 MT/s",
+    "host_memory_capacity": "192GB",
+    "host_storage_capacity": "21TB",
+    "host_storage_type": "VSAN",
+    "host_processor_interconnect": "",
+    "host_networking": "",
+    "host_networking_topology": "",
+
+    "accelerators_per_node": "0",
+    "accelerator_model_name": "N/A",
+    "accelerator_frequency": "",
+    "accelerator_host_interconnect": "",
+    "accelerator_interconnect": "",
+    "accelerator_interconnect_topology": "",
+    "accelerator_memory_capacity": "N/A",
+    "accelerator_memory_configuration": "",
+    "accelerator_on-chip_memories": "",
+    "cooling": "",
+    "hw_notes": "",
+
+    "framework": "OpenVINO",
+    "operating_system": "Ubuntu 18.04.4 LTS, Linux 4.15.0-117-generic",
+    "other_software_stack": "VMware vSphere 7.0.0",
+    "sw_notes": "Tests are run inside 1 virtual machine with 96 vCPU, 192GB memory, 100GB storage"
+}

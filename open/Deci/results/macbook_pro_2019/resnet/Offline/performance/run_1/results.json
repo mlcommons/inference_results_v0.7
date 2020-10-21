@@ -1,0 +1,22 @@
+{
+    "TestScenario.Offline": {
+        "count": 24576,
+        "good_items": 0,
+        "mean": 57.67015066151823,
+        "percentiles": {
+            "50.0": 56.4468020365,
+            "80.0": 94.184342087,
+            "90.0": 107.340420615,
+            "95.0": 113.712683492,
+            "99.0": 119.031571289,
+            "99.9": 120.074972671
+        },
+        "qps": 204.51549059996057,
+        "took": 120.16693663597107,
+        "total_items": 24576
+    },
+    "cmdline": "Namespace(accuracy=False, backend='openvino', cache=0, count=None, data_format='NCHW', dataset='imagenet_deci', dataset_list='/Users/sefi/PycharmProjects/inference-r0.7/data/imagenet_openvino/imagenet_val_collapsed//val_map.txt', dataset_path='/Users/sefi/PycharmProjects/inference-r0.7/data/imagenet_openvino/imagenet_val_collapsed/', find_peak_performance=False, inputs=None, max_batchsize=64, max_latency=None, mlperf_conf='../mlperf.conf', model='models/deci-model-batch64_v3_fp32.zip', model_name='deci-model', output='/tmp/deci-submission/open/deci/results/openvino-cpu/resnet/Offline/performance/run_1', outputs=None, profile='deci_model64-openvino', qps=250, samples_per_query=None, scenario='Offline', threads=1, time=None, user_conf='../user.conf')",
+    "runtime": "openvino",
+    "time": 1601202226,
+    "version": 0
+}

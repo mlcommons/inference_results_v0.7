@@ -1,0 +1,7 @@
+{
+"input_data_types": "fp32",
+"retraining": "https://github.com/mlperf/submissions_inference_0_7/blob/master/open/Deci/README.md",
+"starting_weights_filename": "deci-model.onnx",
+"weight_data_types": "INT8",
+"weight_transformations": "https://github.com/mlperf/submissions_inference_0_7/blob/master/open/Deci/README.md"
+}

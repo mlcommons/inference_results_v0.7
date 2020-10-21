@@ -1,0 +1,298 @@
+XILINX_XRT      : /opt/xilinx/xrt
+PATH            : /opt/xilinx/xrt/bin:/opt/rh/devtoolset-7/root/usr/bin:/opt/xilinx/xrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+LD_LIBRARY_PATH : /opt/xilinx/xrt/lib:/opt/rh/devtoolset-7/root/usr/lib64:/opt/rh/devtoolset-7/root/usr/lib:/opt/rh/devtoolset-7/root/usr/lib64/dyninst:/opt/rh/devtoolset-7/root/usr/lib/dyninst:/opt/rh/devtoolset-7/root/usr/lib64:/opt/rh/devtoolset-7/root/usr/lib:/opt/xilinx/xrt/lib:
+PYTHONPATH     : /opt/xilinx/xrt/python:/opt/rh/devtoolset-7/root/usr/lib64/python2.7/site-packages:/opt/rh/devtoolset-7/root/usr/lib/python2.7/site-packages:/opt/xilinx/xrt/python:
+
+Running SingleStream performance #1
+Shell = xilinx_u280_xdma_201920_1
+Index = 0
+PCIe = GEN3 x 16
+OCL Frequency = 330 MHz
+DDR Bank = 2
+Device Temp = 43 C
+MIG Calibration = true
+Finished downloading bitstream /usr/lib/dpu.xclbin
+base_address 1810000
+Query count: 1024
+Start loadgen
+Loaded samples: 256
+
+Running SingleStream accuracy
+Shell = xilinx_u280_xdma_201920_1
+Index = 0
+PCIe = GEN3 x 16
+OCL Frequency = 330 MHz
+DDR Bank = 2
+Device Temp = 45 C
+MIG Calibration = true
+Finished downloading bitstream /usr/lib/dpu.xclbin
+base_address 1810000
+Query count: 1
+Start loadgen
+Loaded samples: 5000
+loading annotations into memory...
+Done (t=0.48s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.20s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=14.45s).
+Accumulating evaluation results...
+DONE (t=2.58s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.234
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.360
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.255
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.017
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.167
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.538
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.210
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.266
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.267
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.023
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.193
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.617
+mAP=23.412%
+
+Running SingleStream TEST01 compliance
+Shell = xilinx_u280_xdma_201920_1
+Index = 0
+PCIe = GEN3 x 16
+OCL Frequency = 330 MHz
+DDR Bank = 2
+Device Temp = 45 C
+MIG Calibration = true
+Finished downloading bitstream /usr/lib/dpu.xclbin
+base_address 1810000
+Query count: 1024
+Start loadgen
+Loaded samples: 256
+Verifying accuracy. This might take a while...
+Reading accuracy mode results...
+Reading performance mode results...
+num_acc_log_entries = 5000
+num_acc_log_duplicate_keys = 0
+num_acc_log_data_mismatch = 0
+num_perf_log_entries = 820
+num_perf_log_qsl_idx_match = 820
+num_perf_log_data_mismatch = 0
+num_missing_qsl_idxs = 0
+TEST PASS
+
+Verifying performance.
+reference score = 1284188
+test score = 1244684
+TEST PASS
+Parsing arguments.
+Accuracy check pass: True
+Performance check pass: True
+TEST01 verification complete
+
+Running SingleStream TEST04-A
+Shell = xilinx_u280_xdma_201920_1
+Index = 0
+PCIe = GEN3 x 16
+OCL Frequency = 330 MHz
+DDR Bank = 2
+Device Temp = 46 C
+MIG Calibration = true
+Finished downloading bitstream /usr/lib/dpu.xclbin
+base_address 1810000
+Query count: 1024
+Start loadgen
+Loaded samples: 256
+
+Running SingleStream TEST04-B
+Shell = xilinx_u280_xdma_201920_1
+Index = 0
+PCIe = GEN3 x 16
+OCL Frequency = 330 MHz
+DDR Bank = 2
+Device Temp = 46 C
+MIG Calibration = true
+Finished downloading bitstream /usr/lib/dpu.xclbin
+base_address 1810000
+Query count: 1024
+Start loadgen
+Loaded samples: 256
+Running TEST04-A TEST04-B compliance
+Verifying performance.
+TEST04-A score = 1286363
+TEST04-B score = 1252781
+TEST PASS
+Parsing arguments.
+Performance check pass: True
+TEST04 verification complete
+
+Running SingleStream TEST05 compilance
+Shell = xilinx_u280_xdma_201920_1
+Index = 0
+PCIe = GEN3 x 16
+OCL Frequency = 330 MHz
+DDR Bank = 2
+Device Temp = 45 C
+MIG Calibration = true
+Finished downloading bitstream /usr/lib/dpu.xclbin
+base_address 1810000
+Query count: 1024
+Start loadgen
+Loaded samples: 256
+Verifying performance.
+reference score = 1284188
+test score = 1279450
+TEST PASS
+Parsing arguments.
+Performance check pass: True
+TEST05 verification complete
+XILINX_XRT      : /opt/xilinx/xrt
+PATH            : /opt/xilinx/xrt/bin:/opt/xilinx/xrt/bin:/opt/rh/devtoolset-7/root/usr/bin:/opt/xilinx/xrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+LD_LIBRARY_PATH : /opt/xilinx/xrt/lib:/opt/xilinx/xrt/lib:/opt/rh/devtoolset-7/root/usr/lib64:/opt/rh/devtoolset-7/root/usr/lib:/opt/rh/devtoolset-7/root/usr/lib64/dyninst:/opt/rh/devtoolset-7/root/usr/lib/dyninst:/opt/rh/devtoolset-7/root/usr/lib64:/opt/rh/devtoolset-7/root/usr/lib:/opt/xilinx/xrt/lib:
+PYTHONPATH     : /opt/xilinx/xrt/python:/opt/xilinx/xrt/python:/opt/rh/devtoolset-7/root/usr/lib64/python2.7/site-packages:/opt/rh/devtoolset-7/root/usr/lib/python2.7/site-packages:/opt/xilinx/xrt/python:
+
+Running Offline performance #1
+Shell = xilinx_u280_xdma_201920_1
+Index = 0
+PCIe = GEN3 x 16
+OCL Frequency = 330 MHz
+DDR Bank = 2
+Device Temp = 46 C
+MIG Calibration = true
+Finished downloading bitstream /usr/lib/dpu.xclbin
+base_address 1810000
+Query count: 1
+Start loadgen
+Loaded samples: 256
+
+Running Offline accuracy
+Shell = xilinx_u280_xdma_201920_1
+Index = 0
+PCIe = GEN3 x 16
+OCL Frequency = 330 MHz
+DDR Bank = 2
+Device Temp = 46 C
+MIG Calibration = true
+Finished downloading bitstream /usr/lib/dpu.xclbin
+base_address 1810000
+Query count: 1
+Start loadgen
+Loaded samples: 5000
+loading annotations into memory...
+Done (t=0.49s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.21s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=14.69s).
+Accumulating evaluation results...
+DONE (t=2.54s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.234
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.360
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.255
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.017
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.167
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.538
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.210
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.266
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.267
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.023
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.193
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.617
+mAP=23.412%
+
+Running Offline TEST01 compliance
+Shell = xilinx_u280_xdma_201920_1
+Index = 0
+PCIe = GEN3 x 16
+OCL Frequency = 330 MHz
+DDR Bank = 2
+Device Temp = 45 C
+MIG Calibration = true
+Finished downloading bitstream /usr/lib/dpu.xclbin
+base_address 1810000
+Query count: 1
+Start loadgen
+Loaded samples: 256
+Verifying accuracy. This might take a while...
+Reading accuracy mode results...
+Reading performance mode results...
+num_acc_log_entries = 5000
+num_acc_log_duplicate_keys = 0
+num_acc_log_data_mismatch = 0
+num_perf_log_entries = 1115
+num_perf_log_qsl_idx_match = 1115
+num_perf_log_data_mismatch = 0
+num_missing_qsl_idxs = 0
+TEST PASS
+
+Verifying performance.
+reference score = 772.696
+test score = 776.759
+TEST PASS
+Parsing arguments.
+Accuracy check pass: True
+Performance check pass: True
+TEST01 verification complete
+
+Running Offline TEST04-A
+Shell = xilinx_u280_xdma_201920_1
+Index = 0
+PCIe = GEN3 x 16
+OCL Frequency = 330 MHz
+DDR Bank = 2
+Device Temp = 46 C
+MIG Calibration = true
+Finished downloading bitstream /usr/lib/dpu.xclbin
+base_address 1810000
+Query count: 1
+Start loadgen
+Loaded samples: 256
+
+Running Offline TEST04-B
+Shell = xilinx_u280_xdma_201920_1
+Index = 0
+PCIe = GEN3 x 16
+OCL Frequency = 330 MHz
+DDR Bank = 2
+Device Temp = 46 C
+MIG Calibration = true
+Finished downloading bitstream /usr/lib/dpu.xclbin
+base_address 1810000
+Query count: 1
+Start loadgen
+Loaded samples: 256
+Running TEST04-A TEST04-B compliance
+Verifying performance.
+TEST04-A score = 782.647
+TEST04-B score = 795.149
+TEST PASS
+Parsing arguments.
+Performance check pass: True
+TEST04 verification complete
+
+Running Offline TEST05 compilance
+Shell = xilinx_u280_xdma_201920_1
+Index = 0
+PCIe = GEN3 x 16
+OCL Frequency = 330 MHz
+DDR Bank = 2
+Device Temp = 46 C
+MIG Calibration = true
+Finished downloading bitstream /usr/lib/dpu.xclbin
+base_address 1810000
+Query count: 1
+Start loadgen
+Loaded samples: 256
+Verifying performance.
+reference score = 772.696
+test score = 781.131
+TEST PASS
+Parsing arguments.
+Performance check pass: True
+TEST05 verification complete

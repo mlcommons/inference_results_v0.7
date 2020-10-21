@@ -1,0 +1,146 @@
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x1_TRT/bert-99/Offline/accuracy, accuracy is 90.41426333537149
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x1_TRT/bert-99/Offline is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x1_TRT/bert-99/SingleStream/accuracy, accuracy is 90.39859909332506
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x1_TRT/bert-99/SingleStream is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x1_TRT/ssd-resnet34/Offline/accuracy, accuracy is 20.111
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x1_TRT/ssd-resnet34/Offline is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x1_TRT/ssd-resnet34/SingleStream/accuracy, accuracy is 20.111
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x1_TRT/ssd-resnet34/SingleStream is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/bert-99.9/Offline/accuracy, accuracy is 90.86087496792462
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/bert-99.9/Offline is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/bert-99.9/Server/accuracy, accuracy is 90.87601624418225
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/bert-99.9/Server is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/bert-99/Offline/accuracy, accuracy is 90.41426333537149
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/bert-99/Offline is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/bert-99/Server/accuracy, accuracy is 90.31931800140137
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/bert-99/Server is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/dlrm-99.9/Offline/accuracy, accuracy is 80.185
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/dlrm-99.9/Offline is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/dlrm-99.9/Server/accuracy, accuracy is 80.185
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/dlrm-99.9/Server is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/dlrm-99/Offline/accuracy, accuracy is 80.185
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/dlrm-99/Offline is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/dlrm-99/Server/accuracy, accuracy is 80.185
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/dlrm-99/Server is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/resnet50/Offline/accuracy, accuracy is 75.920
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/resnet50/Offline is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/resnet50/Server/accuracy, accuracy is 75.920
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/resnet50/Server is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/ssd-resnet34/Offline/accuracy, accuracy is 20.111
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/ssd-resnet34/Offline is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/ssd-resnet34/Server/accuracy, accuracy is 20.111
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/ssd-resnet34/Server is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/3d-unet-99/Offline/accuracy, accuracy is 0.85350
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/3d-unet-99/Offline is OK
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/3d-unet-99.9/Offline/accuracy, accuracy is 0.85350
+INFO:main:closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/3d-unet-99.9/Offline is OK
+INFO:main:closed/Inspur/results/T4x1_TRT/bert-99/Offline/accuracy, accuracy is 90.43326524910879
+INFO:main:closed/Inspur/results/T4x1_TRT/bert-99/Offline is OK
+INFO:main:closed/Inspur/results/T4x1_TRT/bert-99/SingleStream/accuracy, accuracy is 90.39787134425293
+INFO:main:closed/Inspur/results/T4x1_TRT/bert-99/SingleStream is OK
+INFO:main:closed/Inspur/results/T4x1_TRT/resnet50/Offline/accuracy, accuracy is 75.920
+INFO:main:closed/Inspur/results/T4x1_TRT/resnet50/Offline is OK
+INFO:main:closed/Inspur/results/T4x1_TRT/resnet50/SingleStream/accuracy, accuracy is 75.920
+INFO:main:closed/Inspur/results/T4x1_TRT/resnet50/SingleStream is OK
+INFO:main:closed/Inspur/results/T4x1_TRT/rnnt/Offline/accuracy, accuracy is 92.55225596969493
+INFO:main:closed/Inspur/results/T4x1_TRT/rnnt/Offline is OK
+INFO:main:closed/Inspur/results/T4x1_TRT/rnnt/SingleStream/accuracy, accuracy is 92.56127533879005
+INFO:main:closed/Inspur/results/T4x1_TRT/rnnt/SingleStream is OK
+INFO:main:closed/Inspur/results/T4x1_TRT/ssd-resnet34/Offline/accuracy, accuracy is 20.111
+INFO:main:closed/Inspur/results/T4x1_TRT/ssd-resnet34/Offline is OK
+INFO:main:closed/Inspur/results/T4x1_TRT/ssd-resnet34/SingleStream/accuracy, accuracy is 20.111
+INFO:main:closed/Inspur/results/T4x1_TRT/ssd-resnet34/SingleStream is OK
+INFO:main:closed/Inspur/results/T4x20_TRT/3d-unet-99.9/Offline/accuracy, accuracy is 0.85367
+INFO:main:closed/Inspur/results/T4x20_TRT/3d-unet-99.9/Offline is OK
+INFO:main:closed/Inspur/results/T4x20_TRT/3d-unet-99/Offline/accuracy, accuracy is 0.85367
+INFO:main:closed/Inspur/results/T4x20_TRT/3d-unet-99/Offline is OK
+INFO:main:closed/Inspur/results/T4x8_TRT/dlrm-99.9/Offline/accuracy, accuracy is 80.185
+INFO:main:closed/Inspur/results/T4x8_TRT/dlrm-99.9/Offline is OK
+INFO:main:closed/Inspur/results/T4x8_TRT/dlrm-99.9/Server/accuracy, accuracy is 80.185
+INFO:main:closed/Inspur/results/T4x8_TRT/dlrm-99.9/Server is OK
+INFO:main:closed/Inspur/results/T4x8_TRT/dlrm-99/Offline/accuracy, accuracy is 80.185
+INFO:main:closed/Inspur/results/T4x8_TRT/dlrm-99/Offline is OK
+INFO:main:closed/Inspur/results/T4x8_TRT/dlrm-99/Server/accuracy, accuracy is 80.185
+INFO:main:closed/Inspur/results/T4x8_TRT/dlrm-99/Server is OK
+INFO:main:closed/Inspur/results/T4x8_TRT/resnet50/Offline/accuracy, accuracy is 75.920
+INFO:main:closed/Inspur/results/T4x8_TRT/resnet50/Offline is OK
+INFO:main:closed/Inspur/results/T4x8_TRT/resnet50/Server/accuracy, accuracy is 75.920
+INFO:main:closed/Inspur/results/T4x8_TRT/resnet50/Server is OK
+INFO:main:closed/Inspur/results/T4x8_TRT/ssd-resnet34/Offline/accuracy, accuracy is 20.111
+INFO:main:closed/Inspur/results/T4x8_TRT/ssd-resnet34/Offline is OK
+INFO:main:closed/Inspur/results/T4x8_TRT/ssd-resnet34/Server/accuracy, accuracy is 20.111
+INFO:main:closed/Inspur/results/T4x8_TRT/ssd-resnet34/Server is OK
+INFO:main:closed/Inspur/results/T4x8_TRT/3d-unet-99/Offline/accuracy, accuracy is 0.85367
+INFO:main:closed/Inspur/results/T4x8_TRT/3d-unet-99/Offline is OK
+INFO:main:closed/Inspur/results/T4x8_TRT/3d-unet-99.9/Offline/accuracy, accuracy is 0.85367
+INFO:main:closed/Inspur/results/T4x8_TRT/3d-unet-99.9/Offline is OK
+INFO:main:open/Inspur/results/DGX-A100_A100-SXM4x1_TRT/resnet50/Offline/accuracy, accuracy is 75.856
+INFO:main:open/Inspur/results/DGX-A100_A100-SXM4x1_TRT/resnet50/Offline is OK
+INFO:main:open/Inspur/results/DGX-A100_A100-SXM4x1_TRT/resnet50/SingleStream/accuracy, accuracy is 75.858
+INFO:main:open/Inspur/results/DGX-A100_A100-SXM4x1_TRT/resnet50/SingleStream is OK
+INFO:main:open/Inspur/results/DGX-A100_A100-SXM4x8_TRT/resnet50/Offline/accuracy, accuracy is 75.856
+INFO:main:open/Inspur/results/DGX-A100_A100-SXM4x8_TRT/resnet50/Offline is OK
+INFO:main:open/Inspur/results/DGX-A100_A100-SXM4x8_TRT/resnet50/Server/accuracy, accuracy is 75.856
+INFO:main:open/Inspur/results/DGX-A100_A100-SXM4x8_TRT/resnet50/Server is OK
+INFO:main:open/Inspur/results/T4x1_TRT/resnet50/Offline/accuracy, accuracy is 75.856
+INFO:main:open/Inspur/results/T4x1_TRT/resnet50/Offline is OK
+INFO:main:open/Inspur/results/T4x1_TRT/resnet50/SingleStream/accuracy, accuracy is 75.856
+INFO:main:open/Inspur/results/T4x1_TRT/resnet50/SingleStream is OK
+INFO:main:open/Inspur/results/T4x20_TRT/resnet50/Offline/accuracy, accuracy is 75.856
+INFO:main:open/Inspur/results/T4x20_TRT/resnet50/Offline is OK
+INFO:main:open/Inspur/results/T4x20_TRT/resnet50/Server/accuracy, accuracy is 75.856
+INFO:main:open/Inspur/results/T4x20_TRT/resnet50/Server is OK
+INFO:main:open/Inspur/results/T4x8_TRT/resnet50/Offline/accuracy, accuracy is 75.856
+INFO:main:open/Inspur/results/T4x8_TRT/resnet50/Offline is OK
+INFO:main:open/Inspur/results/T4x8_TRT/resnet50/Server/accuracy, accuracy is 75.856
+INFO:main:open/Inspur/results/T4x8_TRT/resnet50/Server is OK
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x1_TRT/bert-99/Offline 3369.08
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x1_TRT/bert-99/SingleStream 1.720624
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x1_TRT/ssd-resnet34/Offline 992.919
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x1_TRT/ssd-resnet34/SingleStream 1.766112
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/bert-99.9/Offline 13790.8
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/bert-99.9/Server 11502.44
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/bert-99/Offline 26674.8
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/bert-99/Server 24757.49
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/dlrm-99.9/Offline 2145170.0
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/dlrm-99.9/Server 2104888.68
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/dlrm-99/Offline 2145170.0
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/dlrm-99/Server 2104888.68
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/resnet50/Offline 303264.0
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/resnet50/Server 262305.32
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/ssd-resnet34/Offline 7925.97
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/ssd-resnet34/Server 7546.07
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/3d-unet-99/Offline 333.525
+INFO:main:Results closed/Inspur/results/DGX-A100_A100-SXM4x8_TRT/3d-unet-99.9/Offline 333.525
+INFO:main:Results closed/Inspur/results/T4x1_TRT/bert-99/Offline 443.696
+INFO:main:Results closed/Inspur/results/T4x1_TRT/bert-99/SingleStream 6.245274
+INFO:main:Results closed/Inspur/results/T4x1_TRT/resnet50/Offline 6205.14
+INFO:main:Results closed/Inspur/results/T4x1_TRT/resnet50/SingleStream 0.875821
+INFO:main:Results closed/Inspur/results/T4x1_TRT/rnnt/Offline 1500.4
+INFO:main:Results closed/Inspur/results/T4x1_TRT/rnnt/SingleStream 64.227088
+INFO:main:Results closed/Inspur/results/T4x1_TRT/ssd-resnet34/Offline 139.908
+INFO:main:Results closed/Inspur/results/T4x1_TRT/ssd-resnet34/SingleStream 8.216706
+INFO:main:Results closed/Inspur/results/T4x20_TRT/3d-unet-99.9/Offline 146.616
+INFO:main:Results closed/Inspur/results/T4x20_TRT/3d-unet-99/Offline 146.616
+INFO:main:Results closed/Inspur/results/T4x8_TRT/dlrm-99.9/Offline 282526.0
+INFO:main:Results closed/Inspur/results/T4x8_TRT/dlrm-99.9/Server 250177.39
+INFO:main:Results closed/Inspur/results/T4x8_TRT/dlrm-99/Offline 282526.0
+INFO:main:Results closed/Inspur/results/T4x8_TRT/dlrm-99/Server 250177.39
+INFO:main:Results closed/Inspur/results/T4x8_TRT/resnet50/Offline 49650.9
+INFO:main:Results closed/Inspur/results/T4x8_TRT/resnet50/Server 46936.34
+INFO:main:Results closed/Inspur/results/T4x8_TRT/ssd-resnet34/Offline 1129.32
+INFO:main:Results closed/Inspur/results/T4x8_TRT/ssd-resnet34/Server 1049.06
+INFO:main:Results closed/Inspur/results/T4x8_TRT/3d-unet-99/Offline 59.1081
+INFO:main:Results closed/Inspur/results/T4x8_TRT/3d-unet-99.9/Offline 59.1081
+INFO:main:Results open/Inspur/results/DGX-A100_A100-SXM4x1_TRT/resnet50/Offline 68994.6
+INFO:main:Results open/Inspur/results/DGX-A100_A100-SXM4x1_TRT/resnet50/SingleStream 0.408267
+INFO:main:Results open/Inspur/results/DGX-A100_A100-SXM4x8_TRT/resnet50/Offline 549782.0
+INFO:main:Results open/Inspur/results/DGX-A100_A100-SXM4x8_TRT/resnet50/Server 420097.36
+INFO:main:Results open/Inspur/results/T4x1_TRT/resnet50/Offline 12955.5
+INFO:main:Results open/Inspur/results/T4x1_TRT/resnet50/SingleStream 0.660157
+INFO:main:Results open/Inspur/results/T4x20_TRT/resnet50/Offline 259448.0
+INFO:main:Results open/Inspur/results/T4x20_TRT/resnet50/Server 190027.38
+INFO:main:Results open/Inspur/results/T4x8_TRT/resnet50/Offline 102224.0
+INFO:main:Results open/Inspur/results/T4x8_TRT/resnet50/Server 90015.51
+INFO:main:Results=48, NoResults=0
+INFO:main:SUMMARY: submission looks OK

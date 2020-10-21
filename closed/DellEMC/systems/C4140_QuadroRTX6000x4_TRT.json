@@ -1,0 +1,37 @@
+{
+    "submitter": "DellEMC",
+    "division": "closed",
+    "system_type": "datacenter",
+    "status": "available",
+    "system_name": "Dell EMC PowerEdge C4140 (4x Quadro RTX6000)",
+
+    "number_of_nodes": "1",
+    "host_processors_per_node": "2",
+    "host_processor_model_name": "Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz",
+    "host_processor_core_count": "20",
+    "host_processor_frequency": "2.40GHz",
+    "host_processor_caches": "1.25MB+20MB+27.5MB",
+    "host_processor_interconnect": "Ultra Path Interconnect",
+    "host_memory_configuration": "6x16GB DDR4-2666 HMA82GR7AFR8N-VK RDIMM ECC",
+    "host_memory_capacity": "384 GB",
+    "host_storage_capacity": "1.6 TB (1x1.6TB Dell Express Flash PM1725a 1.6TB AIC)",
+    "host_storage_type": "3D-TLC Solid State with PCIe NVME x8 Interface",
+    "host_networking": "",
+    "host_networking_topology": "",
+
+    "accelerators_per_node": "4",
+    "accelerator_model_name": "NVIDIA Quadro RTX 6000",
+    "accelerator_frequency": "1770MHz",
+    "accelerator_host_interconnect": "PCI Express 3.0",
+    "accelerator_interconnect": "PCI Express 3.0",
+    "accelerator_interconnect_topology": "2 Accelerators per CPU",
+    "accelerator_memory_capacity": "24 GB",
+    "accelerator_memory_configuration": "GDDR6",
+    "accelerator_on-chip_memories": "",
+    "hw_notes": "ECC off. RTX6000 is available as a special config thru Dell DSS or OEM for PowerEdge C4140",
+
+    "framework": "TensorRT 7.2, CUDA 11.0, cuDNN 8.0.2, cuBLAS 11.2.0, libjemalloc2, cub 1.8.0, tensorrt-laboratory mlperf branch",
+    "operating_system": "CentOS Linux 7 (Core) 3.10.0-1127.18.2.el7.x86_64",
+    "other_software_stack": "docker 19.03.12, python 3.6.8, gcc 5.5.0, onnx 1.3.0, tensorflow 1.13.1, pytorch 1.1.0, torchvision 0.3.0, pycuda 2019.1, sacrebleu 1.3.3, SimpleJSON, OpenCV 4.1.1",
+    "sw_notes": ""
+}

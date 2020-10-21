@@ -1,0 +1,23 @@
+{
+    "TestScenario.Offline": {
+        "accuracy": 75.896,
+        "count": 782,
+        "good_items": 37948,
+        "mean": 0.36970158336717457,
+        "percentiles": {
+            "50.0": 0.3694838285446167,
+            "80.0": 0.3720559597015381,
+            "90.0": 0.3737069606781006,
+            "95.0": 0.37606637477874755,
+            "99.0": 0.3832321095466613,
+            "99.9": 0.39123809051513797
+        },
+        "qps": 142.69847578538648,
+        "took": 5.4800865650177,
+        "total_items": 50000
+    },
+    "cmdline": "Namespace(accuracy=True, backend='openvino', cache=0, count=None, data_format='NCHW', dataset='imagenet_deci', dataset_list='/home/sefi/inference-r07/vision/classification_and_detection/data/imagenet2012//val_map.txt', dataset_path='/home/sefi/inference-r07/vision/classification_and_detection/data/imagenet2012/', find_peak_performance=False, inputs=None, max_batchsize=64, max_latency=None, mlperf_conf='../mlperf.conf', model='models/deci-model-cascadelake-batch-64.zip', model_name='deci-model', output='/tmp/deci-submission/open/deci/results/openvino-cpu/resnet/Offline/accuracy', outputs=None, profile='deci_model64-openvino', qps=250, samples_per_query=None, scenario='Offline', threads=1, time=None, user_conf='../user.conf')",
+    "runtime": "openvino",
+    "time": 1601372145,
+    "version": 0
+}

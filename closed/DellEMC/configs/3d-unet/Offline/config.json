@@ -1,0 +1,237 @@
+{
+    "XE2420_T4x4": {
+        "config_ver": {
+            "high_accuracy": {}
+        },
+        "gpu_batch_size": 2,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 30,
+        "input_dtype": "int8",
+        "input_format": "cdhw32",
+        "map_path": "data_maps/brats/val_map.txt",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/brats/brats_npy/int8_cdhw32",
+        "use_graphs": false
+    },
+    "R740_T4x4": {
+        "config_ver": {
+            "high_accuracy": {},
+            "high_accuracy_triton": {
+                "use_triton": true
+            },
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 2,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 60,
+        "input_dtype": "int8",
+        "input_format": "cdhw32",
+        "map_path": "data_maps/brats/val_map.txt",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/brats/brats_npy/int8_cdhw32",
+        "use_graphs": false
+    },
+    "R7515_T4x4": {
+        "config_ver": {
+            "high_accuracy": {},
+            "high_accuracy_triton": {
+                "use_triton": true
+            },
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 2,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 60,
+        "input_dtype": "int8",
+        "input_format": "cdhw32",
+        "map_path": "data_maps/brats/val_map.txt",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/brats/brats_npy/int8_cdhw32",
+        "use_graphs": false
+    },
+    "DSS8440_T4x12": {
+        "config_ver": {
+            "high_accuracy": {}
+        },
+        "gpu_batch_size": 2,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 88,
+        "input_dtype": "int8",
+        "input_format": "cdhw32",
+        "map_path": "data_maps/brats/val_map.txt",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/brats/brats_npy/int8_cdhw32",
+        "use_graphs": false
+    },
+    "DSS8440_QuadroRTX8000x8": {
+        "config_ver": {
+            "high_accuracy": {}
+        },
+        "gpu_batch_size": 2,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 142,
+        "input_dtype": "int8",
+        "input_format": "cdhw32",
+        "map_path": "data_maps/brats/val_map.txt",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/brats/brats_npy/int8_cdhw32",
+        "use_graphs": false
+    },
+    "DSS8440_QuadroRTX6000x10": {
+        "config_ver": {
+            "high_accuracy": {}
+        },
+        "gpu_batch_size": 2,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 163,
+        "input_dtype": "int8",
+        "input_format": "cdhw32",
+        "map_path": "data_maps/brats/val_map.txt",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/brats/brats_npy/int8_cdhw32",
+        "use_graphs": false
+    },
+    "R7525_A100x2": {
+        "config_ver": {
+            "high_accuracy": {}
+        },
+        "gpu_batch_size": 1,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "use_same_context": true,
+        "gpu_offline_expected_qps": 80,
+        "input_dtype": "int8",
+        "input_format": "cdhw32",
+        "map_path": "data_maps/brats/val_map.txt",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/brats/brats_npy/int8_cdhw32",
+        "use_graphs": false
+    },
+    "R7525_QuadroRTX8000x3": {
+        "config_ver": {
+            "high_accuracy": {}
+        },
+        "gpu_batch_size": 2,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 54,
+        "input_dtype": "int8",
+        "input_format": "cdhw32",
+        "map_path": "data_maps/brats/val_map.txt",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/brats/brats_npy/int8_cdhw32",
+        "use_graphs": false
+    },
+     "R7525_A100x3": {
+        "config_ver": {
+            "high_accuracy": {}
+        },
+        "gpu_batch_size": 3,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 142,
+        "input_dtype": "int8",
+        "input_format": "cdhw32",
+        "map_path": "data_maps/brats/val_map.txt",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/brats/brats_npy/int8_cdhw32",
+        "use_graphs": false
+    },
+    "DSS8440_T4x16": {
+        "config_ver": {
+            "high_accuracy": {}
+        },
+        "gpu_batch_size": 2,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 116,
+        "input_dtype": "int8",
+        "input_format": "cdhw32",
+        "map_path": "data_maps/brats/val_map.txt",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/brats/brats_npy/int8_cdhw32",
+        "use_graphs": false
+    },
+    "DSS8440_QuadroRTX8000x10": {
+        "config_ver": {
+            "high_accuracy": {}
+        },
+        "gpu_batch_size": 2,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 163,
+        "input_dtype": "int8",
+        "input_format": "cdhw32",
+        "map_path": "data_maps/brats/val_map.txt",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/brats/brats_npy/int8_cdhw32",
+        "use_graphs": false
+    },
+    "C4140_QuadroRTX6000x4": {
+        "config_ver": {
+            "high_accuracy": {},
+            "high_accuracy_triton": {
+                "use_triton": true
+            },
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 4,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 42,
+        "input_dtype": "int8",
+        "input_format": "cdhw32",
+        "map_path": "data_maps/brats/val_map.txt",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/brats/brats_npy/int8_cdhw32",
+        "use_graphs": false
+    },
+    "R7525_T4x8": {
+        "config_ver": {
+            "high_accuracy": {},
+            "high_accuracy_triton": {
+                "use_triton": true
+            },
+            "triton": {
+                "use_triton": true
+            }
+        },
+        "gpu_batch_size": 2,
+        "gpu_copy_streams": 2,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 80,
+        "input_dtype": "int8",
+        "input_format": "cdhw32",
+        "map_path": "data_maps/brats/val_map.txt",
+        "min_query_count": 24576,
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/brats/brats_npy/int8_cdhw32",
+        "use_graphs": false
+    },
+    "benchmark": "3d-unet",
+    "scenario": "Offline"
+}
