@@ -12,7 +12,7 @@
   "host_storage_type": "HDD",
   "host_storage_capacity": "21.42 GB",
   "accelerators_per_node": 1,
-  "accelerator_model_name": "u280_v3me",
+  "accelerator_model_name": "xilinx_u280_v3me",
   "accelerator_memory_configuration": "HBM",
   "accelerator_memory_capacity": "16 GB per accelerator",
   "framework": "TF",
